@@ -12,8 +12,9 @@ export async function generateStaticParams() {
     }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-    const trail = getTrailBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const trail = getTrailBySlug(slug);
     if (!trail) return { title: "Trail Not Found" };
 
     return {
@@ -22,8 +23,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     };
 }
 
-export default function TrailDetailPage({ params }: { params: { slug: string } }) {
-    const trail = getTrailBySlug(params.slug);
+export default async function TrailDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const trail = getTrailBySlug(slug);
 
     if (!trail) {
         notFound();

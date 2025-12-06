@@ -16,8 +16,9 @@ export async function generateStaticParams() {
     }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-    const faq = getFAQBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const faq = getFAQBySlug(slug);
     if (!faq) return { title: "FAQ Not Found" };
 
     return {
@@ -26,8 +27,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     };
 }
 
-export default function FAQDetailPage({ params }: { params: { slug: string } }) {
-    const faq = getFAQBySlug(params.slug);
+export default async function FAQDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const faq = getFAQBySlug(slug);
 
     if (!faq) {
         notFound();

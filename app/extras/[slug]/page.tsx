@@ -18,8 +18,9 @@ const getExtraBySlug = (slug: string) => {
 
 
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-    const extra = getExtraBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const extra = getExtraBySlug(slug);
     if (!extra) return { title: "Not Found" };
 
     return {
@@ -28,8 +29,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     };
 }
 
-export default function ExtraDetailPage({ params }: { params: { slug: string } }) {
-    const extra = getExtraBySlug(params.slug);
+export default async function ExtraDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const extra = getExtraBySlug(slug);
 
     if (!extra) {
         notFound();
