@@ -2,6 +2,9 @@
   command = "npm run build"
   publish = ".next"
 
+[functions]
+  included_files = ["data/**"]
+
 [[redirects]]
   from = "/old-family-camping-guide/"
   to = "/guides/best-hiking-campsites-for-families-in-south-loch-ness/"
