@@ -6,7 +6,9 @@
         "category": "activity",
         "summary": "1-hour deepscan boat trips designed for Nessie hunting.",
         "area_id": "north-shore",
-        "website_url": "https://example.com/cruises"
+        "website_url": "https://example.com/cruises",
+        "latitude": 57.33,
+        "longitude": -4.48
     },
     {
         "id": "foyers-stores",
@@ -14,6 +16,8 @@
         "name": "Foyers Stores & Cafe",
         "category": "shop",
         "summary": "Local convenience store and cafe near the waterfalls. Good for resupply.",
-        "area_id": "south-shore"
+        "area_id": "south-shore",
+        "latitude": 57.25,
+        "longitude": -4.49
     }
 ]
