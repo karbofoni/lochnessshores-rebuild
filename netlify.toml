@@ -1,9 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next"
-
-[functions]
-  included_files = ["data/**"]
+  publish = "out"
 
 [[redirects]]
   from = "/old-family-camping-guide/"
@@ -16,8 +13,3 @@
   to = "/seasonal/winter-camping-around-loch-ness/"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/campsites/old-site-slug"
-  to = "/campsites/new-site-slug"
-  status = 301

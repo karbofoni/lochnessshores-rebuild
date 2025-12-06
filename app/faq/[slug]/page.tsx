@@ -9,7 +9,12 @@ const getFAQBySlug = (slug: string) => {
     return getFAQs().find(f => f.slug === slug);
 }
 
-
+export async function generateStaticParams() {
+    const faqs = getFAQs();
+    return faqs.map((faq) => ({
+        slug: faq.slug,
+    }));
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const faq = getFAQBySlug(params.slug);

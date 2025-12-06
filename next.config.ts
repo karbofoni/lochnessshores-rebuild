@@ -1,11 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // SSR/Node Mode (Default)
-  // eslint config removed as it is deprecated in Next 16
+  // Static export for reliable hosting on Netlify/any static host
+  output: 'export',
+
+  // Disable image optimization (not available in static export)
+  images: {
+    unoptimized: true,
+  },
 
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  // Trailing slash for static hosting compatibility
+  trailingSlash: true,
 };
 
 export default nextConfig;
