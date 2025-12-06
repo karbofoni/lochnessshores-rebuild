@@ -1,27 +1,22 @@
-import fs from 'fs';
-import path from 'path';
 import { Campsite, Trail, Extra, Area, FAQItem, StayType, FacilityTag } from './types';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+// Static imports ensure data is bundled by Webpack/Next.js
+// This avoids runtime FS issues in serverless environments
+import campsitesData from '../data/campsites.json';
+import trailsData from '../data/trails.json';
+import extrasData from '../data/extras.json';
+import areasData from '../data/areas.json';
+import stayTypesData from '../data/stay_types.json';
+import facilityTagsData from '../data/facility_tags.json';
+import faqData from '../data/faq.json';
 
-function readJsonFile<T>(filename: string): T[] {
-    const filePath = path.join(DATA_DIR, filename);
-    try {
-        const fileContents = fs.readFileSync(filePath, 'utf8');
-        return JSON.parse(fileContents);
-    } catch (error) {
-        console.error(`Error reading ${filename}:`, error);
-        return [];
-    }
-}
-
-export const getCampsites = (): Campsite[] => readJsonFile<Campsite>('campsites.json');
-export const getTrails = (): Trail[] => readJsonFile<Trail>('trails.json');
-export const getExtras = (): Extra[] => readJsonFile<Extra>('extras.json');
-export const getAreas = (): Area[] => readJsonFile<Area>('areas.json');
-export const getStayTypes = (): StayType[] => readJsonFile<StayType>('stay_types.json');
-export const getFacilityTags = (): FacilityTag[] => readJsonFile<FacilityTag>('facility_tags.json');
-export const getFAQs = (): FAQItem[] => readJsonFile<FAQItem>('faq.json');
+export const getCampsites = (): Campsite[] => campsitesData as Campsite[];
+export const getTrails = (): Trail[] => trailsData as Trail[];
+export const getExtras = (): Extra[] => extrasData as Extra[];
+export const getAreas = (): Area[] => areasData as Area[];
+export const getStayTypes = (): StayType[] => stayTypesData as StayType[];
+export const getFacilityTags = (): FacilityTag[] => facilityTagsData as FacilityTag[];
+export const getFAQs = (): FAQItem[] => faqData as FAQItem[];
 
 export const getCampsiteBySlug = (slug: string): Campsite | undefined => {
     return getCampsites().find(c => c.slug === slug);
