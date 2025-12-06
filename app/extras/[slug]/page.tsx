@@ -9,6 +9,8 @@ const getExtraBySlug = (slug: string) => {
     return getExtras().find(e => e.slug === slug);
 }
 
+
+
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const extra = getExtraBySlug(params.slug);
     if (!extra) return { title: "Not Found" };

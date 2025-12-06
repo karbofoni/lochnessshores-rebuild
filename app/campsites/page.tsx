@@ -1,6 +1,4 @@
 import { getCampsites, getAreas, getStayTypes, getFacilityTags } from "@/lib/data";
-
-export const dynamic = 'force-dynamic';
 import { CampsiteCard } from "@/components/CampsiteCard";
 import { FilterControls } from "@/components/FilterControls";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
@@ -9,6 +7,9 @@ export const metadata = {
     title: "Campsites around Loch Ness | Unofficial Directory",
     description: "Find the best campsites, glamping pods, and campervan pitches around Loch Ness.",
 };
+
+// Force dynamic for search pages (required for searchParams in some Next.js configs)
+export const dynamic = 'force-dynamic';
 
 export default function CampsitesPage({
     searchParams,

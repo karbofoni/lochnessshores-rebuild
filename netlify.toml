@@ -2,10 +2,6 @@
   command = "npm run build"
   publish = ".next"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-# Example Redirects based on PRD (Mocked old paths)
 [[redirects]]
   from = "/old-family-camping-guide/"
   to = "/guides/best-hiking-campsites-for-families-in-south-loch-ness/"

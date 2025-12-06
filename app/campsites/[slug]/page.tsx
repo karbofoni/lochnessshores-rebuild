@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getCampsiteBySlug, getTrails, getExtras } from "@/lib/data";
+import { getCampsiteBySlug, getTrails, getExtras, getCampsites } from "@/lib/data";
 import { StayingDryBlock } from "@/components/StayingDryBlock";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { MapPin, Check, Tent, ExternalLink } from "lucide-react";
+
+
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const campsite = getCampsiteBySlug(params.slug);

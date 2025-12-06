@@ -1,34 +1,15 @@
-import { MetadataRoute } from 'next';
-import { getCampsites, getTrails, getExtras, getFAQs } from '@/lib/data';
-import { getAllGuideSlugs } from '@/lib/posts';
+import { Metadata } from 'next';
+import { getCampsites } from '@/lib/data';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://lochnessshores.com';
+export const metadata: Metadata = {
+    title: 'Sitemap | Loch Ness Camping',
+    description: 'Sitemap for lochnessshores.com',
+};
 
-    const campsites = getCampsites().map((site) => ({
-        url: `${baseUrl}/campsites/${site.slug}`,
-        lastModified: new Date(),
-    }));
+const URL = 'https://lochnessshores.com';
 
-    const trails = getTrails().map((trail) => ({
-        url: `${baseUrl}/trails/${trail.slug}`,
-        lastModified: new Date(),
-    }));
-
-    const extras = getExtras().map((extra) => ({
-        url: `${baseUrl}/extras/${extra.slug}`,
-        lastModified: new Date(),
-    }));
-
-    const faqs = getFAQs().map((faq) => ({
-        url: `${baseUrl}/faq/${faq.slug}`,
-        lastModified: new Date(),
-    }));
-
-    const guides = getAllGuideSlugs().map((g) => ({
-        url: `${baseUrl}/guides/${g.params.slug}`,
-        lastModified: new Date(),
-    }));
+export default async function sitemap() {
+    const campsites = getCampsites();
 
     const routes = [
         '',
@@ -38,9 +19,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/guides',
         '/faq',
     ].map((route) => ({
-        url: `${baseUrl}${route}`,
-        lastModified: new Date(),
+        url: `${URL}${route}`,
+        lastModified: new Date().toISOString(),
     }));
 
-    return [...routes, ...campsites, ...trails, ...extras, ...faqs, ...guides];
+    const campsiteRoutes = campsites.map((site) => ({
+        url: `${URL}/campsites/${site.slug}`,
+        lastModified: new Date().toISOString(),
+    }));
+
+    // Would add trails/extras here too in full ver
+
+    return [...routes, ...campsiteRoutes];
 }

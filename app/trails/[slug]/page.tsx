@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getTrailBySlug, getCampsites } from "@/lib/data";
+import { getTrailBySlug, getCampsites, getTrails } from "@/lib/data";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { CampsiteCard } from "@/components/CampsiteCard";
 import { MapPin, Activity, Mountain, ArrowLeft } from "lucide-react";
+
+
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const trail = getTrailBySlug(params.slug);

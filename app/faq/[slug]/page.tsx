@@ -9,6 +9,8 @@ const getFAQBySlug = (slug: string) => {
     return getFAQs().find(f => f.slug === slug);
 }
 
+
+
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const faq = getFAQBySlug(params.slug);
     if (!faq) return { title: "FAQ Not Found" };

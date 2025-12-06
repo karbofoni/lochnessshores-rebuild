@@ -1,42 +1,35 @@
 import { NextResponse } from 'next/server';
 
 export async function POST(request: Request) {
-    const body = await request.json();
-    const { origin_city, trip_length_days, travel_style, interests } = body;
+    try {
+        const body = await request.json();
+        const { message } = body;
 
-    // Mock response mimicking an LLM output based on structured data
-    // In a real implementation, we would call OpenAI/Gemini here with prompts
+        // Mock response for MVP - mimicking an LLM travel planner
+        // In a real implementation, this would call OpenAI/Anthropic
+        const mockResponse = `Based on your request "${message}", here is a suggested itinerary:
 
-    // Simulated delay
-    await new Promise(resolve => setTimeout(resolve, 800));
+**Day 1: Arrival & South Loch Ness**
+- Arrive at Inverness.
+- Drive down the B852 (South Loch Ness side).
+- Stop at Dores Inn for lunch.
+- Suggested Camp: **South Shore Lochside Camping** (Great views!).
 
-    const suggestedCampsites = ["south-shore-lochside-camping"]; // Mock ID
+**Day 2: Falls & Forest**
+- Visit **Foyers Falls** (short walk).
+- Hike the **Foyers Falls Forest Loop**.
+- Dinner at Foyers Stores and Waterfall Cafe.
 
-    return NextResponse.json({
-        summary: `A ${trip_length_days}-day ${travel_style} trip from ${origin_city} to the Loch Ness area.`,
-        days: [
-            {
-                day: 1,
-                title: "Arrival and Setup",
-                description: `Drive north from ${origin_city}. Arrive at Loch Ness in the late afternoon. Set up camp at South Shore Lochside Camping.`,
-                suggested_campsites: suggestedCampsites,
-                links: [
-                    { href: "/campsites/south-shore-lochside-camping", label: "South Shore Lochside Camping" }
-                ]
-            },
-            {
-                day: 2,
-                title: "Exploring the Water",
-                description: "Spend the day hiking around Foyers Fall.",
-                suggested_campsites: suggestedCampsites,
-                links: [
-                    { href: "/trails/foyers-falls-forest-loop", label: "Foyers Falls Loop" }
-                ]
-            }
-        ],
-        cta: {
-            text: "Browse all campsites",
-            href: "/campsites/"
-        }
-    });
+**Day 3: Return**
+- Drive back via the Great Glen Way stopping at Invermoriston.
+
+*Note: This is an AI-generated suggestion. Please check local opening times.*`;
+
+        return NextResponse.json({ reply: mockResponse });
+    } catch (error) {
+        return NextResponse.json(
+            { error: 'Failed to process request' },
+            { status: 500 }
+        );
+    }
 }

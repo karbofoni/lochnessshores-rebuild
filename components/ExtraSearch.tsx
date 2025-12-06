@@ -1,23 +1,20 @@
+"use client";
+
+import { useSearchParams } from "next/navigation";
+import { Extra } from "@/lib/types";
+import { Area } from "@/lib/types";
 import Link from "next/link";
-import { getExtras, getAreas } from "@/lib/data";
-import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { Coffee, Anchor, ShoppingBag, Info, Binoculars } from "lucide-react";
 
-export const metadata = {
-    title: "Activities & Services around Loch Ness",
-    description: "Find boat trips, cafes, shops, and other local services.",
-};
+interface ExtraSearchProps {
+    allExtras: Extra[];
+    areas: Area[];
+}
 
-export const dynamic = 'force-dynamic';
-
-export default function ExtrasPage({
-    searchParams,
-}: {
-    searchParams: { [key: string]: string | string[] | undefined };
-}) {
-    const allExtras = getExtras();
-    const areaFilter = searchParams.area as string;
-    const categoryFilter = searchParams.category as string;
+export function ExtraSearch({ allExtras, areas }: ExtraSearchProps) {
+    const searchParams = useSearchParams();
+    const areaFilter = searchParams.get("area");
+    const categoryFilter = searchParams.get("category");
 
     const filteredExtras = allExtras.filter((extra) => {
         if (areaFilter && extra.area_id !== areaFilter) return false;
@@ -36,17 +33,10 @@ export default function ExtrasPage({
     };
 
     return (
-        <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold mb-6">Explore Extras</h1>
-            <p className="text-slate-600 mb-8 max-w-3xl">
-                Boat tours, cozy cafes, gear shops, and more.
-            </p>
-
-            <UnofficialDisclaimer />
-
+        <>
             <div className="flex flex-wrap gap-4 mb-8">
                 <Link href="/extras" className="px-4 py-2 bg-slate-100 rounded-full hover:bg-slate-200 text-sm font-medium">All Areas</Link>
-                {getAreas().map(area => (
+                {areas.map(area => (
                     <Link
                         key={area.id}
                         href={`/extras?area=${area.id}`}
@@ -68,7 +58,6 @@ export default function ExtrasPage({
                         </div>
 
                         <h3 className="text-xl font-bold mb-2">
-                            {/* Simplified: No detail page for extras in MVP if not strictly necessary, but PRD says /extras/[slug]/ exists. */}
                             <Link href={`/extras/${extra.slug}`} className="hover:text-brand-green hover:underline">
                                 {extra.name}
                             </Link>
@@ -90,6 +79,6 @@ export default function ExtrasPage({
                     <p className="text-slate-500">No extras found for this filter.</p>
                 </div>
             )}
-        </div>
+        </>
     );
 }

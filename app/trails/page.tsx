@@ -1,6 +1,4 @@
 import { getTrails, getAreas } from "@/lib/data";
-
-export const dynamic = 'force-dynamic';
 import { TrailCard } from "@/components/TrailCard";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import Link from "next/link";
@@ -10,6 +8,8 @@ export const metadata = {
     title: "Hiking, Cycling & Paddling Trails | Loch Ness Guide",
     description: "Discover the best trails around Loch Ness for all abilities.",
 };
+
+export const dynamic = 'force-dynamic';
 
 export default function TrailsPage({
     searchParams,

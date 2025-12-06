@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getGuideData } from "@/lib/posts";
+import { getGuideData, getAllGuideSlugs } from "@/lib/posts";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { ArrowLeft } from "lucide-react";
 import { StayingDryBlock } from "@/components/StayingDryBlock";
+
+
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const guide = await getGuideData(params.slug);
