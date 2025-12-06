@@ -2,11 +2,18 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 // Map is now a client component that handles its own dynamic loading
 import Map from "@/components/Map";
-import { getCampsiteBySlug, getTrails } from "@/lib/data";
+import { getCampsiteBySlug, getTrails, getCampsites } from "@/lib/data";
 import { StayingDryBlock } from "@/components/StayingDryBlock";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { MapPin, Check, ExternalLink, Phone, Mail, Home } from "lucide-react";
 import { FacilityIcon } from "@/components/FacilityIcon";
+
+export async function generateStaticParams() {
+    const campsites = getCampsites();
+    return campsites.map((campsite) => ({
+        slug: campsite.slug,
+    }));
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const campsite = getCampsiteBySlug(params.slug);

@@ -4,6 +4,13 @@ import { getExtras } from "@/lib/data"; // Need a getExtraBySlug, will implement
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { ExternalLink, MapPin } from "lucide-react";
 
+export async function generateStaticParams() {
+    const extras = getExtras();
+    return extras.map((extra) => ({
+        slug: extra.slug,
+    }));
+}
+
 // Helper since I missed adding it to lib/data.ts
 const getExtraBySlug = (slug: string) => {
     return getExtras().find(e => e.slug === slug);

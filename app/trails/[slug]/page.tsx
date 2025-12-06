@@ -5,7 +5,12 @@ import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { CampsiteCard } from "@/components/CampsiteCard";
 import { MapPin, Activity, Mountain, ArrowLeft } from "lucide-react";
 
-
+export async function generateStaticParams() {
+    const trails = getTrails();
+    return trails.map((trail) => ({
+        slug: trail.slug,
+    }));
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
     const trail = getTrailBySlug(params.slug);

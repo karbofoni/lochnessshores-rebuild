@@ -30,9 +30,13 @@ export interface Trail {
     difficulty: 'Easy' | 'Moderate' | 'Desperate';
     area_id: string;
     description: string;
+    summary?: string; // Add optional summary
+    highlights?: string[]; // Add optional highlights
+    notes?: string;   // Add optional notes
     start_point_lat: number;
     start_point_lng: number;
     nearby_campsite_ids: string[];
+    type?: string;
 }
 
 export interface Extra {
@@ -40,8 +44,10 @@ export interface Extra {
     slug: string;
     name: string;
     type: string; // 'pub', 'shop', 'activity'
+    category?: string; // Add optional category
     area_id: string;
     description: string;
+    summary?: string; // Add optional summary
     latitude?: number;
     longitude?: number;
     website_url?: string;
