@@ -201,7 +201,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "http://example.com/book-wild-camp-site",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/lochside-camp-1.png"
     ],
@@ -234,7 +234,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://www.example.com/book/lagnaha-farm",
+    "external_booking_url": "https://www.lagnaha.co.uk/",
     "photos": [
       "/images/lochside-camp-1.png"
     ],
@@ -267,7 +267,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "http://example.com/book-abriachan",
+    "external_booking_url": "https://www.campingpodheaven.com/",
     "photos": [
       "/images/glamping-pod.png"
     ],
@@ -365,7 +365,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://example.com/book-gairlochy-campsite",
+    "external_booking_url": "https://www.scottishcanals.co.uk/",
     "photos": [
       "/images/wild-tent.png"
     ],
@@ -396,7 +396,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://example.com/leitirfearn-trailblazer-rest",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/lochside-camp-1.png"
     ],
@@ -531,7 +531,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://example.com/book-really-small-camp-site",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/wild-tent.png"
     ],
@@ -566,7 +566,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "http://example.com/wild-camp",
+    "external_booking_url": "https://www.visitscotland.com/",
     "photos": [
       "/images/glamping-pod.png"
     ],
@@ -665,7 +665,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://example.com/book/helferindernot",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/lochside-camp-1.png"
     ],
@@ -1123,7 +1123,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "http://example.com/book/invermill-farm",
+    "external_booking_url": "https://www.invermillfarm.com/",
     "photos": [
       "/images/campervan-view.png"
     ],
@@ -1266,7 +1266,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "http://example.com/book-aberdeferdy",
+    "external_booking_url": "https://www.aberfeldycaravanpark.co.uk/",
     "photos": [
       "/images/lochside-camp-1.png"
     ],
@@ -1827,7 +1827,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://example.com/book/inver-coille",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/campervan-view.png"
     ],
@@ -2061,7 +2061,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://example.com/tighnavon-glamping-pods",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/wild-tent.png"
     ],
@@ -2198,7 +2198,7 @@
       "September",
       "October"
     ],
-    "external_booking_url": "http://example.com/book/kinlochleven-aire-site",
+    "external_booking_url": "https://www.pitchup.com/",
     "photos": [
       "/images/glamping-pod.png"
     ],
