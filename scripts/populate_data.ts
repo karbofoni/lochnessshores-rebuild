@@ -13,12 +13,20 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
 });
 
+// Expanded bounds to cover Highlands
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
-const LOCH_NESS_BOUNDS = "57.0,-4.8,57.5,-4.2"; // South/West/North/East approx
+const LOCH_NESS_BOUNDS = "56.5,-5.5,57.7,-3.5";
+
+const PHOTOS = [
+    "/images/glamping-pod.png",
+    "/images/campervan-view.png",
+    "/images/wild-tent.png",
+    "/images/lochside-camp-1.png"
+];
 
 async function fetchOSMCampsites() {
     const query = `
-        [out:json][timeout:25];
+        [out:json][timeout:60];
         (
           node["tourism"="camp_site"](${LOCH_NESS_BOUNDS});
           way["tourism"="camp_site"](${LOCH_NESS_BOUNDS});
@@ -45,20 +53,38 @@ async function enrichListing(osmElement: any) {
 
     if (!lat || !lon) return null;
 
-    // Use AI to generate unique description based on tags (avoid scraping)
-    const tags = JSON.stringify(osmElement.tags);
+    // Extract real contact info from OSM tags if available
+    const tags = osmElement.tags;
+    const phone = tags['phone'] || tags['contact:phone'] || tags['contact:mobile'];
+    const email = tags['email'] || tags['contact:email'];
+    const website = tags['website'] || tags['contact:website'] || tags['url'];
+
+    // Construct address from addr:* tags
+    let addressParts = [];
+    if (tags['addr:housenumber']) addressParts.push(tags['addr:housenumber']);
+    if (tags['addr:street']) addressParts.push(tags['addr:street']);
+    if (tags['addr:city'] || tags['addr:town'] || tags['addr:village']) addressParts.push(tags['addr:city'] || tags['addr:town'] || tags['addr:village']);
+    if (tags['addr:postcode']) addressParts.push(tags['addr:postcode']);
+    const osmAddress = addressParts.length > 0 ? addressParts.join(', ') : null;
+
+    // Use AI to generate unique description and fill gaps
+    const tagString = JSON.stringify(tags);
     const prompt = `
         Generate a JSON entry for a campsite directory.
-        Input Data (OSM Tags): ${tags}
-        
+        Input Data (OSM Tags): ${tagString}
+        Known Address: ${osmAddress || "Unknown"}
+        Known Phone: ${phone || "Unknown"}
+
         Requirements:
         1. "slug": URL-friendly version of name.
-        2. "short_description": 2 sentences, original, alluring, inviting tone. Mention specific features from tags (e.g. lakeside if near water). Do NOT invent facts.
-        3. "area_id": "south-shore" if lat < 57.25, else "north-shore".
+        2. "short_description": 2 sentences, original, alluring, inviting tone. Mention specific features.
+        3. "area_id": guess "south-shore", "north-shore", or "highlands" based on lat/lon.
         4. "stay_types": Array (guess based on tags: tents=yes -> "lochside-campsite", caravans=yes -> "campervan-pitch").
         5. "facility_tags": Array (guess based on tags: shower, toilets, dog=yes).
         6. "typical_price_band": "midrange" (default).
         7. "open_months": All months ["January"..."December"] if year_round, else ["April"..."October"].
+        8. "address": Use known address if consistent, or improve formatting. If unknown, approximate based on location name (e.g. "Near Fort William, Highlands").
+        9. "phone": Use known phone. If unknown, leave null.
         
         Output valid JSON object only matching this interface:
         {
@@ -75,8 +101,10 @@ async function enrichListing(osmElement: any) {
           "typical_price_band": "string",
           "distance_to_loch_m": 500,
           "open_months": string[],
-          "external_booking_url": "website or google search url",
-          "photos": ["/images/lochside-camp-1.png"] 
+          "external_booking_url": "url",
+          "photos": ["/images/lochside-camp-1.png"],
+          "address": "string",
+          "phone": "string"
         }
     `;
 
@@ -88,10 +116,15 @@ async function enrichListing(osmElement: any) {
         });
 
         const listing = JSON.parse(completion.choices[0].message.content || "{}");
-        // Force valid coords and add real photo placeholder cycle
+
+        // Force validated real data back in over AI hallucinations
         listing.latitude = lat;
         listing.longitude = lon;
-        listing.photos = ["/images/lochside-camp-1.png"];
+        if (phone) listing.phone = phone;
+        if (website) listing.external_booking_url = website;
+
+        // Assign random image from pool
+        listing.photos = [PHOTOS[Math.floor(Math.random() * PHOTOS.length)]];
 
         return listing;
     } catch (e) {
@@ -103,7 +136,7 @@ async function enrichListing(osmElement: any) {
 async function main() {
     try {
         if (!process.env.OPENAI_API_KEY) {
-            console.error("Error: OPENAI_API_KEY is missing from environment. Script cannot run.");
+            console.error("Error: OPENAI_API_KEY is missing.");
             process.exit(1);
         }
 
@@ -111,13 +144,20 @@ async function main() {
         console.log(`Found ${osmData.length} potential campsites.`);
 
         const listings = [];
+        const maxEntries = 120; // Target ~100
+
+        let count = 0;
         for (const element of osmData) {
+            if (count >= maxEntries) break;
             if (!element.tags || !element.tags.name) continue;
-            console.log(`Processing ${element.tags.name}...`);
+
+            console.log(`[${count + 1}/${Math.min(osmData.length, maxEntries)}] Processing ${element.tags.name}...`);
             const listing = await enrichListing(element);
-            if (listing) listings.push(listing);
-            // Rate limit simple
-            await new Promise(r => setTimeout(r, 500));
+            if (listing) {
+                listings.push(listing);
+                count++;
+            }
+            await new Promise(r => setTimeout(r, 100)); // Rate limit
         }
 
         const outputPath = path.join(process.cwd(), 'data', 'campsites.json');

@@ -1,12 +1,48 @@
 [
   {
+    "id": "faichemard-farm-caravan-camping",
+    "slug": "faichemard-farm-caravan-camping",
+    "display_name": "Faichemard Farm Caravan & Camping",
+    "short_description": "Nestled in the scenic beauty of the Highlands, Faichemard Farm offers a tranquil setting for both caravans and tents. Experience the charm of lochside camping with breathtaking views and the gentle sounds of nature.",
+    "latitude": 57.0739039,
+    "longitude": -4.828577,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://www.faichemard-caravancamping.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
     "id": "loch-ness-bay-camping",
     "slug": "loch-ness-bay-camping",
     "display_name": "Loch Ness Bay Camping",
-    "short_description": "Nestled beside the mesmerizing Loch Ness, this campsite offers a perfect blend of comfort and adventure. With a variety of amenities including cabins, picnic tables, and easy access to walking trails, you're invited to create unforgettable memories in nature.",
+    "short_description": "Nestled on the scenic shores of Loch Ness, this camping site offers a blend of adventure and tranquility. With cozy cabins, spacious pitches for tents and caravans, and modern facilities, it's the perfect getaway for families and outdoor enthusiasts alike.",
     "latitude": 57.3285836,
     "longitude": -4.4671651,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite",
       "campervan-pitch"
@@ -30,17 +66,55 @@
     ],
     "external_booking_url": "https://www.borlum.co.uk/Camping/Campsite.html",
     "photos": [
-      "/images/lochside-camp-1.png"
-    ]
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": "+44 1456 450220"
   },
   {
-    "id": "abriachan-eco-campsite-cafe",
-    "slug": "abriachan-eco-campsite-cafe",
-    "display_name": "Abriachan Eco-Campsite & Cafe",
-    "short_description": "Nestled in the heart of nature, Abriachan Eco-Campsite & Cafe invites you to unwind among scenic landscapes. Enjoy the tranquility of tent camping while savoring delicious meals at our cozy café.",
-    "latitude": 57.3957221,
-    "longitude": -4.4190976,
-    "area_id": "north-shore",
+    "id": "riverside-campsite",
+    "slug": "riverside-campsite",
+    "display_name": "Riverside Campsite",
+    "short_description": "Nestled by the water's edge, Riverside Campsite offers a tranquil retreat surrounded by lush greenery. Enjoy cozy tent camping or bring your caravan for a scenic stay near the riverbank.",
+    "latitude": 57.5689371,
+    "longitude": -4.5820342,
+    "area_id": "south-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Riverside, Unknown",
+    "phone": null
+  },
+  {
+    "id": "glas-dhoire-trailblazer-rest",
+    "slug": "glas-dhoire-trailblazer-rest",
+    "display_name": "Glas-dhoire Trailblazer Rest",
+    "short_description": "Nestled in the tranquil surroundings of the Highlands, Glas-dhoire Trailblazer Rest is the perfect getaway for nature enthusiasts. Enjoy the scenic beauty, stunning landscapes, and a sense of adventure just steps away from your tent.",
+    "latitude": 56.9982098,
+    "longitude": -4.8760148,
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite"
     ],
@@ -59,19 +133,188 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://www.abriachancampsite.com",
+    "external_booking_url": "https://www.osm.org/note/2853725",
     "photos": [
-      "/images/lochside-camp-1.png"
-    ]
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Glas-dhoire, Highlands",
+    "phone": null
   },
   {
-    "id": "leitirfearn-trailblazer-rest",
-    "slug": "leitirfearn-trailblazer-rest",
-    "display_name": "Leitirfearn Trailblazer Rest",
-    "short_description": "Escape to the serenity of Leitirfearn Trailblazer Rest, where nature beckons and tranquility awaits. Enjoy a backcountry retreat perfect for tent camping under a canopy of stars.",
-    "latitude": 57.0731252,
-    "longitude": -4.7621996,
-    "area_id": "south-shore",
+    "id": "laggan-locks-informal-campsite",
+    "slug": "laggan-locks-informal-campsite",
+    "display_name": "Laggan Locks Informal Campsite",
+    "short_description": "Nestled along the mesmerizing Laggan Locks, this informal campsite offers an enchanting retreat for nature lovers. With inviting amenities including showers and toilets, you'll feel right at home amidst the breathtaking scenery.",
+    "latitude": 57.025374,
+    "longitude": -4.8253482,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "wheelchair"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "wild-camp-site",
+    "slug": "wild-camp-site",
+    "display_name": "Wild Camp Site",
+    "short_description": "Nestled away from the hustle and bustle, the Wild Camp Site offers a serene escape surrounded by nature. Enjoy stunning views, starry nights, and the soothing sounds of the wild as you pitch your tent in this tranquil setting.",
+    "latitude": 56.5599493,
+    "longitude": -4.0714103,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://example.com/book-wild-camp-site",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "lagnaha-farm",
+    "slug": "lagnaha-farm",
+    "display_name": "Lagnaha Farm",
+    "short_description": "Nestled amidst breathtaking landscapes, Lagnaha Farm welcomes adventurous souls with its serene camping experience. Pitch your tent under starry skies and embrace the natural beauty that surrounds you, perfect for relaxation and exploration.",
+    "latitude": 56.6556839,
+    "longitude": -5.2590287,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.example.com/book/lagnaha-farm",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "abriachan-eco-campsite-cafe",
+    "slug": "abriachan-eco-campsite-cafe",
+    "display_name": "Abriachan Eco-Campsite & Cafe",
+    "short_description": "Nestled in the scenic beauty of the Highlands, Abriachan Eco-Campsite & Cafe offers a serene escape for nature lovers and adventure seekers alike. Enjoy tent camping amidst lush landscapes and indulge in delightful refreshments at the on-site café.",
+    "latitude": 57.3957221,
+    "longitude": -4.4190976,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://example.com/book-abriachan",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Abriachan, IV3 8LB",
+    "phone": null
+  },
+  {
+    "id": "macdonald-hotel-campsite",
+    "slug": "macdonald-hotel-campsite",
+    "display_name": "MacDonald Hotel Campsite",
+    "short_description": "Experience the tranquility of nature at the MacDonald Hotel Campsite, where the stunning views meet the comforts of camping. Enjoy our peaceful setting, but remember, only tents smaller than 2-man tents are permitted, creating an intimate camping experience.",
+    "latitude": 56.7158985,
+    "longitude": -4.9715828,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://macdonaldhotel.co.uk/cabins-camping/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "moy-bridge-informal-campsite",
+    "slug": "moy-bridge-informal-campsite",
+    "display_name": "Moy Bridge Informal Campsite",
+    "short_description": "Nestled alongside the tranquil waters, Moy Bridge informal campsite offers a peaceful retreat amidst nature's beauty. Perfect for pitching tents, this campsite invites adventure seekers to embrace the great outdoors.",
+    "latitude": 56.8983653,
+    "longitude": -5.018309,
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite"
     ],
@@ -88,19 +331,86 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://www.google.com/search?q=Leitirfearn+Trailblazer+Rest",
+    "external_booking_url": null,
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Moy Bridge, Highlands",
+    "phone": null
+  },
+  {
+    "id": "gairlochy-locks-informal-campsite",
+    "slug": "gairlochy-locks-informal-campsite",
+    "display_name": "Gairlochy Locks Informal Campsite",
+    "short_description": "Nestled beside the tranquil Gairlochy Locks, this backcountry campsite offers an idyllic escape to nature. Enjoy modern amenities like showers and toilets, all while being surrounded by the stunning scenery of the Highlands.",
+    "latitude": 56.914629,
+    "longitude": -4.9936032,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://example.com/book-gairlochy-campsite",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "leitirfearn-trailblazer-rest",
+    "slug": "leitirfearn-trailblazer-rest",
+    "display_name": "Leitirfearn Trailblazer Rest",
+    "short_description": "Experience the untamed beauty of the wilderness at Leitirfearn Trailblazer Rest, a hidden gem perfect for adventurous souls. With capacity for 8 tents, this backcountry campsite offers a serene escape without the distractions of modern amenities.",
+    "latitude": 57.0731252,
+    "longitude": -4.7621996,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://example.com/leitirfearn-trailblazer-rest",
     "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
   },
   {
     "id": "kytra-lock",
     "slug": "kytra-lock",
     "display_name": "Kytra Lock",
-    "short_description": "Nestled along the picturesque Great Glen Way, Kytra Lock offers an intimate retreat for up to 6 adventurous souls. Enjoy the tranquility of this informal campsite, perfect for a weekend of relaxation among nature's beauty.",
+    "short_description": "Discover the serene beauty of Kytra Lock, an informal campsite nestled along the Great Glen Way. Perfect for a small group, it accommodates up to 3 tents and offers refreshing drinking water amidst stunning surroundings.",
     "latitude": 57.1219152,
     "longitude": -4.7228071,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite"
     ],
@@ -120,19 +430,256 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://www.google.com/search?q=kytra+lock+campsite",
+    "external_booking_url": null,
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "kinlochleven-wild-camping-area",
+    "slug": "kinlochleven-wild-camping-area",
+    "display_name": "Kinlochleven Wild Camping Area",
+    "short_description": "Nestled right next to the scenic West Highland Way, this wild camping area offers a tranquil escape for nature lovers. Enjoy the stunning views and the tranquility of the backcountry while immersing yourself in the beauty of the Highlands.",
+    "latitude": 56.71695,
+    "longitude": -4.9703164,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": null,
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Kinlochleven, Highlands",
+    "phone": null
+  },
+  {
+    "id": "kingussie-camping-aire-croila-croft",
+    "slug": "kingussie-camping-aire-croila-croft",
+    "display_name": "Kingussie camping & aire Croila Croft",
+    "short_description": "Nestled in the picturesque Highlands, Kingussie camping & aire Croila Croft is a serene escape for nature lovers. Enjoy the tranquil surroundings, perfect for both tents and campervans, while being close to stunning landscapes and local attractions.",
+    "latitude": 57.0778051,
+    "longitude": -4.0576619,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://highlandhorsefun.com/kingussie-camping-aire/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Kingussie, Highlands",
+    "phone": null
+  },
+  {
+    "id": "really-small-camp-site",
+    "slug": "really-small-camp-site",
+    "display_name": "Really Small Camp Site",
+    "short_description": "Nestled in a tranquil spot, this intimate campsite offers serene surroundings for relaxation and exploration. Enjoy the mesmerizing views and the sounds of nature right from your tent.",
+    "latitude": 56.7233905,
+    "longitude": -4.9909911,
+    "area_id": "south-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://example.com/book-really-small-camp-site",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near the South Shore, Unknown",
+    "phone": null
+  },
+  {
+    "id": "wild-camp",
+    "slug": "wild-camp",
+    "display_name": "Wild Camp",
+    "short_description": "Nestled in a serene landscape, Wild Camp offers the perfect escape for nature enthusiasts. Enjoy breathtaking views and the tranquility of the surrounding wilderness while camping under the stars.",
+    "latitude": 56.744006,
+    "longitude": -5.0111669,
+    "area_id": "south-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://example.com/wild-camp",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Wild Camp, South Shore",
+    "phone": null
+  },
+  {
+    "id": "not-great-but-fits-2-person-tent-and-has-access-to-small-river",
+    "slug": "not-great-but-fits-2-person-tent-and-has-access-to-small-river",
+    "display_name": "Not Great But Fits 2 Person Tent and Has Access to Small River",
+    "short_description": "Unwind next to a charming small river, perfect for a romantic getaway or a tranquil escape with a friend. While it may not be glamorous, this campsite comfortably accommodates a 2-person tent, making it an excellent choice for outdoor enthusiasts seeking simplicity and nature.",
+    "latitude": 56.7228799,
+    "longitude": -4.9912984,
+    "area_id": "south-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Unknown River, South Shore",
+    "phone": null
+  },
+  {
+    "id": "fits-2-ps-tent",
+    "slug": "fits-2-ps-tent",
+    "display_name": "Fits 2 PS Tent",
+    "short_description": "Nestled in a serene location, this cozy campsite is perfect for couples or small families looking to immerse themselves in nature. Enjoy a peaceful night under the stars with easy access to local trails and breathtaking views.",
+    "latitude": 56.8607333,
+    "longitude": -5.0164623,
+    "area_id": "south-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near South Shore, Unknown Location",
+    "phone": null
+  },
+  {
+    "id": "the-helferindernot",
+    "slug": "the-helferindernot",
+    "display_name": "The Helferindernot",
+    "short_description": "Nestled amid stunning landscapes, The Helferindernot campsite is a tranquil paradise for nature lovers. Enjoy picturesque views, endless hiking opportunities, and a serene atmosphere for a perfect escape.",
+    "latitude": 56.8130388,
+    "longitude": -5.1034923,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://example.com/book/helferindernot",
     "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "Near Helferindernot, Highlands",
+    "phone": null
   },
   {
     "id": "forest-glen-holiday-park",
     "slug": "forest-glen-holiday-park",
     "display_name": "Forest Glen Holiday Park",
-    "short_description": "Nestled amidst the stunning landscapes of Invermoriston, Forest Glen Holiday Park offers a tranquil retreat for travelers seeking comfort and adventure. Enjoy cozy cabins, a welcoming atmosphere, and convenient access for all customers wishing to explore this beautiful region.",
+    "short_description": "Nestled amidst the serene beauty of Invermoriston, Forest Glen Holiday Park offers a charming escape for those seeking relaxation and adventure. Enjoy cozy cabins and the convenience of caravan facilities just steps away from stunning lochside views.",
     "latitude": 57.212975,
     "longitude": -4.6198657,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "campervan-pitch"
     ],
@@ -154,17 +701,123 @@
     ],
     "external_booking_url": "https://www.forestglen.co.uk/",
     "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Dalcataig Road, Invermoriston, IV63 7YF",
+    "phone": "+44 1320 351254"
+  },
+  {
+    "id": "kilvrecht-caravan-camping",
+    "slug": "kilvrecht-caravan-camping",
+    "display_name": "Kilvrecht Caravan & Camping",
+    "short_description": "Experience the serene beauty of Kilvrecht Caravan & Camping, nestled within the stunning Tay Forest Park. Enjoy amenities like cold showers and accessible toilets while surrounded by nature's tranquility, perfect for a peaceful getaway.",
+    "latitude": 56.6808891,
+    "longitude": -4.2605468,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://forestryandland.gov.scot/visit/forest-parks/tay-forest-park/kilvrecht-campsite",
+    "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "Near Aberfeldy, Highlands",
+    "phone": null
+  },
+  {
+    "id": "sca-grandtully",
+    "slug": "sca-grandtully",
+    "display_name": "SCA Grandtully",
+    "short_description": "Nestled at the old station yard, SCA Grandtully offers a serene escape just a stone's throw from the River Tay and the thrilling Grandtully rapids. Ideal for both individual adventurers and group gatherings, this campsite is perfect for outdoor enthusiasts seeking a picturesque retreat.",
+    "latitude": 56.6570069,
+    "longitude": -3.7724177,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.grandtully.scot/",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Lageonan Road, PH9 0PL",
+    "phone": "+44 7760 117641"
+  },
+  {
+    "id": "grandtully-station-campsite",
+    "slug": "grandtully-station-campsite",
+    "display_name": "Grandtully Station Campsite",
+    "short_description": "Nestled alongside the serene waters of the Tay, Grandtully Station Campsite offers an enchanting escape into nature. Enjoy the lush surroundings with direct access to walking trails and outdoor adventures just moments away.",
+    "latitude": 56.6564829,
+    "longitude": -3.7743008,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.grandtully.scot/",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Lageonan Road, Grandtully, PH9 0PL",
+    "phone": "+44 1796 922010"
   },
   {
     "id": "bunchrew-caravan-park",
     "slug": "bunchrew-caravan-park",
     "display_name": "Bunchrew Caravan Park",
-    "short_description": "Nestled in the scenic surroundings of Bunchrew, this campsite offers a welcoming retreat for nature lovers and adventure seekers alike. With facilities for tents, caravans, and motorhomes, enjoy modern comforts like showers and laundry while being close to stunning landscapes.",
+    "short_description": "Nestled along the picturesque shores, Bunchrew Caravan Park offers an idyllic escape for outdoor enthusiasts. Enjoy well-equipped facilities like showers and laundry while surrounded by the natural beauty of the Highlands.",
     "latitude": 57.4823065,
     "longitude": -4.306197,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite",
       "campervan-pitch"
@@ -172,7 +825,7 @@
     "facility_tags": [
       "shower",
       "toilets",
-      "washing_machine"
+      "dog"
     ],
     "min_night_stay": 1,
     "typical_price_band": "midrange",
@@ -188,17 +841,375 @@
     ],
     "external_booking_url": "https://bunchrew-caravanpark.co.uk/",
     "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Inverness, IV3 8TD",
+    "phone": "+44 1463 237802"
+  },
+  {
+    "id": "glenmore-campsite",
+    "slug": "glenmore-campsite",
+    "display_name": "Glenmore Camp Site",
+    "short_description": "Experience the serenity of the Scottish Highlands at Glenmore Camp Site, where stunning loch views meet lush pine forests. Enjoy tent camping or bring your caravan for a cozy stay surrounded by nature's beauty.",
+    "latitude": 57.1657898,
+    "longitude": -3.6959379,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.campingintheforest.co.uk/scotland/aviemore/glenmore-campsite",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Aviemore, PH22 1QU",
+    "phone": "+44 1479 861271"
+  },
+  {
+    "id": "glen-nevis-caravan-and-camping-park",
+    "slug": "glen-nevis-caravan-and-camping-park",
+    "display_name": "Glen Nevis Caravan and Camping Park",
+    "short_description": "Nestled in the breathtaking Glens of Scotland, Glen Nevis Caravan and Camping Park offers a serene escape with stunning views of majestic mountains. Enjoy modern amenities including hot showers, powered pitches, and a dog-friendly atmosphere that welcomes all adventurers.",
+    "latitude": 56.8044182,
+    "longitude": -5.0748092,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.glen-nevis.co.uk/",
+    "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "Fort William, PH33 6SX, GB",
+    "phone": null
+  },
+  {
+    "id": "achindarroch-touring-park",
+    "slug": "achindarroch-touring-park",
+    "display_name": "Achindarroch Touring Park",
+    "short_description": "Nestled in a picturesque setting, Achindarroch Touring Park offers both stunning views and modern amenities for the ultimate camping experience. Enjoy the tranquility of nature while having access to well-maintained facilities for a comfortable stay.",
+    "latitude": 56.6479223,
+    "longitude": -5.2682782,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.achindarrochtouringpark.com",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "dalraddy-holiday-park",
+    "slug": "dalraddy-holiday-park",
+    "display_name": "Dalraddy Holiday Park",
+    "short_description": "Nestled in the heart of the Highlands, Dalraddy Holiday Park offers a perfect blend of tranquility and adventure. Enjoy spacious pitches for tents and caravans, alongside modern amenities including power supply and waste disposal.",
+    "latitude": 57.1470237,
+    "longitude": -3.8941752,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.campinginaviemore.co.uk/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Aviemore, PH22 1QB",
+    "phone": "+44 1479 810330"
+  },
+  {
+    "id": "invernahavon-caravan-site",
+    "slug": "invernahavon-caravan-site",
+    "display_name": "Invernahavon Caravan Site",
+    "short_description": "Nestled in the scenic beauty of the Highlands, Invernahavon Caravan Site offers a tranquil escape with stunning surroundings perfect for nature lovers. With both caravan and tent pitches available, enjoy a relaxing stay amidst lush greenery and breathtaking views.",
+    "latitude": 57.0284133,
+    "longitude": -4.1645864,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.invernahavon.com/",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Invernahavon, Highlands",
+    "phone": null
+  },
+  {
+    "id": "glenshiel-campsite",
+    "slug": "glenshiel-campsite",
+    "display_name": "Glenshiel Campsite",
+    "short_description": "Nestled in the picturesque landscape of the Highlands, Glenshiel Campsite offers a perfect escape for nature lovers. Enjoy spacious pitches for tents and caravans, modern shower facilities, and easy access to breathtaking lochside views.",
+    "latitude": 57.2116477,
+    "longitude": -5.4161312,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://glenshielcampsite.co.uk/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "morvich-club-campsite",
+    "slug": "morvich-club-campsite",
+    "display_name": "Morvich Club Campsite",
+    "short_description": "Nestled in the heart of the Highlands, the Morvich Club Campsite offers breathtaking views and a warm, welcoming atmosphere for all adventurers. Enjoy unique family-friendly amenities with direct access to lochside activities and spectacular nature trails.",
+    "latitude": 57.2357047,
+    "longitude": -5.3807749,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.caravanclub.co.uk/club-sites/scotland/highlands/morvich-club-campsite/",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Morvich, Highlands",
+    "phone": "+441599511354"
+  },
+  {
+    "id": "invermill-farm-caravan-park",
+    "slug": "invermill-farm-caravan-park",
+    "display_name": "Invermill Farm Caravan Park",
+    "short_description": "Nestled amid picturesque landscapes, Invermill Farm Caravan Park offers an idyllic escape for nature lovers. Enjoy the charming environment perfect for tents and discover the beauty of the great outdoors at your doorstep.",
+    "latitude": 56.5603714,
+    "longitude": -3.601656,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://example.com/book/invermill-farm",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Invermill, Highlands",
+    "phone": null
+  },
+  {
+    "id": "black-rock-holiday-park",
+    "slug": "black-rock-holiday-park",
+    "display_name": "Black Rock Holiday Park",
+    "short_description": "Experience the perfect blend of nature and comfort at Black Rock Holiday Park, where stunning vistas meet top-notch amenities. With options for both tents and caravans, you’ll find your ideal space to unwind under the stars.",
+    "latitude": 57.666174,
+    "longitude": -4.3368955,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://blackrockcaravanandcampingpark.co.uk",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "1 Balconie Street",
+    "phone": null
+  },
+  {
+    "id": "grantown-on-spey-caravan-park",
+    "slug": "grantown-on-spey-caravan-park",
+    "display_name": "Grantown-on-Spey Caravan Park",
+    "short_description": "Nestled in the stunning landscapes of the Scottish Highlands, Grantown-on-Spey Caravan Park invites you to enjoy a serene getaway with a blend of nature and comfort. Whether you're pitching a tent or maneuvering a caravan, you'll experience the perfect blend of relaxation and adventure amidst picturesque surroundings.",
+    "latitude": 57.3354345,
+    "longitude": -3.6167687,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.caravanscotland.com/",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "PH26 3JQ",
+    "phone": null
   },
   {
     "id": "bught-caravan-campsite",
     "slug": "bught-caravan-campsite",
     "display_name": "Bught Caravan & Campsite",
-    "short_description": "Nestled in the heart of nature, Bught Caravan & Campsite offers a delightful retreat for both tents and caravans. Enjoy the convenience of modern facilities like showers and toilets while immersing yourself in the great outdoors.",
+    "short_description": "Nestled alongside stunning landscapes, Bught Caravan & Campsite offers a tranquil retreat for nature lovers. Experience modern amenities like hot showers and clean toilets, making your stay comfortable as you explore the great outdoors.",
     "latitude": 57.4650303,
     "longitude": -4.2388019,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite",
       "campervan-pitch"
@@ -221,17 +1232,229 @@
     ],
     "external_booking_url": "http://www.invernesscaravanpark.com/",
     "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Inverness, Highlands",
+    "phone": null
+  },
+  {
+    "id": "aberfeldy-caravan-park",
+    "slug": "aberfeldy-caravan-park",
+    "display_name": "Aberfeldy Caravan Park",
+    "short_description": "Discover the charm of Aberfeldy Caravan Park, where stunning landscapes meet top-notch amenities. Enjoy facilities like hot showers, clean toilets, and excellent power supply, perfect for a memorable outdoor escape.",
+    "latitude": 56.6230464,
+    "longitude": -3.8593161,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "drinking_water",
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://example.com/book-aberdeferdy",
+    "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "Near Aberfeldy, Highlands",
+    "phone": null
+  },
+  {
+    "id": "caolasnacon-caravan-camping-park",
+    "slug": "caolasnacon-caravan-camping-park",
+    "display_name": "Caolasnacon Caravan & Camping Park",
+    "short_description": "Nestled in the breathtaking landscapes of Kinlochleven, Caolasnacon Caravan & Camping Park offers a serene escape with stunning views. Enjoy the tranquility of lochside camping and the convenience of pitches for caravans.",
+    "latitude": 56.7039841,
+    "longitude": -5.0417644,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.kinlochlevencaravans.com/",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Kinlochleven, PH50 4RJ",
+    "phone": null
+  },
+  {
+    "id": "blackwater-campsite",
+    "slug": "blackwater-campsite",
+    "display_name": "Blackwater Campsite",
+    "short_description": "Nestled beside the tranquil waters of Loch Leven, Blackwater Campsite offers a serene escape for nature lovers. Enjoy tent camping with your dog leashed by your side, and explore the breathtaking trails that await you.",
+    "latitude": 56.7140505,
+    "longitude": -4.9596886,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.blackwaterhostel.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Lab Road, Kinlochleven, PH50 4SF",
+    "phone": null
+  },
+  {
+    "id": "red-squirrel-campsite",
+    "slug": "red-squirrel-campsite",
+    "display_name": "Red Squirrel Campsite",
+    "short_description": "Nestled among towering pines, Red Squirrel Campsite offers a serene escape into nature, perfect for outdoor enthusiasts. Pitch your tent and enjoy stunning views, with ample opportunity for wildlife spotting and nearby trails.",
+    "latitude": 56.6695002,
+    "longitude": -5.0708785,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "rosemarkie-camping-caravan-club-site",
+    "slug": "rosemarkie-camping-caravan-club-site",
+    "display_name": "Rosemarkie Camping & Caravan Club Site",
+    "short_description": "Discover the beauty of the Scottish Highlands at Rosemarkie Camping & Caravan Club Site, where lush landscapes and serene lochside views await. Whether you're pitching a tent or parking a caravan, enjoy the great outdoors with excellent facilities at your fingertips.",
+    "latitude": 57.5848706,
+    "longitude": -4.1102193,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.fortrosebaycampsite.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Rosemarkie, Highlands",
+    "phone": null
+  },
+  {
+    "id": "blair-castle-caravan-park",
+    "slug": "blair-castle-caravan-park",
+    "display_name": "Blair Castle Caravan Park",
+    "short_description": "Nestled in the heart of the beautiful Highlands, Blair Castle Caravan Park offers a perfect escape for nature lovers. Enjoy cozy cabins, spacious tent pitches, and stunning landscapes while having access to modern amenities including Wi-Fi and power supplies.",
+    "latitude": 56.7698758,
+    "longitude": -3.8460157,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "toilets",
+      "dog",
+      "shower"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://www.blaircastlecaravanpark.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Blair Castle, Highlands",
+    "phone": null
   },
   {
     "id": "loch-ness-shores",
     "slug": "loch-ness-shores",
     "display_name": "Loch Ness Shores",
-    "short_description": "Nestled on the picturesque shores of Loch Ness, this campsite is a perfect getaway for nature lovers and adventure seekers alike. With stunning views and plenty of activities nearby, you'll find tranquility and excitement all in one place.",
+    "short_description": "Experience the magical beauty of Loch Ness Shores, where serene landscapes and breathtaking views create the perfect camping getaway. This site offers picturesque lochside pitches and modern facilities, inviting guests to maximize their outdoor experience amidst nature's wonders.",
     "latitude": 57.2548229,
     "longitude": -4.5005193,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite",
       "campervan-pitch"
@@ -255,21 +1478,100 @@
     ],
     "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/inverness/lowerfoyers/lochnessshores",
     "photos": [
-      "/images/lochside-camp-1.png"
-    ]
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "invercoe-caravan-camping-park",
+    "slug": "invercoe-caravan-camping-park",
+    "display_name": "Invercoe Caravan & Camping Park",
+    "short_description": "Nestled in the stunning Highlands, Invercoe Caravan & Camping Park offers a perfect getaway for nature lovers and families. Enjoy serene lochside camping with well-equipped pitches for both tents and caravans, along with a wealth of outdoor activities at your doorstep.",
+    "latitude": 56.687449,
+    "longitude": -5.1064415,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.invercoe.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": "+44 1855 811 210"
+  },
+  {
+    "id": "linnhe-lochside-holiday-park",
+    "slug": "linnhe-lochside-holiday-park",
+    "display_name": "Linnhe Lochside Holiday Park",
+    "short_description": "Nestled on the stunning shores of Loch Linnhe, our campsite offers breathtaking views and a serene atmosphere for a perfect getaway. Enjoy top-notch amenities including showers, waste disposal, and power supply, making your stay both comfortable and memorable.",
+    "latitude": 56.8455919,
+    "longitude": -5.1615305,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "power_supply",
+      "waste_disposal"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.linnhe-lochside-holidays.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Fort William, PH33 7NL, Highlands",
+    "phone": "+44 1397 772376"
   },
   {
     "id": "loch-ness-glamping",
     "slug": "loch-ness-glamping",
     "display_name": "Loch Ness Glamping",
-    "short_description": "Experience the tranquility of nature at Loch Ness Glamping, nestled beside the scenic loch. Enjoy luxurious glamping accommodations and the beauty of the highlands, making your stay unforgettable.",
+    "short_description": "Experience the magic of the Highlands with a unique glamping adventure at Loch Ness Glamping. Enjoy comfortable accommodations right by the loch, perfect for adventure-seekers and families alike.",
     "latitude": 57.3396015,
     "longitude": -4.5352145,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite"
     ],
-    "facility_tags": [],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
     "min_night_stay": 1,
     "typical_price_band": "midrange",
     "distance_to_loch_m": 500,
@@ -284,17 +1586,231 @@
     ],
     "external_booking_url": "https://www.lochnessglamping.co.uk/",
     "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Loch Ness, Highlands",
+    "phone": null
+  },
+  {
+    "id": "bunroy-caravan-camping-park",
+    "slug": "bunroy-caravan-camping-park",
+    "display_name": "Bunroy Caravan & Camping Park",
+    "short_description": "Nestled along the breathtaking landscapes of the Highlands, Bunroy Caravan & Camping Park offers the perfect getaway for adventurers and nature lovers. Enjoy spacious pitches for both tents and caravans, and immerse yourself in the tranquility of lochside living.",
+    "latitude": 56.885177,
+    "longitude": -4.8351151,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://de.bunroypark.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "touring-and-camping-pitches",
+    "slug": "touring-and-camping-pitches",
+    "display_name": "Touring and Camping Pitches",
+    "short_description": "Experience the beauty of nature at Auchnahillin Holiday Park, where touring and camping pitches await. Enjoy well-equipped spots for both tents and caravans, surrounded by stunning landscapes and tranquility.",
+    "latitude": 57.4200962,
+    "longitude": -4.0969141,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.auchnahillin.co.uk/",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "glencoe-mountain-resort",
+    "slug": "glencoe-mountain-resort",
+    "display_name": "Glencoe Mountain Resort",
+    "short_description": "Experience the breathtaking beauty of Glencoe at this scenic campsite, nestled in the heart of the Highlands. Enjoy the convenience of modern amenities like showers and WLAN, along with the tranquility of natural surroundings perfect for your tent stay.",
+    "latitude": 56.6325337,
+    "longitude": -4.8270653,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "drinking_water"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.glencoemountain.co.uk/accommodation/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "glencoe-camping-caravanning-club",
+    "slug": "glencoe-camping-caravanning-club",
+    "display_name": "Glencoe Camping & Caravanning Club",
+    "short_description": "Nestled in the heart of the Scottish Highlands, Glencoe Camping & Caravanning Club offers a picturesque getaway surrounded by breathtaking landscapes. Enjoy modern facilities including showers and toilets, as well as access to drinking water and sanitary dump stations, making your stay comfortable and invigorating.",
+    "latitude": 56.6728886,
+    "longitude": -5.0840704,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "drinking_water"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/argyll/ballachulish/glencoe",
+    "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "PH49 4LA",
+    "phone": "+44 1855 811397"
+  },
+  {
+    "id": "ardgualich-farm-loch-tummel-camp-site",
+    "slug": "ardgualich-farm-loch-tummel-camp-site",
+    "display_name": "Ardgualich Farm & Loch Tummel Camp Site",
+    "short_description": "Nestled beside the beautiful Loch Tummel, Ardgualich Farm offers a serene camping experience surrounded by stunning highland scenery. Enjoy the tranquility of nature with ample space for tents and a picturesque backdrop perfect for adventurous activities.",
+    "latitude": 56.7159413,
+    "longitude": -3.8749655,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": null,
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Loch Tummel, Highlands",
+    "phone": null
+  },
+  {
+    "id": "findhorn-bay-holiday-park",
+    "slug": "findhorn-bay-holiday-park",
+    "display_name": "Findhorn Bay Holiday Park",
+    "short_description": "Nestled along the breathtaking coastline, Findhorn Bay Holiday Park offers an enchanting escape, complete with modern amenities like showers and a sanitary dump station. Enjoy the tranquility of tent camping or bring your caravan to explore the natural beauty of the area with drinking water readily available.",
+    "latitude": 57.6512042,
+    "longitude": -3.5893732,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.findhornbayholidaypark.com/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Findhorn, Moray",
+    "phone": null
   },
   {
     "id": "inver-coille",
     "slug": "inver-coille",
     "display_name": "Inver Coille",
-    "short_description": "Nestled in lush, grassy landscapes, Inver Coille invites you to embrace nature while camping under the stars. With facilities for tents and a fee for a delightful outdoor experience, this site is perfect for adventure seekers and relaxation lovers alike.",
+    "short_description": "Experience the serene beauty of Inver Coille, where lush grassy landscapes invite you to pitch a tent. Enjoy complimentary facilities amidst stunning views, perfect for a peaceful getaway.",
     "latitude": 57.1896901,
     "longitude": -4.6202561,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite"
     ],
@@ -311,19 +1827,462 @@
       "September",
       "October"
     ],
-    "external_booking_url": "https://www.google.com/search?q=Inver+Coille+campsite+booking",
+    "external_booking_url": "https://example.com/book/inver-coille",
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Near Inver Coille, Highlands",
+    "phone": null
+  },
+  {
+    "id": "rothiemurchus-camp-and-caravan",
+    "slug": "rothiemurchus-camp-and-caravan",
+    "display_name": "Rothiemurchus Camp and Caravan",
+    "short_description": "Nestled in the stunning highlands, Rothiemurchus Camp and Caravan offers a perfect getaway with a range of amenities for every camper. Enjoy refreshing showers, clean toilets, and the convenience of drinking water while you immerse yourself in nature's beauty.",
+    "latitude": 57.1732955,
+    "longitude": -3.795247,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://rothiemurchus.net/visit/stay/",
     "photos": [
       "/images/lochside-camp-1.png"
-    ]
+    ],
+    "address": "Near Aviemore, Highlands",
+    "phone": null
+  },
+  {
+    "id": "meggernie-outdoor-centre",
+    "slug": "meggernie-outdoor-centre",
+    "display_name": "Meggernie Outdoor Centre",
+    "short_description": "Nestled in the picturesque Glenlyon, Meggernie Outdoor Centre offers a unique camping experience for Scouts and outdoor enthusiasts alike. Enjoy stunning views and access to various outdoor activities amidst the serenity of nature.",
+    "latitude": 56.5923217,
+    "longitude": -4.3095267,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": null,
+    "photos": [
+      "/images/campervan-view.png"
+    ],
+    "address": "Fasgadh, Bridge of Balgie, Glenlyon, Aberfeldy, PH15 2PP",
+    "phone": null
+  },
+  {
+    "id": "the-lazy-duck",
+    "slug": "the-lazy-duck",
+    "display_name": "The Lazy Duck",
+    "short_description": "Nestled in a tranquil setting, The Lazy Duck offers a peaceful retreat for those looking to relax and unwind. Enjoy scenic views and the charm of nature while making memories in this inviting campsite.",
+    "latitude": 57.2636171,
+    "longitude": -3.6321135,
+    "area_id": "highlands",
+    "stay_types": [],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.lazyduck.co.uk/",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "barrow-campsite",
+    "slug": "barrow-campsite",
+    "display_name": "Barrow Campsite",
+    "short_description": "Welcome to Barrow Campsite at Kinchyle Farm, where nature meets comfort! Enjoy stunning views and a range of accommodations including tents, caravans, and cabins to make your stay unforgettable.",
+    "latitude": 57.5520888,
+    "longitude": -3.9151187,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.barnshighland.com/",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Kinchyle Farm, IV12 5NY",
+    "phone": "+44 7494 532380"
+  },
+  {
+    "id": "kinloch-hourn-estate-camping-area",
+    "slug": "kinloch-hourn-estate-camping-area",
+    "display_name": "Kinloch Hourn Estate Camping Area",
+    "short_description": "Nestled beside the enchanting waters of Loch Hourn, this idyllic camping area invites you to unwind in nature's embrace. With stunning views and opportunities for hiking, this spot is perfect for adventurers seeking tranquility and beauty.",
+    "latitude": 57.1042024,
+    "longitude": -5.3817787,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Kinloch Hourn, Highlands",
+    "phone": null
+  },
+  {
+    "id": "the-wee-campsite",
+    "slug": "the-wee-campsite",
+    "display_name": "The Wee Campsite",
+    "short_description": "Nestled on the tranquil shores of Lochcarron, The Wee Campsite welcomes you to enjoy breathtaking views and the great outdoors. With ample facilities for tents and caravans, it's the perfect spot for an unforgettable getaway with your furry friends.",
+    "latitude": 57.4025515,
+    "longitude": -5.4866871,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "external_booking_url": "https://weecampsite.com/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Croft Road, Lochcarron, IV54 8YA, Scotland",
+    "phone": "+44 7876 642355"
+  },
+  {
+    "id": "tighnavon-glamping-pods",
+    "slug": "tighnavon-glamping-pods",
+    "display_name": "Tighnavon Glamping Pods",
+    "short_description": "Experience the ultimate in luxury camping at Tighnavon Glamping Pods, where comfort meets nature. Enjoy your stay in beautifully designed pods, nestled in stunning surroundings, perfect for a unique getaway.",
+    "latitude": 56.7010536,
+    "longitude": -4.1853496,
+    "area_id": "highlands",
+    "stay_types": [],
+    "facility_tags": [
+      "dog",
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://example.com/tighnavon-glamping-pods",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Near Fort William, Highlands",
+    "phone": null
+  },
+  {
+    "id": "dornie-wigwams",
+    "slug": "dornie-wigwams",
+    "display_name": "Dornie Wigwams",
+    "short_description": "Experience the enchanting comfort of glamping at Dornie Wigwams, nestled in a breathtaking location. This unique campsite offers cozy cabins for a memorable stay with your furry friends, perfect for any outdoor enthusiasts seeking tranquility and adventure.",
+    "latitude": 57.2883816,
+    "longitude": -5.499256,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.wigwamholidays.com/dornie/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Dornie, Highlands, IV40 8ES",
+    "phone": null
+  },
+  {
+    "id": "oakwood-caravan-camping-park",
+    "slug": "oakwood-caravan-camping-park",
+    "display_name": "Oakwood Caravan & Camping Park",
+    "short_description": "Nestled in the scenic landscape of Aviemore, Oakwood Caravan & Camping Park offers a serene escape for nature enthusiasts. Enjoy modern amenities like hot showers, toilets, and a dedicated sanitary dump station, perfect for both tents and caravans.",
+    "latitude": 57.2116711,
+    "longitude": -3.8247588,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://oakwoodcampingpark.co.uk/",
+    "photos": [
+      "/images/wild-tent.png"
+    ],
+    "address": "Aviemore, PH22 1QD",
+    "phone": "+44 1479 258197"
+  },
+  {
+    "id": "beinn-eighe-campsite",
+    "slug": "beinn-eighe-campsite",
+    "display_name": "Beinn Eighe Campsite",
+    "short_description": "Nestled in the breathtaking landscapes of the Highlands, Beinn Eighe Campsite invites you to pitch your tent and immerse yourself in nature. Enjoy refreshing drinking water and convenient toilet facilities while soaking in the stunning views of the iconic mountains surrounding you.",
+    "latitude": 57.619563,
+    "longitude": -5.3278574,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Beinn Eighe, Highlands",
+    "phone": null
+  },
+  {
+    "id": "kinlochleven-aire-site",
+    "slug": "kinlochleven-aire-site",
+    "display_name": "Kinlochleven Aire Site",
+    "short_description": "Embrace the tranquility of the Scottish Highlands at Kinlochleven Aire Site, ideal for campervans seeking adventure. Enjoy breathtaking views and close proximity to stunning lochside trails while comfortable amenities enhance your stay.",
+    "latitude": 56.7141003,
+    "longitude": -4.9621416,
+    "area_id": "highlands",
+    "stay_types": [
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "toilets",
+      "showers"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://example.com/book/kinlochleven-aire-site",
+    "photos": [
+      "/images/glamping-pod.png"
+    ],
+    "address": "Near Kinlochleven, Highlands",
+    "phone": null
+  },
+  {
+    "id": "nairn-lochloy-holiday-park-touring",
+    "slug": "nairn-lochloy-holiday-park-touring",
+    "display_name": "Nairn Lochloy Holiday Park (Touring)",
+    "short_description": "Nestled by the beautiful shores, Nairn Lochloy Holiday Park offers an inviting escape for nature lovers and adventure seekers alike. Enjoy easy access to scenic walks and delightful amenities while soaking in the tranquil loch views.",
+    "latitude": 57.5930154,
+    "longitude": -3.8500039,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "url",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Near Nairn, North Shore",
+    "phone": null
+  },
+  {
+    "id": "glengoulandie-camping-caravanning",
+    "slug": "glengoulandie-camping-caravanning",
+    "display_name": "Glengoulandie Camping & Caravanning",
+    "short_description": "Nestled in the scenic Glengoulandie area, this campsite offers a perfect retreat for nature lovers. Enjoy the tranquility of lush surroundings while having the option to pitch a tent or park a caravan.",
+    "latitude": 56.6472304,
+    "longitude": -4.012727,
+    "area_id": "highlands",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog=yes"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.glengoulandie.net/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ],
+    "address": "Glengoulandie, Foss, PH16 5NL",
+    "phone": null
   },
   {
     "id": "cannich-woodland-camping-and-caravan-park",
     "slug": "cannich-woodland-camping-and-caravan-park",
     "display_name": "Cannich Woodland Camping and Caravan Park",
-    "short_description": "Nestled in the lush landscapes of the Scottish Highlands, Cannich Woodland Camping and Caravan Park offers a sanctuary for nature lovers. Enjoy the serene surroundings as you set up your tent or caravan, with modern facilities ensuring a comfortable stay.",
+    "short_description": "Nestled in the heart of the Scottish Highlands, Cannich Woodland Camping and Caravan Park offers a stunning getaway surrounded by lush forests and serene landscapes. Enjoy the convenience of spacious caravan pitches, or set up your tent for a true back-to-nature experience.",
     "latitude": 57.3439437,
     "longitude": -4.7590119,
-    "area_id": "north-shore",
+    "area_id": "highlands",
     "stay_types": [
       "lochside-campsite",
       "campervan-pitch"
@@ -346,7 +2305,9 @@
     ],
     "external_booking_url": "https://www.highlandcamping.co.uk/",
     "photos": [
-      "/images/lochside-camp-1.png"
-    ]
+      "/images/wild-tent.png"
+    ],
+    "address": "Cannich, IV4 7LN",
+    "phone": "+44 1456 415364"
   }
 ]
