@@ -1,0 +1,16 @@
+[
+    {
+        "id": "south-shore",
+        "slug": "south-shore",
+        "name": "South Shore",
+        "level": "region",
+        "description": "The quieter, wilder side of Loch Ness, home to Foyers and Dores."
+    },
+    {
+        "id": "north-shore",
+        "slug": "north-shore",
+        "name": "North Shore (A82)",
+        "level": "region",
+        "description": "The main route with easy access to Urquhart Castle and Drumnadrochit."
+    }
+]

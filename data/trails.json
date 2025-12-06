@@ -1,0 +1,49 @@
+[
+    {
+        "id": "foyers-falls-loop",
+        "slug": "foyers-falls-forest-loop",
+        "name": "Foyers Falls Forest Loop",
+        "type": "hiking",
+        "summary": "A scenic loop visiting the famous Falls of Foyers and ancient woodland.",
+        "distance_km": 4.5,
+        "difficulty": "moderate",
+        "start_lat": 57.25,
+        "start_lng": -4.50,
+        "circular": true,
+        "area_id": "south-shore",
+        "highlights": [
+            "waterfall",
+            "forest",
+            "red squirrels"
+        ],
+        "best_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "notes": "Steps can be slippery when wet. Parking available at the top."
+    },
+    {
+        "id": "great-glen-way-segment",
+        "slug": "great-glen-way-invermoriston",
+        "name": "Great Glen Way: Invermoriston Section",
+        "type": "hiking",
+        "summary": "High-level forest track offering some of the best views of Loch Ness.",
+        "distance_km": 12,
+        "difficulty": "hard",
+        "start_lat": 57.21,
+        "start_lng": -4.61,
+        "circular": false,
+        "area_id": "north-shore",
+        "highlights": [
+            "loch views",
+            "steep ascent",
+            "wildlife"
+        ],
+        "best_seasons": [
+            "summer",
+            "autumn"
+        ],
+        "notes": "Good boots essential."
+    }
+]

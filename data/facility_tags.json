@@ -1,0 +1,32 @@
+[
+    {
+        "id": "dog-friendly",
+        "label": "Dog-friendly",
+        "group": "Rules"
+    },
+    {
+        "id": "family-friendly",
+        "label": "Family-friendly",
+        "group": "Rules"
+    },
+    {
+        "id": "electric-hookups",
+        "label": "Electric Hookups",
+        "group": "Facilities"
+    },
+    {
+        "id": "showers",
+        "label": "Hot Showers",
+        "group": "Facilities"
+    },
+    {
+        "id": "drying-room",
+        "label": "Drying Room",
+        "group": "Facilities"
+    },
+    {
+        "id": "fires-permitted",
+        "label": "Campfires Permitted",
+        "group": "Rules"
+    }
+]

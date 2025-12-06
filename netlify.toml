@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Example Redirects based on PRD (Mocked old paths)
+[[redirects]]
+  from = "/old-family-camping-guide/"
+  to = "/guides/best-hiking-campsites-for-families-in-south-loch-ness/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/old-winter-camping-article/"
+  to = "/seasonal/winter-camping-around-loch-ness/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/campsites/old-site-slug"
+  to = "/campsites/new-site-slug"
+  status = 301

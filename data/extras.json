@@ -1,0 +1,19 @@
+[
+    {
+        "id": "loch-ness-cruises",
+        "slug": "loch-ness-cruises-drumnadrochit",
+        "name": "Loch Ness Cruises",
+        "category": "activity",
+        "summary": "1-hour deepscan boat trips designed for Nessie hunting.",
+        "area_id": "north-shore",
+        "website_url": "https://example.com/cruises"
+    },
+    {
+        "id": "foyers-stores",
+        "slug": "foyers-stores-and-cafe",
+        "name": "Foyers Stores & Cafe",
+        "category": "shop",
+        "summary": "Local convenience store and cafe near the waterfalls. Good for resupply.",
+        "area_id": "south-shore"
+    }
+]

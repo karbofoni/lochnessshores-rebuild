@@ -1,0 +1,17 @@
+[
+    {
+        "id": "lochside-campsite",
+        "name": "Lochside Campsite",
+        "description": "Pitch your tent or park up within sight of the water."
+    },
+    {
+        "id": "glamping-pod",
+        "name": "Glamping Pod",
+        "description": "Insulated wooden pods for a cosier stay."
+    },
+    {
+        "id": "campervan-pitch",
+        "name": "Campervan Pitch",
+        "description": "Hardstanding or grass pitches suitable for vans."
+    }
+]

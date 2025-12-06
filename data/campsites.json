@@ -1,0 +1,74 @@
+[
+    {
+        "id": "south-shore-lochside",
+        "slug": "south-shore-lochside-camping",
+        "display_name": "South Shore Lochside Camping",
+        "short_description": "Peaceful camping right on the banks of Loch Ness, perfect for kayakers and quiet campers.",
+        "latitude": 57.25,
+        "longitude": -4.55,
+        "area_id": "south-shore",
+        "stay_types": [
+            "lochside-campsite",
+            "campervan-pitch"
+        ],
+        "facility_tags": [
+            "dog-friendly",
+            "no-electric",
+            "fires-permitted"
+        ],
+        "min_night_stay": 1,
+        "typical_price_band": "budget",
+        "distance_to_loch_m": 50,
+        "open_months": [
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September"
+        ],
+        "external_booking_url": "https://example.com/south-shore",
+        "photos": [
+            "/images/lochside-camp-1.png"
+        ],
+        "last_verified_at": "2024-05-01"
+    },
+    {
+        "id": "forest-edge-glamping",
+        "slug": "forest-edge-glamping",
+        "display_name": "Forest Edge Glamping",
+        "short_description": "Luxury pods set back in the trees with stunning views over the water.",
+        "latitude": 57.30,
+        "longitude": -4.45,
+        "area_id": "north-shore",
+        "stay_types": [
+            "glamping-pod"
+        ],
+        "facility_tags": [
+            "family-friendly",
+            "electric-hookups",
+            "showers",
+            "drying-room"
+        ],
+        "min_night_stay": 2,
+        "typical_price_band": "premium",
+        "has_drying_room": true,
+        "damp_notes": "We offer a heated drying room for hikers and cyclists.",
+        "distance_to_loch_m": 800,
+        "open_months": [
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October"
+        ],
+        "external_booking_url": "https://example.com/forest-edge",
+        "photos": [
+            "/images/glamping-pod-1.png"
+        ],
+        "last_verified_at": "2024-05-15"
+    }
+]
