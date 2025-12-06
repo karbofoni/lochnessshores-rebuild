@@ -1,34 +1,39 @@
 import { NextResponse } from 'next/server';
+import OpenAI from 'openai';
+
+const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+});
 
 export async function POST(request: Request) {
     try {
         const body = await request.json();
         const { message } = body;
 
-        // Mock response for MVP - mimicking an LLM travel planner
-        // In a real implementation, this would call OpenAI/Anthropic
-        const mockResponse = `Based on your request "${message}", here is a suggested itinerary:
+        if (!process.env.OPENAI_API_KEY) {
+            return NextResponse.json({ error: "OpenAI API Key not configured" }, { status: 500 });
+        }
 
-**Day 1: Arrival & South Loch Ness**
-- Arrive at Inverness.
-- Drive down the B852 (South Loch Ness side).
-- Stop at Dores Inn for lunch.
-- Suggested Camp: **South Shore Lochside Camping** (Great views!).
+        const completion = await openai.chat.completions.create({
+            model: "gpt-4o-mini",
+            messages: [
+                {
+                    role: "system",
+                    content: "You are an expert travel guide for Loch Ness, Scotland. Create a structured 3-day itinerary based on the user's request. Include suggested campsites from the local area (South Shore, North Shore, Foyers, Dores). Format the output with Markdown: use ## for Days and - for bullet points. suggestive and independent."
+                },
+                {
+                    role: "user",
+                    content: message || "Plan a 3-day trip to Loch Ness for a family."
+                },
+            ],
+            max_tokens: 500,
+        });
 
-**Day 2: Falls & Forest**
-- Visit **Foyers Falls** (short walk).
-- Hike the **Foyers Falls Forest Loop**.
-- Dinner at Foyers Stores and Waterfall Cafe.
-
-**Day 3: Return**
-- Drive back via the Great Glen Way stopping at Invermoriston.
-
-*Note: This is an AI-generated suggestion. Please check local opening times.*`;
-
-        return NextResponse.json({ reply: mockResponse });
+        return NextResponse.json({ reply: completion.choices[0].message.content });
     } catch (error) {
+        console.error("OpenAI Error:", error);
         return NextResponse.json(
-            { error: 'Failed to process request' },
+            { error: 'Failed to generate itinerary. Please try again.' },
             { status: 500 }
         );
     }

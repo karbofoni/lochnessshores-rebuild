@@ -1,74 +1,352 @@
 [
-    {
-        "id": "south-shore-lochside",
-        "slug": "south-shore-lochside-camping",
-        "display_name": "South Shore Lochside Camping",
-        "short_description": "Peaceful camping right on the banks of Loch Ness, perfect for kayakers and quiet campers.",
-        "latitude": 57.25,
-        "longitude": -4.55,
-        "area_id": "south-shore",
-        "stay_types": [
-            "lochside-campsite",
-            "campervan-pitch"
-        ],
-        "facility_tags": [
-            "dog-friendly",
-            "no-electric",
-            "fires-permitted"
-        ],
-        "min_night_stay": 1,
-        "typical_price_band": "budget",
-        "distance_to_loch_m": 50,
-        "open_months": [
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September"
-        ],
-        "external_booking_url": "https://example.com/south-shore",
-        "photos": [
-            "/images/lochside-camp-1.png"
-        ],
-        "last_verified_at": "2024-05-01"
-    },
-    {
-        "id": "forest-edge-glamping",
-        "slug": "forest-edge-glamping",
-        "display_name": "Forest Edge Glamping",
-        "short_description": "Luxury pods set back in the trees with stunning views over the water.",
-        "latitude": 57.30,
-        "longitude": -4.45,
-        "area_id": "north-shore",
-        "stay_types": [
-            "glamping-pod"
-        ],
-        "facility_tags": [
-            "family-friendly",
-            "electric-hookups",
-            "showers",
-            "drying-room"
-        ],
-        "min_night_stay": 2,
-        "typical_price_band": "premium",
-        "has_drying_room": true,
-        "damp_notes": "We offer a heated drying room for hikers and cyclists.",
-        "distance_to_loch_m": 800,
-        "open_months": [
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September",
-            "October"
-        ],
-        "external_booking_url": "https://example.com/forest-edge",
-        "photos": [
-            "/images/glamping-pod-1.png"
-        ],
-        "last_verified_at": "2024-05-15"
-    }
+  {
+    "id": "loch-ness-bay-camping",
+    "slug": "loch-ness-bay-camping",
+    "display_name": "Loch Ness Bay Camping",
+    "short_description": "Nestled beside the mesmerizing Loch Ness, this campsite offers a perfect blend of comfort and adventure. With a variety of amenities including cabins, picnic tables, and easy access to walking trails, you're invited to create unforgettable memories in nature.",
+    "latitude": 57.3285836,
+    "longitude": -4.4671651,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.borlum.co.uk/Camping/Campsite.html",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "abriachan-eco-campsite-cafe",
+    "slug": "abriachan-eco-campsite-cafe",
+    "display_name": "Abriachan Eco-Campsite & Cafe",
+    "short_description": "Nestled in the heart of nature, Abriachan Eco-Campsite & Cafe invites you to unwind among scenic landscapes. Enjoy the tranquility of tent camping while savoring delicious meals at our cozy café.",
+    "latitude": 57.3957221,
+    "longitude": -4.4190976,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.abriachancampsite.com",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "leitirfearn-trailblazer-rest",
+    "slug": "leitirfearn-trailblazer-rest",
+    "display_name": "Leitirfearn Trailblazer Rest",
+    "short_description": "Escape to the serenity of Leitirfearn Trailblazer Rest, where nature beckons and tranquility awaits. Enjoy a backcountry retreat perfect for tent camping under a canopy of stars.",
+    "latitude": 57.0731252,
+    "longitude": -4.7621996,
+    "area_id": "south-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.google.com/search?q=Leitirfearn+Trailblazer+Rest",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "kytra-lock",
+    "slug": "kytra-lock",
+    "display_name": "Kytra Lock",
+    "short_description": "Nestled along the picturesque Great Glen Way, Kytra Lock offers an intimate retreat for up to 6 adventurous souls. Enjoy the tranquility of this informal campsite, perfect for a weekend of relaxation among nature's beauty.",
+    "latitude": 57.1219152,
+    "longitude": -4.7228071,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [
+      "drinking_water",
+      "wheelchair"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.google.com/search?q=kytra+lock+campsite",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "forest-glen-holiday-park",
+    "slug": "forest-glen-holiday-park",
+    "display_name": "Forest Glen Holiday Park",
+    "short_description": "Nestled amidst the stunning landscapes of Invermoriston, Forest Glen Holiday Park offers a tranquil retreat for travelers seeking comfort and adventure. Enjoy cozy cabins, a welcoming atmosphere, and convenient access for all customers wishing to explore this beautiful region.",
+    "latitude": 57.212975,
+    "longitude": -4.6198657,
+    "area_id": "north-shore",
+    "stay_types": [
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.forestglen.co.uk/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "bunchrew-caravan-park",
+    "slug": "bunchrew-caravan-park",
+    "display_name": "Bunchrew Caravan Park",
+    "short_description": "Nestled in the scenic surroundings of Bunchrew, this campsite offers a welcoming retreat for nature lovers and adventure seekers alike. With facilities for tents, caravans, and motorhomes, enjoy modern comforts like showers and laundry while being close to stunning landscapes.",
+    "latitude": 57.4823065,
+    "longitude": -4.306197,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "washing_machine"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://bunchrew-caravanpark.co.uk/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "bught-caravan-campsite",
+    "slug": "bught-caravan-campsite",
+    "display_name": "Bught Caravan & Campsite",
+    "short_description": "Nestled in the heart of nature, Bught Caravan & Campsite offers a delightful retreat for both tents and caravans. Enjoy the convenience of modern facilities like showers and toilets while immersing yourself in the great outdoors.",
+    "latitude": 57.4650303,
+    "longitude": -4.2388019,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "http://www.invernesscaravanpark.com/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "loch-ness-shores",
+    "slug": "loch-ness-shores",
+    "display_name": "Loch Ness Shores",
+    "short_description": "Nestled on the picturesque shores of Loch Ness, this campsite is a perfect getaway for nature lovers and adventure seekers alike. With stunning views and plenty of activities nearby, you'll find tranquility and excitement all in one place.",
+    "latitude": 57.2548229,
+    "longitude": -4.5005193,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets",
+      "dog"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/inverness/lowerfoyers/lochnessshores",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "loch-ness-glamping",
+    "slug": "loch-ness-glamping",
+    "display_name": "Loch Ness Glamping",
+    "short_description": "Experience the tranquility of nature at Loch Ness Glamping, nestled beside the scenic loch. Enjoy luxurious glamping accommodations and the beauty of the highlands, making your stay unforgettable.",
+    "latitude": 57.3396015,
+    "longitude": -4.5352145,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.lochnessglamping.co.uk/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "inver-coille",
+    "slug": "inver-coille",
+    "display_name": "Inver Coille",
+    "short_description": "Nestled in lush, grassy landscapes, Inver Coille invites you to embrace nature while camping under the stars. With facilities for tents and a fee for a delightful outdoor experience, this site is perfect for adventure seekers and relaxation lovers alike.",
+    "latitude": 57.1896901,
+    "longitude": -4.6202561,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite"
+    ],
+    "facility_tags": [],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.google.com/search?q=Inver+Coille+campsite+booking",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  },
+  {
+    "id": "cannich-woodland-camping-and-caravan-park",
+    "slug": "cannich-woodland-camping-and-caravan-park",
+    "display_name": "Cannich Woodland Camping and Caravan Park",
+    "short_description": "Nestled in the lush landscapes of the Scottish Highlands, Cannich Woodland Camping and Caravan Park offers a sanctuary for nature lovers. Enjoy the serene surroundings as you set up your tent or caravan, with modern facilities ensuring a comfortable stay.",
+    "latitude": 57.3439437,
+    "longitude": -4.7590119,
+    "area_id": "north-shore",
+    "stay_types": [
+      "lochside-campsite",
+      "campervan-pitch"
+    ],
+    "facility_tags": [
+      "shower",
+      "toilets"
+    ],
+    "min_night_stay": 1,
+    "typical_price_band": "midrange",
+    "distance_to_loch_m": 500,
+    "open_months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "external_booking_url": "https://www.highlandcamping.co.uk/",
+    "photos": [
+      "/images/lochside-camp-1.png"
+    ]
+  }
 ]
