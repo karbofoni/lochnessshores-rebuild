@@ -34,8 +34,8 @@ def generate_image(name, lat, lng, area_path, slug):
     max_retries = 3
     for attempt in range(max_retries):
         try:
-            # Using Preview model as last resort
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-preview-06-06:predict?key={API_KEY}"
+            # Using Ultra model to test separate quota
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-ultra-generate-001:predict?key={API_KEY}"
             headers = {'Content-Type': 'application/json'}
             data = {
                 "instances": [

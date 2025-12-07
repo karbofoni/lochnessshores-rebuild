@@ -5486,7 +5486,7 @@
     ],
     "external_booking_url": "http://keltiebridge.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=800&h=600&fit=crop"
+      "/images/generated/campsite_keltie_bridge.png"
     ],
     "address": "",
     "phone": null,
@@ -5521,7 +5521,7 @@
     ],
     "external_booking_url": "https://www.kieldercampsite.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1496545672447-f699b503d270?w=800&h=600&fit=crop"
+      "/images/generated/campsite_kielder_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -5591,7 +5591,7 @@
     ],
     "external_booking_url": "https://www.killhope.org.uk/things-to-do/yurts/",
     "photos": [
-      "https://images.unsplash.com/photo-1596395463273-7fc4db20ebe9?w=800&h=600&fit=crop"
+      "/images/generated/campsite_killhope_lead_mining_museum_yurts.png"
     ],
     "address": "",
     "phone": null,
@@ -5626,7 +5626,7 @@
     ],
     "external_booking_url": "https://forestryandland.gov.scot/visit/forest-parks/tay-forest-park/kilvrecht-campsite",
     "photos": [
-      "https://images.unsplash.com/photo-1475483768296-6163e08872a1?w=800&h=600&fit=crop"
+      "/images/generated/campsite_kilvrecht_caravan_camping.png"
     ],
     "address": "",
     "phone": null,
