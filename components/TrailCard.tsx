@@ -55,5 +55,6 @@ export function TrailCard({ trail }: TrailCardProps) {
                     </Link>
                 </div>
             </div>
-            );
+        </div>
+    );
 }
