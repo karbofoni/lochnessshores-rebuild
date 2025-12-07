@@ -4,6 +4,8 @@ import { getTrailBySlug, getCampsites, getTrails } from "@/lib/data";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { CampsiteCard } from "@/components/CampsiteCard";
 import { MapPin, Activity, Mountain, ArrowLeft } from "lucide-react";
+import TrailMapWrapper from "@/components/TrailMapWrapper";
+import { calculateHaversineDistance } from "@/lib/utils";
 
 export async function generateStaticParams() {
     const trails = getTrails();
@@ -31,15 +33,30 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
         notFound();
     }
 
-    const nearbyCampsites = getCampsites().filter(c => c.area_id === trail.area_id);
+    // Filter nearby campsites by real distance (within 10 miles)
+    const allCampsites = getCampsites();
+    const nearbyCampsites = allCampsites
+        .map(site => {
+            const distance = calculateHaversineDistance(
+                trail.start_point_lat,
+                trail.start_point_lng,
+                site.latitude,
+                site.longitude
+            );
+            return { ...site, distanceMiles: distance };
+        })
+        .filter(site => site.distanceMiles <= 10)
+        .sort((a, b) => a.distanceMiles - b.distanceMiles);
 
     return (
         <div className="container mx-auto px-4 py-8">
             <div className="max-w-4xl mx-auto">
+                {/* Back Link */}
                 <Link href="/trails" className="text-sm text-slate-500 hover:text-brand-green mb-4 inline-flex items-center">
                     <ArrowLeft className="h-4 w-4 mr-1" /> Back to trails
                 </Link>
 
+                {/* Header Section */}
                 <div className="mb-8">
                     <span className="bg-slate-100 text-slate-700 text-sm font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wide">
                         {trail.type}
@@ -47,26 +64,22 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
                     <h1 className="text-4xl font-bold text-slate-900 mb-2">{trail.name}</h1>
                     <div className="flex flex-wrap gap-4 text-slate-600 text-sm font-medium">
                         <span className="flex items-center"><MapPin className="h-4 w-4 mr-1" /> {trail.area_id}</span>
-                        <span className="flex items-center"><Activity className="h-4 w-4 mr-1" /> {trail.distance_km} km</span>
+                        <span className="flex items-center"><Activity className="h-4 w-4 mr-1" /> {trail.distance_miles} miles</span>
                         <span className="flex items-center"><Mountain className="h-4 w-4 mr-1" /> {trail.difficulty}</span>
                     </div>
                 </div>
 
-                <div className="h-[400px] w-full rounded-xl overflow-hidden shadow-sm border border-slate-100 mb-8 relative">
-                    {trail.photos[0] ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
-                            src={trail.photos[0]}
-                            alt={trail.name}
-                            className="w-full h-full object-cover"
-                        />
-                    ) : (
-                        <div className="w-full h-full bg-slate-200 flex items-center justify-center">
-                            <Mountain className="h-16 w-16 text-slate-400" />
-                        </div>
-                    )}
+                {/* Map Section */}
+                <div className="rounded-xl overflow-hidden shadow-sm border border-slate-100 mb-8 relative">
+                    <TrailMapWrapper
+                        startLat={trail.start_point_lat}
+                        startLng={trail.start_point_lng}
+                        geometry={trail.geometry || []}
+                        name={trail.name}
+                    />
                 </div>
 
+                {/* Content Section */}
                 <div className="bg-white rounded-xl p-8 shadow-sm border border-slate-100 mb-8">
                     <h2 className="text-xl font-bold mb-4">Route Description</h2>
                     <p className="text-slate-700 leading-relaxed mb-6">
@@ -92,41 +105,18 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
                     )}
                 </div>
 
-                {/* Trail Location Map */}
-                <div className="mb-8">
-                    <h2 className="text-xl font-bold mb-4">Trail Location</h2>
-                    <div className="rounded-xl overflow-hidden border border-slate-200 shadow-sm">
-                        <iframe
-                            title={`Map showing ${trail.name}`}
-                            width="100%"
-                            height="350"
-                            src={`https://www.openstreetmap.org/export/embed.html?bbox=${trail.start_point_lng - 0.03}%2C${trail.start_point_lat - 0.02}%2C${trail.start_point_lng + 0.03}%2C${trail.start_point_lat + 0.02}&layer=mapnik&marker=${trail.start_point_lat}%2C${trail.start_point_lng}`}
-                            style={{ border: 0 }}
-                            loading="lazy"
-                            className="bg-slate-100"
-                        />
-                        <div className="bg-slate-50 px-4 py-3 flex justify-between items-center">
-                            <span className="text-sm text-slate-600">
-                                📍 Start point: {trail.start_point_lat.toFixed(4)}°N, {Math.abs(trail.start_point_lng).toFixed(4)}°W
-                            </span>
-                            <a
-                                href={`https://www.openstreetmap.org/?mlat=${trail.start_point_lat}&mlon=${trail.start_point_lng}#map=14/${trail.start_point_lat}/${trail.start_point_lng}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-sm text-brand-green hover:underline font-medium"
-                            >
-                                Open in OpenStreetMap →
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+                {/* Nearby Campsites Section */}
                 {nearbyCampsites.length > 0 && (
                     <div className="mb-12">
-                        <h2 className="text-2xl font-bold mb-6">Where to stay nearby</h2>
+                        <h2 className="text-2xl font-bold mb-6">Where to stay nearby <span className="text-base font-normal text-slate-500">(within 10 miles)</span></h2>
                         <div className="grid md:grid-cols-2 gap-6">
                             {nearbyCampsites.map(site => (
-                                <CampsiteCard key={site.id} campsite={site} />
+                                <div key={site.id} className="relative">
+                                    <CampsiteCard campsite={site} />
+                                    <div className="absolute top-3 right-3 bg-white/90 px-2 py-1 rounded text-xs font-bold text-slate-600 shadow-sm border border-slate-200">
+                                        {site.distanceMiles.toFixed(1)} miles away
+                                    </div>
+                                </div>
                             ))}
                         </div>
                     </div>

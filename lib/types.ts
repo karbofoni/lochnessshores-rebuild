@@ -17,9 +17,9 @@ export interface Campsite {
     last_verified_at?: string;
     has_drying_room?: boolean;
     damp_notes?: string;
-    address?: string; // New
-    phone?: string;   // New
-    email?: string;   // New
+    address?: string;
+    phone?: string;
+    email?: string;
 }
 
 export interface Trail {
@@ -27,16 +27,20 @@ export interface Trail {
     slug: string;
     name: string;
     distance_km: number;
-    difficulty: 'Easy' | 'Moderate' | 'Desperate';
+    distance_miles: number;
+    difficulty: 'Easy' | 'Moderate' | 'Hard' | 'Desperate';
     area_id: string;
     description: string;
-    summary?: string; // Add optional summary
-    highlights?: string[]; // Add optional highlights
-    notes?: string;   // Add optional notes
+    summary: string;
+    highlights: string[];
+    notes?: string;
     start_point_lat: number;
     start_point_lng: number;
     nearby_campsite_ids: string[];
-    type?: string;
+    type: 'hiking';
+    photos: string[];
+    video?: string;
+    geometry?: [number, number][];
 }
 
 export interface Extra {
@@ -44,10 +48,10 @@ export interface Extra {
     slug: string;
     name: string;
     type: string; // 'pub', 'shop', 'activity'
-    category?: string; // Add optional category
+    category?: string;
     area_id: string;
     description: string;
-    summary?: string; // Add optional summary
+    summary?: string;
     latitude?: number;
     longitude?: number;
     website_url?: string;

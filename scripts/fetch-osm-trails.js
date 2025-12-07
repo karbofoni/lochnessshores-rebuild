@@ -12,13 +12,12 @@ const OVERPASS_API = 'https://overpass-api.de/api/interpreter';
 // Query for UK hiking trails/routes with useful data
 const OVERPASS_QUERY = `
 [out:json][timeout:300];
-area["ISO3166-1"="GB"]->.uk;
 (
-  relation["route"="hiking"](area.uk);
-  relation["route"="foot"](area.uk);
-  way["highway"="path"]["name"](area.uk);
+  relation["route"="hiking"](around:50000, 57.3, -4.5);
+  relation["route"="foot"](around:50000, 57.3, -4.5);
+  way["highway"="path"]["name"](around:50000, 57.3, -4.5);
 );
-out center tags;
+out geom tags;
 `;
 
 async function fetchTrails() {
@@ -65,10 +64,48 @@ function hashCode(str) {
     return hash;
 }
 
+function calculateDistance(points) {
+    if (!points || points.length < 2) return 0;
+
+    const R = 6371; // Earth radius in km
+    let totalDist = 0;
+
+    for (let i = 0; i < points.length - 1; i++) {
+        const lat1 = points[i].lat * Math.PI / 180;
+        const lon1 = points[i].lon * Math.PI / 180;
+        const lat2 = points[i + 1].lat * Math.PI / 180;
+        const lon2 = points[i + 1].lon * Math.PI / 180;
+
+        const dLat = lat2 - lat1;
+        const dLon = lon2 - lon1;
+
+        const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1) * Math.cos(lat2) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        totalDist += R * c;
+    }
+    return totalDist;
+}
+
 function transformToSchema(osmElement, index) {
     const tags = osmElement.tags || {};
-    const lat = osmElement.lat || osmElement.center?.lat;
-    const lon = osmElement.lon || osmElement.center?.lon;
+
+    // Get geometry points
+    let points = [];
+    if (osmElement.type === 'way' && osmElement.geometry) {
+        points = osmElement.geometry;
+    } else if (osmElement.members) {
+        // Simple handling for relations and other types
+        osmElement.members.forEach(m => {
+            if (m.geometry) points.push(...m.geometry);
+        });
+    }
+
+    // Determine center/start
+    const lat = osmElement.lat || osmElement.center?.lat || (points.length > 0 ? points[0].lat : 57.3);
+    const lon = osmElement.lon || osmElement.center?.lon || (points.length > 0 ? points[0].lon : -4.5);
 
     const name = tags.name || `Trail ${osmElement.id}`;
     const slug = name.toLowerCase()
@@ -84,15 +121,27 @@ function transformToSchema(osmElement, index) {
     }
     if (tags.trail_visibility === 'excellent') difficulty = 'easy';
 
-    // Extract distance
-    let distanceKm = 5; // Default
+    // Calculate real distance
+    let distanceKm = 0;
     if (tags.distance) {
         const match = tags.distance.match(/(\d+\.?\d*)/);
         if (match) distanceKm = parseFloat(match[1]);
     }
 
+    // If no tag, calculate from geometry
+    if (!distanceKm && points.length > 1) {
+        distanceKm = calculateDistance(points);
+    }
+    if (!distanceKm) distanceKm = 5; // Fallback
+
+    // Convert to miles
+    const distanceMiles = parseFloat((distanceKm * 0.621371).toFixed(1));
+
     const imageIndex = Math.abs(hashCode(`trail-${osmElement.id}`)) % TRAIL_IMAGES.length;
     const areaIndex = Math.abs(hashCode(`area-${osmElement.id}`)) % AREAS.length;
+
+    // Simplify geometry for frontend (array of [lat, lon])
+    const geometry = points.map(p => [p.lat, p.lon]);
 
     return {
         id: `osm-trail-${osmElement.id}`,
@@ -101,14 +150,16 @@ function transformToSchema(osmElement, index) {
         summary: tags.description || `${name} is a scenic trail offering beautiful views. Check local conditions before heading out.`,
         area_id: AREAS[areaIndex],
         difficulty: difficulty,
-        distance_km: distanceKm,
-        duration_hours: Math.round(distanceKm / 4 * 10) / 10, // Approx 4km/hr
+        distance_km: parseFloat(distanceKm.toFixed(1)),
+        distance_miles: distanceMiles, // New field
+        duration_hours: Math.round(distanceKm / 4 * 10) / 10,
         elevation_gain_m: parseInt(tags.ascent) || Math.round(distanceKm * 30),
-        latitude: lat || 57.3,
-        longitude: lon || -4.5,
+        latitude: lat,
+        longitude: lon,
         photos: [TRAIL_IMAGES[imageIndex]],
         gpx_url: null,
-        external_url: tags.website || tags.url || null
+        external_url: tags.website || tags.url || null,
+        geometry: geometry // New field
     };
 }
 

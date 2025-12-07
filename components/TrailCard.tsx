@@ -36,7 +36,7 @@ export function TrailCard({ trail }: TrailCardProps) {
                         </h3>
                     </div>
                     <div className="text-right">
-                        <span className="block font-bold text-slate-900">{trail.distance_km}km</span>
+                        <span className="block font-bold text-slate-900">{trail.distance_miles} miles</span>
                         <span className="text-xs text-slate-500 capitalize">{trail.difficulty}</span>
                     </div>
                 </div>
