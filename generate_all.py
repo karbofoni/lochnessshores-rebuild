@@ -1,0 +1,82 @@
+
+import requests
+import base64
+import json
+import time
+from pathlib import Path
+import os
+
+API_KEY = "AIzaSyCC-2Sh1Jh6ir5MZQfdL1dQ9rNn3iFHE3Y"
+OUTPUT_DIR = Path("d:/im/Firma/MV/lochnessshores.com2/public/images/generated")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+def generate_image(name, lat, lng, area_path, slug):
+    filename = f"{area_path}_{slug.replace('-', '_')}.png"
+    filepath = OUTPUT_DIR / filename
+    
+    if filepath.exists():
+        print(f"Skipping {slug} (already exists)")
+        return
+
+    print(f"Generating image for: {name} ({slug})")
+    
+    prompt = f"A scenic view of {name} at latitude {lat}, longitude {lng}, nature, photorealistic, beautiful view."
+    # Customize prompt based on type (campsite vs trail) if needed, but generic is fine for now.
+
+    try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key={API_KEY}"
+        headers = {'Content-Type': 'application/json'}
+        data = {
+            "instances": [
+                {"prompt": prompt}
+            ],
+            "parameters": {
+                "sampleCount": 1,
+                "aspectRatio": "4:3"
+            }
+        }
+        
+        response = requests.post(url, headers=headers, json=data)
+        
+        if response.status_code == 200:
+            result = response.json()
+            if 'predictions' in result and len(result['predictions']) > 0:
+                b64_data = result['predictions'][0].get('bytesBase64Encoded')
+                if not b64_data and isinstance(result['predictions'][0], str):
+                    b64_data = result['predictions'][0]
+                elif isinstance(result['predictions'][0], dict):
+                     b64_data = result['predictions'][0].get('bytesBase64Encoded')
+                
+                if b64_data:
+                    img_data = base64.b64decode(b64_data)
+                    with open(filepath, 'wb') as f:
+                        f.write(img_data)
+                    print(f"Saved to {filepath}")
+                else:
+                    print(f"Unexpected response format: {result}")
+            else:
+                 print(f"No predictions in response: {result}")
+        else:
+            print(f"Error {response.status_code}: {response.text}")
+
+    except Exception as e:
+        print(f"Error generating {slug}: {e}")
+    
+    time.sleep(4)
+
+def main():
+    with open('all_remaining.json', 'r') as f:
+        data = json.load(f)
+
+    # Campsites
+    print(f"Processing {len(data['campsites'])} campsites...")
+    for c in data['campsites']:
+        generate_image(c['name'], c['lat'], c['lng'], "campsite", c['slug'])
+
+    # Trails
+    print(f"Processing {len(data['trails'])} trails...")
+    for t in data['trails']:
+        generate_image(t['name'], t['lat'], t['lng'], "trail", t['slug'])
+
+if __name__ == '__main__':
+    main()

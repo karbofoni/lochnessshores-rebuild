@@ -829,7 +829,7 @@
     ],
     "external_booking_url": "https://www.barnshighland.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1578687879057-3dac12c1f7f6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_barrow_campsite.png"
     ],
     "address": "",
     "phone": "+44 7494 532380",
@@ -865,7 +865,7 @@
     ],
     "external_booking_url": "https://www.bayviewcampsite.co.uk",
     "photos": [
-      "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bayview_campsite.png"
     ],
     "address": "",
     "phone": "+44 7849609339",
@@ -900,7 +900,7 @@
     ],
     "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/northumberland/chathill/beadnell-bay-camping-and-caravanning-club-site/",
     "photos": [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop"
+      "/images/generated/campsite_beadnell_bay.png"
     ],
     "address": "",
     "phone": null,
@@ -937,7 +937,7 @@
     ],
     "external_booking_url": "http://www.beinglascampsite.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1449791842668-9edf8a20e863?w=800&h=600&fit=crop"
+      "/images/generated/campsite_beinglas_farm.png"
     ],
     "address": "",
     "phone": null,
@@ -971,7 +971,7 @@
     ],
     "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/northumberland/hexham/bellingham",
     "photos": [
-      "https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bellingham_camping_caravaning_club_site.png"
     ],
     "address": "",
     "phone": "+44 1434 220175",
@@ -1005,7 +1005,7 @@
     ],
     "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/county-durham/darlington/bevanstead/",
     "photos": [
-      "https://images.unsplash.com/photo-1439853949127-fa647f41727c?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bevanstead_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -1040,7 +1040,7 @@
     ],
     "external_booking_url": "https://blackrockcaravanandcampingpark.co.uk",
     "photos": [
-      "https://images.unsplash.com/photo-1578687879057-3dac12c1f7f6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_black_rock_holiday_park.png"
     ],
     "address": "Balconie Street",
     "phone": null,
@@ -1074,7 +1074,7 @@
     ],
     "external_booking_url": "https://www.blackwaterhostel.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?w=800&h=600&fit=crop"
+      "/images/generated/campsite_blackwater_campsite.png"
     ],
     "address": "Lab Road",
     "phone": null,
@@ -1110,7 +1110,7 @@
     ],
     "external_booking_url": "http://www.blaircastlecaravanpark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=600&fit=crop"
+      "/images/generated/campsite_blair_castle_caravan_park.png"
     ],
     "address": "",
     "phone": null,
@@ -1145,7 +1145,7 @@
     ],
     "external_booking_url": "https://www.blairdrummondcaravanpark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1496545672447-f699b503d270?w=800&h=600&fit=crop"
+      "/images/generated/campsite_blair_drummond_caravan_park.png"
     ],
     "address": "",
     "phone": null,
@@ -1179,7 +1179,7 @@
     ],
     "external_booking_url": "https://sesscouts.org.uk/our-centres/bonaly/",
     "photos": [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bonaly_scout_centre.png"
     ],
     "address": "Bonaly Road",
     "phone": "+44 131 441 1878",
@@ -1213,7 +1213,7 @@
     ],
     "external_booking_url": "https://www.midlothianscouts.org.uk/borthwick/",
     "photos": [
-      "https://images.unsplash.com/photo-1507034589631-9433cc6bc453?w=800&h=600&fit=crop"
+      "/images/generated/campsite_borthwick.png"
     ],
     "address": "",
     "phone": "+44 7771 733086",
@@ -1247,7 +1247,7 @@
     ],
     "external_booking_url": "https://www.barracamping.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800&h=600&fit=crop"
+      "/images/generated/campsite_borve_camping_and_caravan_site.png"
     ],
     "address": "",
     "phone": "+44 1871 810878",
@@ -1281,7 +1281,7 @@
     ],
     "external_booking_url": "https://www.bothagbhuirgh.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bothag_bhuirgh_camping_and_pods.png"
     ],
     "address": "",
     "phone": "+44 1851850436",
@@ -1318,7 +1318,7 @@
     ],
     "external_booking_url": "https://www.brighousebayholidaypark.co.uk",
     "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
+      "/images/generated/campsite_brighouse_bay_hol_park_aa.png"
     ],
     "address": "",
     "phone": null,
@@ -1353,7 +1353,7 @@
     ],
     "external_booking_url": "http://broomfieldhp.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      "/images/generated/campsite_broomfield_holiday_park.png"
     ],
     "address": "",
     "phone": "+441854612020",
@@ -1387,7 +1387,7 @@
     ],
     "external_booking_url": "https://www.broomhillsfarmpods.co.uk",
     "photos": [
-      "https://images.unsplash.com/photo-1492648272180-61e45a8d98a7?w=800&h=600&fit=crop"
+      "/images/generated/campsite_broomhills_farm_river_eco_pods.png"
     ],
     "address": "",
     "phone": null,
@@ -1421,7 +1421,7 @@
     ],
     "external_booking_url": "https://budlebaycampsite.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_budle_bay_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -1457,7 +1457,7 @@
     ],
     "external_booking_url": "http://www.invernesscaravanpark.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bught_caravan_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -1494,7 +1494,7 @@
     ],
     "external_booking_url": "https://bunchrew-caravanpark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1475483768296-6163e08872a1?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bunchrew_caravan_park.png"
     ],
     "address": "",
     "phone": "+44 1463 237802",
@@ -1529,7 +1529,7 @@
     ],
     "external_booking_url": "https://de.bunroypark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1563299796-17596ed6b017?w=800&h=600&fit=crop"
+      "/images/generated/campsite_bunroy_caravan_camping_park.png"
     ],
     "address": "",
     "phone": null,
@@ -1564,7 +1564,7 @@
     ],
     "external_booking_url": "https://www.burns-farm.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=600&fit=crop"
+      "/images/generated/campsite_burns_farm_caravan_site.png"
     ],
     "address": "",
     "phone": null,
@@ -1601,7 +1601,7 @@
     ],
     "external_booking_url": "https://tyndrumbytheway.com",
     "photos": [
-      "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?w=800&h=600&fit=crop"
+      "/images/generated/campsite_by_the_way.png"
     ],
     "address": "",
     "phone": null,
@@ -1635,7 +1635,7 @@
     ],
     "external_booking_url": "https://cairnryanheightsholidaypark.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1507034589631-9433cc6bc453?w=800&h=600&fit=crop"
+      "/images/generated/campsite_cairnryan_heights_holiday_park.png"
     ],
     "address": "Cairnryan Road",
     "phone": null,
@@ -1671,7 +1671,7 @@
     ],
     "external_booking_url": "https://www.caldbeckcamping.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=600&fit=crop"
+      "/images/generated/campsite_caldbeck_camping.png"
     ],
     "address": "",
     "phone": null,
@@ -1705,7 +1705,7 @@
     ],
     "external_booking_url": "https://campingatbanks.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&h=600&fit=crop"
+      "/images/generated/campsite_camping_at_banks.png"
     ],
     "address": "",
     "phone": "+44 7838 225108",
@@ -1739,7 +1739,7 @@
     ],
     "external_booking_url": "https://www.campingatcardewlees.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=800&h=600&fit=crop"
+      "/images/generated/campsite_camping_at_cardewlees.png"
     ],
     "address": "Cardewlees farm",
     "phone": "+44 7958 195852",
@@ -1776,7 +1776,7 @@
     ],
     "external_booking_url": "https://campingskye.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      "/images/generated/campsite_camping_skye.png"
     ],
     "address": "Pairc nan Craobh",
     "phone": "+44 1471 550420",
@@ -1810,7 +1810,7 @@
     ],
     "external_booking_url": "https://flodigarry-hostel.scot/index.html",
     "photos": [
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop"
+      "/images/generated/campsite_campsite_1174253345.png"
     ],
     "address": "",
     "phone": null,
@@ -1844,7 +1844,7 @@
     ],
     "external_booking_url": "https://www.southuisthostel.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop"
+      "/images/generated/campsite_campsite_1311897158.png"
     ],
     "address": "",
     "phone": null,
@@ -1881,7 +1881,7 @@
     ],
     "external_booking_url": "https://www.tonguehostelandholidaypark.co.uk/facilities-for-tongue-caravan-camping/",
     "photos": [
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&h=600&fit=crop"
+      "/images/generated/campsite_campsite_7322708538.png"
     ],
     "address": "",
     "phone": "+44 1847 611789",
@@ -1915,7 +1915,7 @@
     ],
     "external_booking_url": "https://www.durham-arc.org.uk/cl-site/",
     "photos": [
-      "https://images.unsplash.com/photo-1578687879057-3dac12c1f7f6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_campsite_849599752.png"
     ],
     "address": "",
     "phone": null,
@@ -1949,7 +1949,7 @@
     ],
     "external_booking_url": "https://www.inveroran.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1527786356703-4b100091cd2c?w=800&h=600&fit=crop"
+      "/images/generated/campsite_campsite_9773480116.png"
     ],
     "address": "",
     "phone": null,
@@ -1983,7 +1983,7 @@
     ],
     "external_booking_url": "https://www.inveroran.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1596395463273-7fc4db20ebe9?w=800&h=600&fit=crop"
+      "/images/generated/campsite_campsite_9773482585.png"
     ],
     "address": "",
     "phone": null,
@@ -2019,7 +2019,7 @@
     ],
     "external_booking_url": "https://www.scottishcampingguide.com/link.php?n=698&c=9",
     "photos": [
-      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&h=600&fit=crop"
+      "/images/generated/campsite_camus_more_camping.png"
     ],
     "address": "Camasmore Road",
     "phone": "+44 1470 552312",
@@ -2053,7 +2053,7 @@
     ],
     "external_booking_url": "https://www.camusdarach.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1449791842668-9edf8a20e863?w=800&h=600&fit=crop"
+      "/images/generated/campsite_camusdarach_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -2087,7 +2087,7 @@
     ],
     "external_booking_url": "https://www.cannacampsite.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1534880606858-29b0e8a24e8d?w=800&h=600&fit=crop"
+      "/images/generated/campsite_canna_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -2122,7 +2122,7 @@
     ],
     "external_booking_url": "https://www.highlandcamping.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1527786356703-4b100091cd2c?w=800&h=600&fit=crop"
+      "/images/generated/campsite_cannich_woodland_camping_and_caravan_park.png"
     ],
     "address": "",
     "phone": "+44 1456 415364",
@@ -2157,7 +2157,7 @@
     ],
     "external_booking_url": "https://www.kinlochlevencaravans.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1496545672447-f699b503d270?w=800&h=600&fit=crop"
+      "/images/generated/campsite_caolasnacon_caravan_camping_park.png"
     ],
     "address": "",
     "phone": null,
@@ -2194,7 +2194,7 @@
     ],
     "external_booking_url": "http://camping.forestholidays.co.uk/camping_and_caravanning/our_sites__locations/scotland/cashel.aspx",
     "photos": [
-      "https://images.unsplash.com/photo-1475483768296-6163e08872a1?w=800&h=600&fit=crop"
+      "/images/generated/campsite_cashel_camping_caravan_park_forest_holidays.png"
     ],
     "address": "",
     "phone": null,
@@ -2229,7 +2229,7 @@
     ],
     "external_booking_url": "https://castlebayholidaypark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&h=600&fit=crop"
+      "/images/generated/campsite_castle_bay_holiday_residential_park.png"
     ],
     "address": "",
     "phone": "+44 1776 810462",
@@ -2263,7 +2263,7 @@
     ],
     "external_booking_url": "http://www.castlecary-caravans.com",
     "photos": [
-      "https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800&h=600&fit=crop"
+      "/images/generated/campsite_castle_cary_holiday_park.png"
     ],
     "address": "",
     "phone": null,
@@ -2298,7 +2298,7 @@
     ],
     "external_booking_url": "https://www.castlerigg.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1515789634223-aa8f6e12f04e?w=800&h=600&fit=crop"
+      "/images/generated/campsite_castlerigg_hall_caravan_camping_park.png"
     ],
     "address": "",
     "phone": "+44 17687 74499",
@@ -2332,7 +2332,7 @@
     ],
     "external_booking_url": "https://www.chapelhousefarmcampsite.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1510312305653-8ed496efae75?w=800&h=600&fit=crop"
+      "/images/generated/campsite_chapel_house_farm_campsite.png"
     ],
     "address": "",
     "phone": "+44 1768 777 256",
@@ -2366,7 +2366,7 @@
     ],
     "external_booking_url": "https://chapelhousefarmgilsland.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=800&h=600&fit=crop"
+      "/images/generated/campsite_chapel_house_farm_walkers_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -2400,7 +2400,7 @@
     ],
     "external_booking_url": "https://www.clachtollbeachcampsite.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1496545672447-f699b503d270?w=800&h=600&fit=crop"
+      "/images/generated/campsite_clachtoll_beach_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -2434,7 +2434,7 @@
     ],
     "external_booking_url": "https://clashwhannon.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&h=600&fit=crop"
+      "/images/generated/campsite_clashwhannon_holiday_park.png"
     ],
     "address": "",
     "phone": "+44 1776 840632",
@@ -2469,7 +2469,7 @@
     ],
     "external_booking_url": "http://www.coastandcastles.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800&h=600&fit=crop"
+      "/images/generated/campsite_coast_castles_camp_site.png"
     ],
     "address": "",
     "phone": null,
@@ -2479,7 +2479,7 @@
     "id": "osm-1295100753",
     "slug": "coilessan-camping-permit-area-march-september",
     "display_name": "Coilessan camping permit area March-September",
-    "short_description": "From national Park website, in June 2024: \"Camping Management Byelaws cover popular lochshore areas of the National Park from 1st March to 30th September every year.\n\nDuring this time if you want to camp in these Camping Management Zones, you will need",
+    "short_description": "From national Park website, in June 2024: \"Camping Management Byelaws cover popular lochshore areas of the National Park from 1st March to 30th\u00a0September every year.\n\nDuring this time if you want to camp in these Camping Management Zones, you will need",
     "latitude": 56.1753545,
     "longitude": -4.7934653,
     "area_id": "highlands",
@@ -2503,7 +2503,7 @@
     ],
     "external_booking_url": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/",
     "photos": [
-      "https://images.unsplash.com/photo-1507034589631-9433cc6bc453?w=800&h=600&fit=crop"
+      "/images/generated/campsite_coilessan_camping_permit_area_march_september.png"
     ],
     "address": "",
     "phone": null,
@@ -2538,7 +2538,7 @@
     ],
     "external_booking_url": "https://www.coldstreamholidaypark.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1526491109649-aa0f504a37fe?w=800&h=600&fit=crop"
+      "/images/generated/campsite_coldstream_holiday_park.png"
     ],
     "address": "",
     "phone": null,
@@ -2572,7 +2572,7 @@
     ],
     "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/county-durham/haswell/collieryfarm/",
     "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
+      "/images/generated/campsite_colliery_farm_campsite.png"
     ],
     "address": "Green Lane",
     "phone": "+44 7770 440 257",
@@ -2606,7 +2606,7 @@
     ],
     "external_booking_url": "https://www.comriecroft.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&h=600&fit=crop"
+      "/images/generated/campsite_comrie_croft.png"
     ],
     "address": "",
     "phone": null,
@@ -2642,7 +2642,7 @@
     ],
     "external_booking_url": "https://craighousecampsite.myfreesites.net/",
     "photos": [
-      "https://images.unsplash.com/photo-1596395463273-7fc4db20ebe9?w=800&h=600&fit=crop"
+      "/images/generated/campsite_craig_house_campsite.png"
     ],
     "address": "",
     "phone": "+44 28 2073 2955",
@@ -2677,7 +2677,7 @@
     ],
     "external_booking_url": "http://creebridgecaravanpark.co.uk",
     "photos": [
-      "https://images.unsplash.com/photo-1537225228614-56cc3556d7ed?w=800&h=600&fit=crop"
+      "/images/generated/campsite_creebridge_caravan_park.png"
     ],
     "address": "",
     "phone": "+441671402324",
@@ -2713,7 +2713,7 @@
     ],
     "external_booking_url": "https://creetown-caravan-park.business.site",
     "photos": [
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop"
+      "/images/generated/campsite_creetown_caravan_park.png"
     ],
     "address": "",
     "phone": null,
@@ -2747,7 +2747,7 @@
     ],
     "external_booking_url": "https://www.campingandcaravanningclub.co.uk/campsites/uk/county-durham/hartlepool/crimdonhousefarm/",
     "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
+      "/images/generated/campsite_crimdon_house_farm.png"
     ],
     "address": "",
     "phone": null,
@@ -2781,7 +2781,7 @@
     ],
     "external_booking_url": "http://www.croft183.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
+      "/images/generated/campsite_croft_183.png"
     ],
     "address": "",
     "phone": null,
@@ -2815,7 +2815,7 @@
     ],
     "external_booking_url": "https://www.crossdormont.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
+      "/images/generated/campsite_cross_dormont_camp_site.png"
     ],
     "address": "",
     "phone": "+44 17684 86537",
@@ -2849,7 +2849,7 @@
     ],
     "external_booking_url": "http://www.cruachanfarm.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_cruachan_farm_caravan_and_camping_park.png"
     ],
     "address": "",
     "phone": "+441567820302",
@@ -2883,7 +2883,7 @@
     ],
     "external_booking_url": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/",
     "photos": [
-      "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop"
+      "/images/generated/campsite_culag_beach_camping_permit_area_march_september.png"
     ],
     "address": "",
     "phone": null,
@@ -2917,7 +2917,7 @@
     ],
     "external_booking_url": "https://www.cullenbayholidaypark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=600&fit=crop"
+      "/images/generated/campsite_cullen_bay_caravan_park.png"
     ],
     "address": "",
     "phone": null,
@@ -2951,7 +2951,7 @@
     ],
     "external_booking_url": "https://www.dalkeithcountrypark.co.uk/stay/camping/",
     "photos": [
-      "https://images.unsplash.com/photo-1578687879057-3dac12c1f7f6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_dalkeith_country_park_camping.png"
     ],
     "address": "",
     "phone": null,
@@ -3020,7 +3020,7 @@
     ],
     "external_booking_url": "https://www.demesnefarmcampsite.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1578687879057-3dac12c1f7f6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_demesne_farm_campsite_granary_cottage.png"
     ],
     "address": "",
     "phone": "+44 1434 220258",
@@ -7516,8 +7516,8 @@
   {
     "id": "osm-2682883",
     "slug": "port-b-n-holiday-park",
-    "display_name": "Port Bàn Holiday Park",
-    "short_description": "Port Bàn Holiday Park offers tent camping, caravan pitches in a scenic location. Contact them directly for availability and booking.",
+    "display_name": "Port B\u00e0n Holiday Park",
+    "short_description": "Port B\u00e0n Holiday Park offers tent camping, caravan pitches in a scenic location. Contact them directly for availability and booking.",
     "latitude": 55.8302658,
     "longitude": -5.6615357,
     "area_id": "highlands",
@@ -7551,8 +7551,8 @@
   {
     "id": "osm-99433636",
     "slug": "port-m-r-campsite",
-    "display_name": "Port Mòr Campsite",
-    "short_description": "Port Mòr Campsite offers tent camping, caravan pitches in a scenic location. Contact them directly for availability and booking.",
+    "display_name": "Port M\u00f2r Campsite",
+    "short_description": "Port M\u00f2r Campsite offers tent camping, caravan pitches in a scenic location. Contact them directly for availability and booking.",
     "latitude": 55.7334673,
     "longitude": -6.3855044,
     "area_id": "highlands",
@@ -9508,7 +9508,7 @@
     "id": "osm-1120504815",
     "slug": "tigh-na-mara",
     "display_name": "Tigh na Mara",
-    "short_description": "Field for camping, bays for caravans and camper vans, two glamping pods. Onsite toilet block and dish washing. Showers cost £1.",
+    "short_description": "Field for camping, bays for caravans and camper vans, two glamping pods. Onsite toilet block and dish washing. Showers cost \u00a31.",
     "latitude": 56.923971,
     "longitude": -5.8716553,
     "area_id": "highlands",
@@ -9751,8 +9751,8 @@
   {
     "id": "osm-339423031",
     "slug": "tr-igh-na-beirigh",
-    "display_name": "Tràigh na Beirigh",
-    "short_description": "Tràigh na Beirigh is a campsite offering a peaceful stay in nature. Contact them directly for availability and booking information.",
+    "display_name": "Tr\u00e0igh na Beirigh",
+    "short_description": "Tr\u00e0igh na Beirigh is a campsite offering a peaceful stay in nature. Contact them directly for availability and booking information.",
     "latitude": 58.2172909,
     "longitude": -6.9403628,
     "area_id": "highlands",
