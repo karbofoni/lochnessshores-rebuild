@@ -28,7 +28,7 @@
     ],
     "external_booking_url": "https://www.aberladycaravanpark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&h=600&fit=crop"
+      "/images/generated/campsite_aberlady_caravan_park.png"
     ],
     "address": "",
     "phone": "+441875 870 666",
@@ -62,7 +62,7 @@
     ],
     "external_booking_url": "https://www.aberlourgardens.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
+      "/images/generated/campsite_aberlour_gardens_camping_park.png"
     ],
     "address": "",
     "phone": "+44 1340 871586",
@@ -99,7 +99,7 @@
     ],
     "external_booking_url": "https://aird-donald.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_aird_donald_caravan_park.png"
     ],
     "address": "London Road",
     "phone": "+44 1776 702025",

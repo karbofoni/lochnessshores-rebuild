@@ -52,6 +52,21 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
                     </div>
                 </div>
 
+                <div className="h-[400px] w-full rounded-xl overflow-hidden shadow-sm border border-slate-100 mb-8 relative">
+                    {trail.photos[0] ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                            src={trail.photos[0]}
+                            alt={trail.name}
+                            className="w-full h-full object-cover"
+                        />
+                    ) : (
+                        <div className="w-full h-full bg-slate-200 flex items-center justify-center">
+                            <Mountain className="h-16 w-16 text-slate-400" />
+                        </div>
+                    )}
+                </div>
+
                 <div className="bg-white rounded-xl p-8 shadow-sm border border-slate-100 mb-8">
                     <h2 className="text-xl font-bold mb-4">Route Description</h2>
                     <p className="text-slate-700 leading-relaxed mb-6">
