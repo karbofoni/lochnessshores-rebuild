@@ -47,4 +47,8 @@ def analyze_all_remaining():
     print(f"Found {len(campsites_needed)} campsites and {len(trails_needed)} trails needing images.")
 
 if __name__ == '__main__':
-    analyze_all_remaining()
+    print("Starting analysis...")
+    try:
+        analyze_all_remaining()
+    except Exception as e:
+        print(f"Analysis failed: {e}")

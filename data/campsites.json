@@ -9464,7 +9464,7 @@
     ],
     "external_booking_url": "https://www.thorpefarm.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1578687879057-3dac12c1f7f6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_thorpe_farm_centre_campsite.png"
     ],
     "address": "",
     "phone": "+44 1833 627242",
@@ -9707,7 +9707,7 @@
     ],
     "external_booking_url": "https://www.portreecampsite.co.uk/information.html",
     "photos": [
-      "https://images.unsplash.com/photo-1487730116445-500c1b8d0e05?w=800&h=600&fit=crop"
+      "/images/generated/campsite_torvaig.png"
     ],
     "address": "",
     "phone": null,
