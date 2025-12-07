@@ -6,7 +6,14 @@ import time
 from pathlib import Path
 import os
 
-API_KEY = "AIzaSyCC-2Sh1Jh6ir5MZQfdL1dQ9rNn3iFHE3Y"
+
+try:
+    with open('api_key.txt', 'r') as f:
+        API_KEY = f.read().strip()
+except FileNotFoundError:
+    print("Error: api_key.txt not found.")
+    exit(1)
+
 OUTPUT_DIR = Path("d:/im/Firma/MV/lochnessshores.com2/public/images/generated")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
