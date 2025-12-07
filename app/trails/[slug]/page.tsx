@@ -38,8 +38,8 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
     const nearbyCampsites = allCampsites
         .map(site => {
             const distance = calculateHaversineDistance(
-                trail.start_point_lat,
-                trail.start_point_lng,
+                trail.latitude,
+                trail.longitude,
                 site.latitude,
                 site.longitude
             );
@@ -47,6 +47,7 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
         })
         .filter(site => site.distanceMiles <= 10)
         .sort((a, b) => a.distanceMiles - b.distanceMiles);
+
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -72,8 +73,8 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
                 {/* Map Section */}
                 <div className="rounded-xl overflow-hidden shadow-sm border border-slate-100 mb-8 relative">
                     <TrailMapWrapper
-                        startLat={trail.start_point_lat}
-                        startLng={trail.start_point_lng}
+                        startLat={trail.latitude}
+                        startLng={trail.longitude}
                         geometry={trail.geometry || []}
                         name={trail.name}
                     />

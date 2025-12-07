@@ -28,19 +28,23 @@ export interface Trail {
     name: string;
     distance_km: number;
     distance_miles: number;
-    difficulty: 'Easy' | 'Moderate' | 'Hard' | 'Desperate';
+    difficulty: string;
     area_id: string;
-    description: string;
+    description?: string;
     summary: string;
     highlights: string[];
     notes?: string;
-    start_point_lat: number;
-    start_point_lng: number;
-    nearby_campsite_ids: string[];
-    type: 'hiking';
+    latitude: number;
+    longitude: number;
+    duration_hours?: number;
+    elevation_gain_m?: number;
+    nearby_campsite_ids?: string[];
+    type?: string;
     photos: string[];
     video?: string;
     geometry?: [number, number][];
+    gpx_url?: string | null;
+    external_url?: string | null;
 }
 
 export interface Extra {
