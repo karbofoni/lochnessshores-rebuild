@@ -1,0 +1,146 @@
+{
+  "campsites": [
+    {
+      "slug": "balinoe-campsite",
+      "name": "Balinoe Campsite",
+      "lat": 56.477711,
+      "lng": -6.9216558,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "balloch-o-dee",
+      "name": "Balloch O' Dee",
+      "lat": 54.9540793,
+      "lng": -4.6618091,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "balmichael-glamping",
+      "name": "Balmichael Glamping",
+      "lat": 55.5325818,
+      "lng": -5.2927771,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "balranald-hebridean-holidays",
+      "name": "Balranald Hebridean Holidays",
+      "lat": 57.6039744,
+      "lng": -7.51847,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "bankhead-farm",
+      "name": "Bankhead Farm",
+      "lat": 56.2434218,
+      "lng": -2.6625756,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "barn-at-beal-campsite",
+      "name": "Barn at Beal campsite",
+      "lat": 55.6789788,
+      "lng": -1.8950826,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "barnard-castle-camping-and-caravanning-club-site",
+      "name": "Barnard Castle Camping and Caravanning Club Site",
+      "lat": 54.5471019,
+      "lng": -1.959411,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "barra-sands",
+      "name": "Barra Sands",
+      "lat": 57.0459514,
+      "lng": -7.4376872,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "barrasford-park-camping-site",
+      "name": "Barrasford Park Camping Site",
+      "lat": 55.0844543,
+      "lng": -2.1225768,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "barrisdale-estate-campsite",
+      "name": "Barrisdale Estate Campsite",
+      "lat": 57.079544,
+      "lng": -5.5131584,
+      "area_id": "highlands"
+    }
+  ],
+  "trails": [
+    {
+      "slug": "cambridgeshire-drive",
+      "name": "Cambridgeshire Drive",
+      "lat": 54.7801039,
+      "lng": -1.5307331,
+      "area_id": "south-shore"
+    },
+    {
+      "slug": "carr-house-drive",
+      "name": "Carr House Drive",
+      "lat": 54.7975446,
+      "lng": -1.5804962,
+      "area_id": "loch-ness"
+    },
+    {
+      "slug": "cawledge-east-park-greenrig",
+      "name": "Cawledge East Park & Greenrig",
+      "lat": 55.3840953,
+      "lng": -1.6705026,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "cockmylane",
+      "name": "Cockmylane",
+      "lat": 55.9113507,
+      "lng": -3.2177106,
+      "area_id": "south-shore"
+    },
+    {
+      "slug": "cragside",
+      "name": "Cragside",
+      "lat": 55.3150304,
+      "lng": -1.8742464,
+      "area_id": "south-shore"
+    },
+    {
+      "slug": "craighall-circular-path",
+      "name": "Craighall Circular Path",
+      "lat": 56.6205322,
+      "lng": -3.3488433,
+      "area_id": "north-shore"
+    },
+    {
+      "slug": "crawford-bridge",
+      "name": "Crawford Bridge",
+      "lat": 55.9606818,
+      "lng": -3.1685748,
+      "area_id": "highlands"
+    },
+    {
+      "slug": "deanhaugh-path",
+      "name": "Deanhaugh Path",
+      "lat": 55.9594437,
+      "lng": -3.2095749,
+      "area_id": "south-shore"
+    },
+    {
+      "slug": "deerness-valley-railway-path",
+      "name": "Deerness Valley Railway Path",
+      "lat": 54.7718814,
+      "lng": -1.6389298,
+      "area_id": "loch-ness"
+    },
+    {
+      "slug": "den-s-cleugh",
+      "name": "Den's Cleugh",
+      "lat": 55.8644413,
+      "lng": -3.2903723,
+      "area_id": "loch-ness"
+    }
+  ]
+}
