@@ -7,11 +7,14 @@ from pathlib import Path
 import os
 
 
-try:
-    with open('api_key.txt', 'r') as f:
-        API_KEY = f.read().strip()
-except FileNotFoundError:
-    print("Error: api_key.txt not found.")
+API_KEY = os.environ.get("GEMINI_API_KEY")
+
+if not API_KEY:
+    # Fallback to input if env var not set (for manual running)
+    API_KEY = input("Enter your Google API Key: ").strip()
+
+if not API_KEY:
+    print("Error: API Key is required.")
     exit(1)
 
 OUTPUT_DIR = Path("d:/im/Firma/MV/lochnessshores.com2/public/images/generated")
