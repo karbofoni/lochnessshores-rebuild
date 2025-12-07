@@ -46,6 +46,15 @@ export default function TrailMap({ startLat, startLng, geometry, name }: TrailMa
         L.Marker.prototype.options.icon = DefaultIcon;
     }, []);
 
+    // Defensive check for missing coordinates
+    if (typeof startLat !== 'number' || typeof startLng !== 'number' || isNaN(startLat) || isNaN(startLng)) {
+        return (
+            <div className="h-[400px] w-full rounded-xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100 flex items-center justify-center">
+                <p className="text-slate-500">Map data unavailable</p>
+            </div>
+        );
+    }
+
     // If we have geometry, use it. Otherwise fallback to just start point.
     const hasGeometry = geometry && geometry.length > 0;
     const center: [number, number] = [startLat, startLng];
