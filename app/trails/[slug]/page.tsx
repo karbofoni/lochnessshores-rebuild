@@ -69,9 +69,40 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
                         </div>
                     </div>
 
-                    <div className="bg-amber-50 p-4 rounded border-l-4 border-amber-400">
-                        <h4 className="font-bold text-amber-900 mb-1">Notes from the Trail</h4>
-                        <p className="text-sm text-amber-800">{trail.notes}</p>
+                    {trail.notes && trail.notes !== 'Data sourced from OpenStreetMap' && (
+                        <div className="bg-amber-50 p-4 rounded border-l-4 border-amber-400 mb-6">
+                            <h4 className="font-bold text-amber-900 mb-1">Notes from the Trail</h4>
+                            <p className="text-sm text-amber-800">{trail.notes}</p>
+                        </div>
+                    )}
+                </div>
+
+                {/* Trail Location Map */}
+                <div className="mb-8">
+                    <h2 className="text-xl font-bold mb-4">Trail Location</h2>
+                    <div className="rounded-xl overflow-hidden border border-slate-200 shadow-sm">
+                        <iframe
+                            title={`Map showing ${trail.name}`}
+                            width="100%"
+                            height="350"
+                            src={`https://www.openstreetmap.org/export/embed.html?bbox=${trail.start_point_lng - 0.03}%2C${trail.start_point_lat - 0.02}%2C${trail.start_point_lng + 0.03}%2C${trail.start_point_lat + 0.02}&layer=mapnik&marker=${trail.start_point_lat}%2C${trail.start_point_lng}`}
+                            style={{ border: 0 }}
+                            loading="lazy"
+                            className="bg-slate-100"
+                        />
+                        <div className="bg-slate-50 px-4 py-3 flex justify-between items-center">
+                            <span className="text-sm text-slate-600">
+                                📍 Start point: {trail.start_point_lat.toFixed(4)}°N, {Math.abs(trail.start_point_lng).toFixed(4)}°W
+                            </span>
+                            <a
+                                href={`https://www.openstreetmap.org/?mlat=${trail.start_point_lat}&mlon=${trail.start_point_lng}#map=14/${trail.start_point_lat}/${trail.start_point_lng}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sm text-brand-green hover:underline font-medium"
+                            >
+                                Open in OpenStreetMap →
+                            </a>
+                        </div>
                     </div>
                 </div>
 
