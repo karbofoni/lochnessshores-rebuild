@@ -6631,7 +6631,7 @@
     ],
     "external_booking_url": "https://macdonaldhotel.co.uk/cabins-camping/",
     "photos": [
-      "https://images.unsplash.com/photo-1563299796-17596ed6b017?w=800&h=600&fit=crop"
+      "/images/generated/campsite_macdonald_hotel_campsite.png"
     ],
     "address": "",
     "phone": null,
@@ -6665,7 +6665,7 @@
     ],
     "external_booking_url": "https://www.maddybenny.com/campsite/",
     "photos": [
-      "https://images.unsplash.com/photo-1527786356703-4b100091cd2c?w=800&h=600&fit=crop"
+      "/images/generated/campsite_maddybenny.png"
     ],
     "address": "",
     "phone": null,
@@ -6701,7 +6701,7 @@
     ],
     "external_booking_url": "https://www.edenvalleycaravansite.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800&h=600&fit=crop"
+      "/images/generated/campsite_mains_farm.png"
     ],
     "address": "",
     "phone": null,
@@ -6735,7 +6735,7 @@
     ],
     "external_booking_url": "https://www.marthrownofmabie.com",
     "photos": [
-      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&h=600&fit=crop"
+      "/images/generated/campsite_marthrown_of_mabie.png"
     ],
     "address": "",
     "phone": null,
@@ -6769,7 +6769,7 @@
     ],
     "external_booking_url": "http://maryportholidaypark.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop"
+      "/images/generated/campsite_maryport_holiday_park.png"
     ],
     "address": "",
     "phone": "+44 1776 840359",
