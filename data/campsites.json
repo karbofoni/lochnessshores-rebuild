@@ -133,7 +133,7 @@
     ],
     "external_booking_url": "https://www.caravanclub.co.uk/club-sites/scotland/highlands/altnaharra-caravan-club-site/",
     "photos": [
-      "https://images.unsplash.com/photo-1487730116445-500c1b8d0e05?w=800&h=600&fit=crop"
+      "/images/generated/campsite_altnaharra_caravan_club_site.png"
     ],
     "address": "",
     "phone": "+44 1549 411226",
@@ -167,7 +167,7 @@
     ],
     "external_booking_url": "http://www.annsteadholidaycottages.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1537225228614-56cc3556d7ed?w=800&h=600&fit=crop"
+      "/images/generated/campsite_annstead_farm.png"
     ],
     "address": "",
     "phone": null,
@@ -201,7 +201,7 @@
     ],
     "external_booking_url": "http://www.applecross.uk.com/campsite/",
     "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
+      "/images/generated/campsite_applecross_campsite.png"
     ],
     "address": "",
     "phone": "+44 1520 744268",
@@ -237,7 +237,7 @@
     ],
     "external_booking_url": "https://www.ardelvecaravanandcampingpark.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&h=600&fit=crop"
+      "/images/generated/campsite_ardelve_caravan_and_camping_park.png"
     ],
     "address": "Ardelve Loop Road",
     "phone": "+44 1599 555 231",
@@ -272,7 +272,7 @@
     ],
     "external_booking_url": "https://ardlui.com/campsite-loch-lomond/",
     "photos": [
-      "https://images.unsplash.com/photo-1534880606858-29b0e8a24e8d?w=800&h=600&fit=crop"
+      "/images/generated/campsite_ardlui_holiday_home_park.png"
     ],
     "address": "",
     "phone": "+44 1301704243;+44 1301704269",
