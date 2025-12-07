@@ -34,8 +34,8 @@ def generate_image(name, lat, lng, area_path, slug):
     max_retries = 3
     for attempt in range(max_retries):
         try:
-            # Using Fast model to avoid hitting the standard model quota
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict?key={API_KEY}"
+            # Using Preview model as last resort
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-preview-06-06:predict?key={API_KEY}"
             headers = {'Content-Type': 'application/json'}
             data = {
                 "instances": [
@@ -71,8 +71,9 @@ def generate_image(name, lat, lng, area_path, slug):
                     print(f"No predictions in response: {result}")
                     break
             elif response.status_code == 429:
-                print(f"Rate limit hit (429). Waiting before retry {attempt+1}/{max_retries}...")
-                time.sleep(10 * (attempt + 1))
+                print(f"Rate limit hit (429): {response.text[:200]}...")
+                print(f"Waiting 60s before retry {attempt+1}/{max_retries}...")
+                time.sleep(60)
             else:
                 print(f"Error {response.status_code}: {response.text}")
                 break # Don't retry on other errors
