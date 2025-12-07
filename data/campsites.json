@@ -307,7 +307,7 @@
     ],
     "external_booking_url": "https://www.ardmair.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&h=600&fit=crop"
+      "/images/generated/campsite_ardmair_point_touring_park.png"
     ],
     "address": "",
     "phone": "+44 1854 612054",
@@ -342,7 +342,7 @@
     ],
     "external_booking_url": "https://ardnamurchancampsite.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&h=600&fit=crop"
+      "/images/generated/campsite_ardnamurchan_campsite.png"
     ],
     "address": "",
     "phone": "+44 1972 510766",
@@ -376,7 +376,7 @@
     ],
     "external_booking_url": "https://ardwellchalets.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800&h=600&fit=crop"
+      "/images/generated/campsite_ardwell_chalets.png"
     ],
     "address": "",
     "phone": "+44 1776 860294",
@@ -411,7 +411,7 @@
     ],
     "external_booking_url": "https://www.auchengillan.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop"
+      "/images/generated/campsite_auchengillan_outdoor_centre.png"
     ],
     "address": "",
     "phone": "+44 1360 770256",
@@ -445,7 +445,7 @@
     ],
     "external_booking_url": "https://badrallach.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1526491109649-aa0f504a37fe?w=800&h=600&fit=crop"
+      "/images/generated/campsite_badrallach_campsite.png"
     ],
     "address": "",
     "phone": "+44 7435 123190",
