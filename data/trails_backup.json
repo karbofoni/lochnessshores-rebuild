@@ -370,12 +370,6 @@
         57.1924827,
         -4.7736984
       ]
-    ],
-    "highlights": [
-      "Scenic Highland Views",
-      "Moderate Hiking Adventure",
-      "Lush Heather Blooms",
-      "Nature's Tranquil Escape"
     ]
   },
   {
@@ -465,38 +459,6 @@
         57.225153,
         -3.8381624
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Views",
-      "Moderate Adventure Awaits",
-      "Nature's Hidden Gem",
-      "Check Conditions Before Hiking"
-    ]
-  },
-  {
-    "id": "osm-trail-12812573",
-    "slug": "affric-kintail-way",
-    "name": "Affric Kintail Way",
-    "summary": "Affric Kintail Way is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "http://www.affrickintailway.com",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highland Landscapes",
-      "Moderate Challenge Awaits",
-      "Explore Loch Ness Beauty",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -662,12 +624,6 @@
         57.0053637,
         -4.2111647
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Serene Nature Experience"
     ]
   },
   {
@@ -705,12 +661,6 @@
         57.2141914,
         -3.8360953
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Vistas",
-      "Moderate Challenge Awaits",
-      "Nature's Serenity",
-      "Breathtaking South Shore Views"
     ]
   },
   {
@@ -884,38 +834,6 @@
         57.6868253,
         -4.254781
       ]
-    ],
-    "highlights": [
-      "Breathtaking River Views",
-      "Moderate Trail Adventure",
-      "Wildlife Spotting Opportunities",
-      "Tranquil Nature Escape"
-    ]
-  },
-  {
-    "id": "osm-trail-13635494",
-    "slug": "aviemore-orbital",
-    "name": "Aviemore Orbital",
-    "summary": "Aviemore Orbital is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Loch Ness Views",
-      "Moderate Trail Adventure",
-      "Breathtaking Scenic Overlooks",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -1001,12 +919,6 @@
         57.1039467,
         -3.9345077
       ]
-    ],
-    "highlights": [
-      "Stunning North-Shore Vistas",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Scenic Overlooks"
     ]
   },
   {
@@ -1208,12 +1120,6 @@
         57.5808248,
         -4.595564
       ]
-    ],
-    "highlights": [
-      "Stunning South-Shore Views",
-      "Moderate Hiking Adventure",
-      "Nature's Serenity Awaits",
-      "Check Conditions First"
     ]
   },
   {
@@ -1323,12 +1229,6 @@
         57.6894557,
         -4.3482579
       ]
-    ],
-    "highlights": [
-      "Scenic Highlands Views",
-      "Moderate Hike Adventure",
-      "Breathtaking Overlooks",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -1610,12 +1510,6 @@
         57.6789084,
         -4.5792381
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Gentle Terrain for All",
-      "Wildlife Spotting Opportunities",
-      "Accessible Year-Round Adventure"
     ]
   },
   {
@@ -1941,12 +1835,6 @@
         57.6195974,
         -4.1139587
       ]
-    ],
-    "highlights": [
-      "Scenic Trail Views",
-      "Moderate Hiking Adventure",
-      "Explore South Shore Nature",
-      "Check Local Conditions"
     ]
   },
   {
@@ -2020,108 +1908,6 @@
         57.6892187,
         -4.1745224
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Check Conditions Before You Go"
-    ]
-  },
-  {
-    "id": "osm-trail-6947444",
-    "slug": "boar-walk",
-    "name": "Boar Walk",
-    "summary": "Boar Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Highlands Views",
-      "Moderate Trail Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Scenic Overlooks"
-    ]
-  },
-  {
-    "id": "osm-trail-209417004",
-    "slug": "braes-of-conon",
-    "name": "Braes of Conon",
-    "summary": "Braes of Conon is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 0,
-    "latitude": 57.562363,
-    "longitude": -4.4318922,
-    "photos": [
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.562363,
-        -4.4318922
-      ],
-      [
-        57.5624481,
-        -4.4317523
-      ]
-    ],
-    "highlights": [
-      "Stunning Loch Ness Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Scenic Overlook"
-    ]
-  },
-  {
-    "id": "osm-trail-241710613",
-    "slug": "cairngorm-club-footbridge",
-    "name": "Cairngorm Club Footbridge",
-    "summary": "Cairngorm Club Footbridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 0,
-    "latitude": 57.1485778,
-    "longitude": -3.7754001,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.1485778,
-        -3.7754001
-      ],
-      [
-        57.148652,
-        -3.7752985
-      ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Hiking Adventure",
-      "Explore Loch Ness Beauty",
-      "Check Local Conditions"
     ]
   },
   {
@@ -2199,12 +1985,6 @@
         57.1392976,
         -3.8531761
       ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Challenge",
-      "Nature's Sweet Escape",
-      "Check Conditions First"
     ]
   },
   {
@@ -2458,12 +2238,6 @@
         57.6232369,
         -4.1077016
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Hiking Adventure",
-      "Stunning Landscapes Await",
-      "Nature's Serenity Unleashed"
     ]
   },
   {
@@ -2649,55 +2423,6 @@
         57.6173228,
         -4.112472
       ]
-    ],
-    "highlights": [
-      "Breathtaking Hilltop Vistas",
-      "Moderate Challenge Awaits",
-      "Scenic South-Shore Serenity",
-      "Perfect for Nature Lovers"
-    ]
-  },
-  {
-    "id": "osm-trail-1023252550",
-    "slug": "camelback",
-    "name": "Camelback",
-    "summary": "Camelback is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 0.1,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 2,
-    "latitude": 57.5854547,
-    "longitude": -4.5819479,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.5854547,
-        -4.5819479
-      ],
-      [
-        57.5857451,
-        -4.5817763
-      ],
-      [
-        57.5859521,
-        -4.5817709
-      ],
-      [
-        57.5860442,
-        -4.5818085
-      ]
-    ],
-    "highlights": [
-      "Stunning Scenic Overlooks",
-      "Moderate Hiking Adventure",
-      "Breathtaking Loch Views",
-      "Check Conditions Before Hiking"
     ]
   },
   {
@@ -2767,168 +2492,6 @@
         57.1898433,
         -3.7416364
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Challenge Awaits",
-      "Nature's Beauty Unleashed",
-      "Check Conditions First"
-    ]
-  },
-  {
-    "id": "osm-trail-10306630",
-    "slug": "cape-wrath-trail-allt-beithe-carnoch",
-    "name": "Cape Wrath Trail (Allt Beithe - Carnoch)",
-    "summary": "unmarked",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Unmarked Adventure Awaits",
-      "Breathtaking Coastal Scenery",
-      "Moderate Terrain, Stunning Views",
-      "Explore Untamed Wilderness"
-    ]
-  },
-  {
-    "id": "osm-trail-9331755",
-    "slug": "cape-wrath-trail-bendronaig-craig-kinlochewe",
-    "name": "Cape Wrath Trail (Bendronaig → Craig → Kinlochewe)",
-    "summary": "Cape Wrath Trail (Bendronaig → Craig → Kinlochewe) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "http://www.capewrathtrail.org.uk/",
-    "geometry": [],
-    "highlights": [
-      "Stunning Highland Scenery",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Loch Views"
-    ]
-  },
-  {
-    "id": "osm-trail-9331992",
-    "slug": "cape-wrath-trail-bendronaig-strathcarron-kinlochew",
-    "name": "Cape Wrath Trail (Bendronaig → Strathcarron → Kinlochewe)",
-    "summary": "Cape Wrath Trail (Bendronaig → Strathcarron → Kinlochewe) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "http://www.capewrathtrail.org.uk/",
-    "geometry": [],
-    "highlights": [
-      "Scenic Highland Views",
-      "Moderate Challenge Awaits",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Mountain Landscapes"
-    ]
-  },
-  {
-    "id": "osm-trail-9327614",
-    "slug": "cape-wrath-trail-fort-william-invergarry-morvich",
-    "name": "Cape Wrath Trail (Fort William → Invergarry → Morvich)",
-    "summary": "unmarked",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Untamed Highland Beauty",
-      "Challenging Paths Await",
-      "Breathtaking Mountain Vistas",
-      "Secluded Wilderness Adventure"
-    ]
-  },
-  {
-    "id": "osm-trail-10302812",
-    "slug": "cape-wrath-trail-glomach-killian-bendronaig",
-    "name": "Cape Wrath Trail (Glomach-Killian-Bendronaig)",
-    "summary": "Cape Wrath Trail (Glomach-Killian-Bendronaig) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "http://www.capewrathtrail.org.uk/",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Hiking Adventure",
-      "Scenic Highland Landscapes",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-9331377",
-    "slug": "cape-wrath-trail-morvich-bendronaig",
-    "name": "Cape Wrath Trail (Morvich → Bendronaig)",
-    "summary": "Cape Wrath Trail (Morvich → Bendronaig) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "http://www.capewrathtrail.org.uk/",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Serene Nature Escape"
     ]
   },
   {
@@ -2974,12 +2537,6 @@
         57.6813876,
         -4.3601082
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Overlooks",
-      "Moderate Challenge Awaits",
-      "Wildlife Spotting Opportunities",
-      "Stunning South-Shore Views"
     ]
   },
   {
@@ -3017,12 +2574,6 @@
         57.5978391,
         -4.3428251
       ]
-    ],
-    "highlights": [
-      "Stunning Coastal Vistas",
-      "Moderate Hiking Challenge",
-      "Breathtaking Scenic Lookouts",
-      "Explore Nature's Beauty"
     ]
   },
   {
@@ -3300,12 +2851,6 @@
         57.5503086,
         -3.9001847
       ]
-    ],
-    "highlights": [
-      "Scenic River Views",
-      "Moderate Terrain",
-      "Wildlife Spotting",
-      "Peaceful Nature Escape"
     ]
   },
   {
@@ -3507,12 +3052,6 @@
         57.5069714,
         -4.5181266
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Adventure Awaits",
-      "Explore Scenic Highlands",
-      "Nature's Tranquil Escape"
     ]
   },
   {
@@ -3762,38 +3301,6 @@
         57.4808474,
         -4.4652507
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Hiking Adventure",
-      "Picturesque Countryside Paths",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-13555110",
-    "slug": "contin-forest-and-view-rock",
-    "name": "Contin forest and View Rock",
-    "summary": "Contin forest and View Rock is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 4.5,
-    "distance_miles": 2.8,
-    "duration_hours": 1.1,
-    "elevation_gain_m": 141,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Scenic Overlooks",
-      "Moderate Hiking Adventure",
-      "Explore Lush Forest Trails",
-      "Capture Stunning Photography Spots"
     ]
   },
   {
@@ -3923,12 +3430,6 @@
         57.7061188,
         -4.2717006
       ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Hiking Trail",
-      "Explore Coulhill's Beauty",
-      "Nature's Serenity Unleashed"
     ]
   },
   {
@@ -4158,12 +3659,6 @@
         57.7075457,
         -4.2713202
       ]
-    ],
-    "highlights": [
-      "Scenic Woodland Views",
-      "Moderate Hiking Challenge",
-      "Wildlife Spotting Opportunities",
-      "Peaceful Nature Escape"
     ]
   },
   {
@@ -4269,116 +3764,6 @@
         57.0600943,
         -4.1568178
       ]
-    ],
-    "highlights": [
-      "Stunning Mountain Vistas",
-      "Moderate Challenge Awaits",
-      "Perfect for Trail Runners",
-      "Check Local Conditions"
-    ]
-  },
-  {
-    "id": "osm-trail-18124252",
-    "slug": "craigmonie-trail",
-    "name": "Craigmonie Trail",
-    "summary": "Craigmonie Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Adventure",
-      "Nature's Tranquil Escape",
-      "Explore South Shore Beauty"
-    ]
-  },
-  {
-    "id": "osm-trail-5385430",
-    "slug": "creag-bheag-trail",
-    "name": "Creag Bheag Trail",
-    "summary": "Creag Bheag Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Challenge Awaits",
-      "Breathtaking Scenic Overlooks",
-      "Check Conditions Before Hiking"
-    ]
-  },
-  {
-    "id": "osm-trail-16127520",
-    "slug": "creag-m-agaidh-trail",
-    "name": "Creag Mèagaidh Trail",
-    "summary": "Creag Mèagaidh Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Challenge Awaits",
-      "Nature's Serenity",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-5385431",
-    "slug": "curlew-trail",
-    "name": "Curlew Trail",
-    "summary": "Kingussie to Newtonmore via Loch Gynack",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Gynack Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Picturesque Kingussie to Newtonmore"
     ]
   },
   {
@@ -4436,12 +3821,6 @@
         57.5137787,
         -4.4479448
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Views",
-      "Moderate Hiking Challenge",
-      "Explore South Shore Nature",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -4779,81 +4158,6 @@
         57.5756074,
         -4.5811853
       ]
-    ],
-    "highlights": [
-      "Scenic Highland Views",
-      "Moderate Difficulty",
-      "Pet-Friendly Trail",
-      "Breathtaking Nature Awaits"
-    ]
-  },
-  {
-    "id": "osm-trail-2349936",
-    "slug": "dog-falls-trail",
-    "name": "Dog Falls Trail",
-    "summary": "Dog Falls Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 2,
-    "distance_miles": 1.2,
-    "duration_hours": 0.5,
-    "elevation_gain_m": 60,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Moderate Adventure Awaits",
-      "Breathtaking Highland Views",
-      "Perfect for Pups",
-      "Explore Scenic Waterfalls"
-    ]
-  },
-  {
-    "id": "osm-trail-690500974",
-    "slug": "drochaid-dailriach",
-    "name": "Drochaid Dailriach",
-    "summary": "Drochaid Dailriach is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 0,
-    "latitude": 57.0051951,
-    "longitude": -4.0545746,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.0051951,
-        -4.0545746
-      ],
-      [
-        57.0052184,
-        -4.0546257
-      ],
-      [
-        57.0052513,
-        -4.0547463
-      ],
-      [
-        57.0052717,
-        -4.0547946
-      ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Adventure Awaits",
-      "Nature's Serenity",
-      "Check Local Conditions"
     ]
   },
   {
@@ -4915,38 +4219,6 @@
         57.0206464,
         -4.2440621
       ]
-    ],
-    "highlights": [
-      "Breathtaking Coastal Vistas",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Serene Nature Escapes"
-    ]
-  },
-  {
-    "id": "osm-trail-9686281",
-    "slug": "ehw-alternatives",
-    "name": "EHW - Alternatives",
-    "summary": "EHW - Alternatives is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking North Shore Vistas",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Check Local Conditions First"
     ]
   },
   {
@@ -5076,38 +4348,6 @@
         57.3114103,
         -4.4111143
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Ness Vistas",
-      "Moderate Adventure Awaits",
-      "Serene South-Shore Escape",
-      "Nature's Hidden Gem"
-    ]
-  },
-  {
-    "id": "osm-trail-6207521",
-    "slug": "farleitter-crag-trail",
-    "name": "Farleitter Crag Trail",
-    "summary": "Farleitter Crag Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Crag Views",
-      "Moderate Adventure Awaits",
-      "Explore Loch Ness Beauty",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -5157,38 +4397,6 @@
         57.674365,
         -4.3442656
       ]
-    ],
-    "highlights": [
-      "Scenic Swamp Views",
-      "Moderate Adventure Awaits",
-      "Highland Nature Trails",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-6207605",
-    "slug": "feshie-woodland-trail",
-    "name": "Feshie Woodland Trail",
-    "summary": "Feshie Woodland Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Scenic Forest Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Tranquil Nature Escape"
     ]
   },
   {
@@ -5906,38 +5114,6 @@
         57.6242973,
         -4.0936392
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Hiking Experience",
-      "Wildlife Spotting Opportunities",
-      "Stunning Scenic Overlooks"
-    ]
-  },
-  {
-    "id": "osm-trail-16131735",
-    "slug": "five-sisters-of-kintail-trail",
-    "name": "Five Sisters of Kintail Trail",
-    "summary": "Five Sisters of Kintail Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Mountain Vistas",
-      "Moderate Hiking Challenge",
-      "Stunning Scenic Overlooks",
-      "Explore South Shore Beauty"
     ]
   },
   {
@@ -6007,12 +5183,6 @@
         57.595818,
         -4.4592017
       ]
-    ],
-    "highlights": [
-      "Stunning Loch Ness Views",
-      "Moderate Challenge Awaits",
-      "Pathway Through Scenic Hills",
-      "Breathtaking Highland Scenery"
     ]
   },
   {
@@ -6166,12 +5336,6 @@
         57.5987171,
         -4.4613035
       ]
-    ],
-    "highlights": [
-      "Stunning North-Shore Views",
-      "Moderate Challenge Awaits",
-      "Nature's Tranquil Escape",
-      "Explore Scenic Landscapes"
     ]
   },
   {
@@ -6269,12 +5433,6 @@
         57.6750764,
         -4.3760445
       ]
-    ],
-    "highlights": [
-      "Mystical Forest Vibes",
-      "Breathtaking Loch Views",
-      "Moderate Adventure Awaits",
-      "Nature's Hidden Gem"
     ]
   },
   {
@@ -6524,12 +5682,6 @@
         56.8715348,
         -4.7659049
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Hiking Adventure",
-      "Historic Railway Path",
-      "Breathtaking Nature Surroundings"
     ]
   },
   {
@@ -6667,12 +5819,6 @@
         57.7078431,
         -4.3133022
       ]
-    ],
-    "highlights": [
-      "Stunning Coastal Vistas",
-      "Gentle Nature Walk",
-      "Wildlife Spotting Opportunities",
-      "Family-Friendly Trail"
     ]
   },
   {
@@ -6874,12 +6020,6 @@
         57.6013199,
         -4.653418
       ]
-    ],
-    "highlights": [
-      "Breathtaking Coastal Vistas",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Serene Nature Escape"
     ]
   },
   {
@@ -6917,12 +6057,6 @@
         57.3820752,
         -4.0808659
       ]
-    ],
-    "highlights": [
-      "Scenic Military Heritage Trail",
-      "Breathtaking Loch Ness Views",
-      "Moderate Adventure Awaits",
-      "Explore Historic Pathways"
     ]
   },
   {
@@ -7524,12 +6658,6 @@
         57.0013041,
         -4.3054924
       ]
-    ],
-    "highlights": [
-      "Stunning North Shore Vistas",
-      "Moderate Adventure Awaits",
-      "Nature's Beauty Unfolds",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -7727,38 +6855,6 @@
         57.7146599,
         -4.5246211
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Hiking Challenge",
-      "Wildlife Spotting Opportunities",
-      "Serene Nature Experience"
-    ]
-  },
-  {
-    "id": "osm-trail-12812990",
-    "slug": "glen-affric-memorial-cairn-viewpoint-path",
-    "name": "Glen Affric Memorial Cairn Viewpoint Path",
-    "summary": "Glen Affric Memorial Cairn Viewpoint Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "easy",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Cairn Views",
-      "Gentle Nature Walk",
-      "Family Friendly Trail",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -7880,64 +6976,6 @@
         57.5761677,
         -4.5805628
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Scenic Overlooks"
-    ]
-  },
-  {
-    "id": "osm-trail-5385432",
-    "slug": "golf-course-circular",
-    "name": "Golf Course Circular",
-    "summary": "Golf Course Circular is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Scenic Views",
-      "Moderate Difficulty Trail",
-      "Nature Lover's Paradise",
-      "Circular Path Adventure"
-    ]
-  },
-  {
-    "id": "osm-trail-19426689",
-    "slug": "great-glen-way-alternative-via-carb-na-leitire",
-    "name": "Great Glen Way - alternative via Carb na Leitire",
-    "summary": "Great Glen Way - alternative via Carb na Leitire is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Ness Views",
-      "Moderate Hiking Challenge",
-      "Scenic Highland Landscapes",
-      "Explore Carb na Leitire"
     ]
   },
   {
@@ -8139,64 +7177,6 @@
         56.9365655,
         -4.9820035
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Scenery",
-      "Moderate Adventure Awaits",
-      "Lochside Serenity",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-11698144",
-    "slug": "great-glen-way-high-route",
-    "name": "Great Glen Way High Route",
-    "summary": "Great Glen Way High Route is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Moderate Challenge Awaits",
-      "Explore Scenic Trails",
-      "Check Conditions Before Hiking"
-    ]
-  },
-  {
-    "id": "osm-trail-19426549",
-    "slug": "great-glen-way-low-route",
-    "name": "Great Glen Way Low Route",
-    "summary": "Great Glen Way Low Route is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Highland Views",
-      "Moderate Trail Adventure",
-      "Lush Green Landscapes",
-      "Breathtaking Loch Sights"
     ]
   },
   {
@@ -8430,99 +7410,6 @@
         57.069293,
         -3.926377
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Challenge Awaits",
-      "Lush Greenery Everywhere",
-      "Perfect for Nature Lovers"
-    ]
-  },
-  {
-    "id": "osm-trail-461208062",
-    "slug": "greystone-bridge",
-    "name": "Greystone Bridge",
-    "summary": "Greystone Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.5165002,
-    "longitude": -3.9362317,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.5165002,
-        -3.9362317
-      ],
-      [
-        57.5163127,
-        -3.9361209
-      ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Experience",
-      "Explore Loch Ness Beauty",
-      "Iconic Greystone Bridge"
-    ]
-  },
-  {
-    "id": "osm-trail-5385992",
-    "slug": "gynack-mill-trail",
-    "name": "Gynack Mill Trail",
-    "summary": "Gynack Mill Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Hiking Challenge",
-      "Explore Nature's Beauty",
-      "Check Local Conditions"
-    ]
-  },
-  {
-    "id": "osm-trail-6947445",
-    "slug": "hill-walk",
-    "name": "Hill Walk",
-    "summary": "Hill Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Adventure",
-      "Explore South Shore Nature",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -8704,151 +7591,6 @@
         57.6242916,
         -4.1145147
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Trail Adventure",
-      "Breathtaking Nature Surroundings",
-      "Check Local Conditions"
-    ]
-  },
-  {
-    "id": "osm-trail-418359357",
-    "slug": "jacobites-line",
-    "name": "Jacobites Line",
-    "summary": "Jacobites Line is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.4745757,
-    "longitude": -4.1024278,
-    "photos": [
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.4745757,
-        -4.1024278
-      ],
-      [
-        57.4744425,
-        -4.1021787
-      ]
-    ],
-    "highlights": [
-      "Scenic Coastal Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Sunset Vistas"
-    ]
-  },
-  {
-    "id": "osm-trail-12629670",
-    "slug": "john-o-groats-trail-alness-to-tain",
-    "name": "John O'Groats Trail (Alness to Tain)",
-    "summary": "John O'Groats Trail (Alness to Tain) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://www.jogt.org.uk/stages/alness-to-tain/",
-    "geometry": [],
-    "highlights": [
-      "Stunning Coastal Views",
-      "Moderate Hiking Challenge",
-      "Charming Countryside Paths",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-12629183",
-    "slug": "john-o-groats-trail-culbokie-to-alness",
-    "name": "John O'Groats Trail (Culbokie to Alness)",
-    "summary": "John O'Groats Trail (Culbokie to Alness) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://www.jogt.org.uk/stages/culbokie-to-alness/",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Coastal Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Picturesque Countryside Paths"
-    ]
-  },
-  {
-    "id": "osm-trail-12622535",
-    "slug": "john-o-groats-trail-inverness-to-culbokie",
-    "name": "John O'Groats Trail (Inverness to Culbokie)",
-    "summary": "John O'Groats Trail (Inverness to Culbokie) is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://www.jogt.org.uk/stages/inverness-to-culbokie/",
-    "geometry": [],
-    "highlights": [
-      "Stunning Highland Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Picturesque Countryside Paths"
-    ]
-  },
-  {
-    "id": "osm-trail-6947443",
-    "slug": "juniper-walk",
-    "name": "Juniper Walk",
-    "summary": "Juniper Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Adventure Awaits",
-      "Breathtaking Nature Trails",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -8922,212 +7664,6 @@
         57.4402434,
         -4.4911717
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Perfect for All Skill Levels"
-    ]
-  },
-  {
-    "id": "osm-trail-18169333",
-    "slug": "linn-of-pattack-waterfalls-walk",
-    "name": "Linn of Pattack Waterfalls Walk",
-    "summary": "Parking just east of start. Take care on road. Good tracks except for final approach which requires more care. Care is needed at the waterfall due to precipitous drops.",
-    "area_id": "highlands",
-    "difficulty": "easy",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Majestic Waterfall Views",
-      "Easy Trail Experience",
-      "Breathtaking Highland Scenery",
-      "Careful Approach Required"
-    ]
-  },
-  {
-    "id": "osm-trail-16920102",
-    "slug": "loch-an-eilein-circular",
-    "name": "Loch an Eilein Circular",
-    "summary": "Circular walk of picturesque loch through native pine woodland. Suitable for families.",
-    "area_id": "loch-ness",
-    "difficulty": "easy",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://rothiemurchus.net/visit/loch-an-eilein/",
-    "geometry": [],
-    "highlights": [
-      "Picturesque Loch Views",
-      "Easy Family-Friendly Trail",
-      "Serene Pine Woodlands",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-16379686",
-    "slug": "loch-morlich-trail",
-    "name": "Loch Morlich Trail",
-    "summary": "Round trail from Loch Morlich Beach car park around Loch Morlich; classified as moderate",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5.8,
-    "distance_miles": 3.6,
-    "duration_hours": 1.5,
-    "elevation_gain_m": 174,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://forestryandland.gov.scot/publications/590-glenmore-forest-park-route-card/download",
-    "geometry": [],
-    "highlights": [
-      "Stunning Lake Views",
-      "Moderate Adventure Awaits",
-      "Forest Trails Galore",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-210283089",
-    "slug": "melgarve-east-bridge",
-    "name": "Melgarve East Bridge",
-    "summary": "Melgarve East Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.0304772,
-    "longitude": -4.5248836,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.0304772,
-        -4.5248836
-      ],
-      [
-        57.0304209,
-        -4.5244768
-      ]
-    ],
-    "highlights": [
-      "Scenic Bridge Views",
-      "Moderate Adventure Awaits",
-      "Explore South Shore Beauty",
-      "Check Conditions Before Hiking"
-    ]
-  },
-  {
-    "id": "osm-trail-794652677",
-    "slug": "milton-bridge",
-    "name": "Milton Bridge",
-    "summary": "Milton Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.5321372,
-    "longitude": -3.9416923,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.5321372,
-        -3.9416923
-      ],
-      [
-        57.5321852,
-        -3.9423002
-      ]
-    ],
-    "highlights": [
-      "Scenic Viewpoints Ahead",
-      "Moderate Challenge Awaits",
-      "Serene Nature Escape",
-      "Bridge Overlook Spot"
-    ]
-  },
-  {
-    "id": "osm-trail-18124259",
-    "slug": "milton-trail",
-    "name": "Milton Trail",
-    "summary": "Milton Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Adventure Awaits",
-      "Nature's Beauty Unleashed",
-      "Explore Scenic Vistas"
-    ]
-  },
-  {
-    "id": "osm-trail-2399374",
-    "slug": "muir-to-clash-circuit",
-    "name": "Muir to Clash Circuit",
-    "summary": "Muir to Clash Circuit is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Scenic Vistas",
-      "Moderate Adventure Awaits",
-      "Explore Diverse Landscapes",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -9345,12 +7881,6 @@
         57.6226612,
         -4.0993349
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Trail Adventure",
-      "Scenic Natural Beauty",
-      "Check Local Conditions"
     ]
   },
   {
@@ -9440,12 +7970,6 @@
         57.5675576,
         -3.8729876
       ]
-    ],
-    "highlights": [
-      "Stunning River Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Beautiful Highland Scenery"
     ]
   },
   {
@@ -9795,12 +8319,6 @@
         57.5777873,
         -4.5905845
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Hiking Adventure",
-      "Breathtaking Nature Trails",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -9922,90 +8440,6 @@
         57.7118854,
         -4.2799149
       ]
-    ],
-    "highlights": [
-      "Breathtaking North Shore Vistas",
-      "Moderate Trail Adventure",
-      "Wildlife Spotting Opportunities",
-      "Lush Forest Canopy"
-    ]
-  },
-  {
-    "id": "osm-trail-305727709",
-    "slug": "nonie-s-lane",
-    "name": "Nonie's Lane",
-    "summary": "Nonie's Lane is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 0.1,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 2,
-    "latitude": 57.6885672,
-    "longitude": -4.1674677,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.6885672,
-        -4.1674677
-      ],
-      [
-        57.6888783,
-        -4.1675747
-      ],
-      [
-        57.6890931,
-        -4.1676485
-      ]
-    ],
-    "highlights": [
-      "Breathtaking North Shore Views",
-      "Moderate Hiking Adventure",
-      "Serene Nature Escape",
-      "Perfect for Scenic Picnics"
-    ]
-  },
-  {
-    "id": "osm-trail-305726010",
-    "slug": "norman-s-lane",
-    "name": "Norman's Lane",
-    "summary": "Norman's Lane is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.6885319,
-    "longitude": -4.1678828,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.6885319,
-        -4.1678828
-      ],
-      [
-        57.6884233,
-        -4.1678528
-      ],
-      [
-        57.6882896,
-        -4.1678155
-      ]
-    ],
-    "highlights": [
-      "Breathtaking North-Shore Views",
-      "Moderate Hiking Adventure",
-      "Explore Scenic Landscapes",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -10651,12 +9085,6 @@
         57.1747343,
         -3.794654
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Adventure",
-      "Explore Historic Logging Trails",
-      "Nature's Serenity Awaits"
     ]
   },
   {
@@ -10990,12 +9418,6 @@
         57.3462422,
         -4.5324901
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Adventure Awaits",
-      "Breathtaking Nature Trails",
-      "Explore Historic Paths"
     ]
   },
   {
@@ -11073,12 +9495,6 @@
         57.5470783,
         -4.3415807
       ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Adventure",
-      "Nature's Serenity",
-      "Explore South-Shore Beauty"
     ]
   },
   {
@@ -11388,12 +9804,6 @@
         57.3754447,
         -4.3970705
       ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Trail Adventure",
-      "Nature's Serenity",
-      "Check Conditions First"
     ]
   },
   {
@@ -11551,47 +9961,6 @@
         57.5793478,
         -4.5920843
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Adventure Awaits",
-      "Nature's Beauty Unveiled",
-      "Explore Scenic Landscapes"
-    ]
-  },
-  {
-    "id": "osm-trail-97723701",
-    "slug": "pollcherian-bridge",
-    "name": "Pollcherian Bridge",
-    "summary": "Pollcherian Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.4166419,
-    "longitude": -4.7818217,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.4166419,
-        -4.7818217
-      ],
-      [
-        57.4164581,
-        -4.7819232
-      ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Moderate Trail Adventure",
-      "Bridge Over Scenic Valley",
-      "Explore Nature's Beauty"
     ]
   },
   {
@@ -12249,12 +10618,6 @@
         57.1589434,
         -3.7039309
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Overlooks",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Explore South Shore Beauty"
     ]
   },
   {
@@ -12448,12 +10811,6 @@
         57.6195974,
         -4.1139587
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Challenge",
-      "Wildlife Spotting Opportunities",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -12659,38 +11016,6 @@
         57.082242,
         -3.9341186
       ]
-    ],
-    "highlights": [
-      "Stunning Ridge Views",
-      "Moderate Adventure Awaits",
-      "Explore Loch Ness Beauty",
-      "Nature's Peaceful Escape"
-    ]
-  },
-  {
-    "id": "osm-trail-12812989",
-    "slug": "river-affric-walk",
-    "name": "River Affric Walk",
-    "summary": "River Affric Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Adventure Awaits",
-      "Tranquil River Sights",
-      "Nature's Serenity Unleashed"
     ]
   },
   {
@@ -12892,51 +11217,6 @@
         57.7076237,
         -4.2697874
       ]
-    ],
-    "highlights": [
-      "Scenic River Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Nature Trails"
-    ]
-  },
-  {
-    "id": "osm-trail-1066709729",
-    "slug": "river-lane",
-    "name": "River Lane",
-    "summary": "River Lane is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 0,
-    "latitude": 57.6952406,
-    "longitude": -4.2588422,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.6952406,
-        -4.2588422
-      ],
-      [
-        57.6952132,
-        -4.2588271
-      ],
-      [
-        57.6951738,
-        -4.2588055
-      ]
-    ],
-    "highlights": [
-      "Scenic River Views",
-      "Moderate Hiking Adventure",
-      "Nature's Tranquil Path",
-      "Explore Loch Ness Beauty"
     ]
   },
   {
@@ -13138,38 +11418,6 @@
         57.6195974,
         -4.1139587
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Hiking Adventure",
-      "Scenic Nature Trail",
-      "Check Conditions Before You Go"
-    ]
-  },
-  {
-    "id": "osm-trail-13558564",
-    "slug": "rogie-falls-riverside-trail",
-    "name": "Rogie Falls Riverside Trail",
-    "summary": "A walk through the woods and along the river taking in the viewpoints at the falls and Raven Crag",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 1.5,
-    "distance_miles": 0.9,
-    "duration_hours": 0.4,
-    "elevation_gain_m": 45,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://forestryandland.gov.scot/visit/rogie-falls",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Waterfall Views",
-      "Serene Riverside Path",
-      "Vibrant Woodland Trails",
-      "Moderate Adventure Awaits"
     ]
   },
   {
@@ -13267,112 +11515,6 @@
         57.0693588,
         -3.952281
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Gentle Rolling Hills",
-      "Perfect for Families",
-      "Breathtaking Photo Spots"
-    ]
-  },
-  {
-    "id": "osm-trail-373211041",
-    "slug": "ross-street",
-    "name": "Ross Street",
-    "summary": "Ross Street is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 1,
-    "latitude": 57.6882345,
-    "longitude": -4.168448,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.6882345,
-        -4.168448
-      ],
-      [
-        57.6883692,
-        -4.1684983
-      ],
-      [
-        57.6884761,
-        -4.1685382
-      ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Moderate Adventure Awaits",
-      "Nature's Serenity",
-      "Explore Scenic Trails"
-    ]
-  },
-  {
-    "id": "osm-trail-18045555",
-    "slug": "rothiemurchus-forest-loch-an-eilein",
-    "name": "Rothiemurchus Forest & Loch an Eilein",
-    "summary": "Rothiemurchus Forest & Loch an Eilein is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Enchanting Forest Path",
-      "Wildlife Spotting Opportunities",
-      "Moderate Hiking Adventure"
-    ]
-  },
-  {
-    "id": "osm-trail-357556928",
-    "slug": "seumas-s-bridge",
-    "name": "Seumas's Bridge",
-    "summary": "Seumas's Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 0,
-    "distance_miles": 0,
-    "duration_hours": 0,
-    "elevation_gain_m": 0,
-    "latitude": 57.5873972,
-    "longitude": -4.4167621,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [
-      [
-        57.5873972,
-        -4.4167621
-      ],
-      [
-        57.5873562,
-        -4.4168562
-      ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Adventure Awaits",
-      "Check Local Conditions",
-      "Nature's Tranquil Escape"
     ]
   },
   {
@@ -13830,38 +11972,6 @@
         57.0027475,
         -4.3113585
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Views",
-      "Moderate Adventure Awaits",
-      "Nature's Hidden Gem",
-      "Explore South Shore Beauty"
-    ]
-  },
-  {
-    "id": "osm-trail-16229095",
-    "slug": "slighe-bl-r-ch-il-lodair",
-    "name": "Slighe Blàr Chùil Lodair",
-    "summary": "several weapons",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Moderate Challenge Awaits",
-      "Explore Historic Weaponry",
-      "Breathtaking North Shore Vistas",
-      "Nature's Hidden Gems"
     ]
   },
   {
@@ -14059,38 +12169,6 @@
         57.5762827,
         -4.5837155
       ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Adventure",
-      "Nature's Tranquility",
-      "Local Wildlife Spotting"
-    ]
-  },
-  {
-    "id": "osm-trail-18071407",
-    "slug": "south-glen-shiel-ridge",
-    "name": "South Glen Shiel Ridge",
-    "summary": "South Glen Shiel Ridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Ridge Views",
-      "Moderate Adventure Awaits",
-      "Explore Scenic Landscapes",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -14404,38 +12482,6 @@
         57.15949,
         -4.5662362
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Hiking Adventure",
-      "Serene Lochside Path",
-      "Nature's Hidden Gem"
-    ]
-  },
-  {
-    "id": "osm-trail-1026251",
-    "slug": "speyside-way",
-    "name": "Speyside Way",
-    "summary": "Speyside Way is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "loch-ness",
-    "difficulty": "moderate",
-    "distance_km": 207,
-    "distance_miles": 128.6,
-    "duration_hours": 51.8,
-    "elevation_gain_m": 6210,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://www.speysideway.org/",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Ness Views",
-      "Moderate Hiking Adventure",
-      "Scenic Nature Trail",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -14489,38 +12535,6 @@
         57.5203414,
         -4.4022182
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Trekking Adventure",
-      "Check Conditions Before Hiking",
-      "Nature's Beauty Awaits"
-    ]
-  },
-  {
-    "id": "osm-trail-10063945",
-    "slug": "spruce-squirrel-trail",
-    "name": "Spruce & Squirrel Trail",
-    "summary": "Spruce & Squirrel Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Forest Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Encounters Galore",
-      "Serene Nature Escape"
     ]
   },
   {
@@ -14578,12 +12592,6 @@
         57.084303,
         -3.929899
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Adventure Awaits",
-      "Stellar Photo Opportunities",
-      "Nature's Serenity Trail"
     ]
   },
   {
@@ -14689,38 +12697,6 @@
         57.5199626,
         -4.4084515
       ]
-    ],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Adventure",
-      "Nature's Hidden Gem",
-      "Check Local Conditions"
-    ]
-  },
-  {
-    "id": "osm-trail-13640161",
-    "slug": "the-burma-road",
-    "name": "The Burma Road",
-    "summary": "The Burma Road is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Scenic North-Shore Views",
-      "Moderate Hiking Experience",
-      "Breathtaking Nature Trails",
-      "Check Local Conditions"
     ]
   },
   {
@@ -15026,12 +13002,6 @@
         57.3852059,
         -5.175263
       ]
-    ],
-    "highlights": [
-      "Stunning Coastal Views",
-      "Moderate Hiking Adventure",
-      "Historical Heritage Trail",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -15169,12 +13139,6 @@
         57.4860996,
         -4.4964909
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Overlooks",
-      "Moderate Hiking Adventure",
-      "Vibrant Red Rock Formations",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -15300,12 +13264,6 @@
         57.0804778,
         -3.9598376
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Adventure Awaits",
-      "Explore Nature's Tunnel",
-      "Check Conditions Before Hiking"
     ]
   },
   {
@@ -15515,12 +13473,6 @@
         57.0758405,
         -4.1123102
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Views",
-      "Moderate Trail Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Scenic Overlooks"
     ]
   },
   {
@@ -15722,38 +13674,6 @@
         57.4947805,
         -4.4379833
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Adventure",
-      "Explore South Shore Beauty",
-      "Wildlife Spotting Opportunities"
-    ]
-  },
-  {
-    "id": "osm-trail-12807812",
-    "slug": "trail-of-the-7-lochs",
-    "name": "Trail of the 7 Lochs",
-    "summary": "Trail of the 7 Lochs is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 80,
-    "distance_miles": 49.7,
-    "duration_hours": 20,
-    "elevation_gain_m": 2400,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://www.southlochnessaccess.org.uk/index.asp?pageid=17340",
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Loch Vistas",
-      "Moderate Hiking Challenge",
-      "Wildlife Spotting Opportunities",
-      "Serene Nature Escape"
     ]
   },
   {
@@ -15807,90 +13727,6 @@
         57.6746519,
         -4.371973
       ]
-    ],
-    "highlights": [
-      "Stunning Highland Vistas",
-      "Moderate Adventure Awaits",
-      "Breathtaking Scenic Overlook",
-      "Nature's Beauty Unleashed"
-    ]
-  },
-  {
-    "id": "osm-trail-15589813",
-    "slug": "two-bridges-trail",
-    "name": "Two Bridges Trail",
-    "summary": "Two Bridges Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Scenic Views Await",
-      "Moderate Challenge",
-      "Bridges & Nature",
-      "Explore North Shore Beauty"
-    ]
-  },
-  {
-    "id": "osm-trail-13642884",
-    "slug": "two-lochs-trail",
-    "name": "Two Lochs trail",
-    "summary": "Two Lochs trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highland Scenery",
-      "Moderate Hiking Adventure",
-      "Two Stunning Lochs",
-      "Check Local Conditions"
-    ]
-  },
-  {
-    "id": "osm-trail-6207517",
-    "slug": "uath-lochans-trail",
-    "name": "Uath Lochans Trail",
-    "summary": "Uath Lochans Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Scenic Views",
-      "Moderate Hiking Challenge",
-      "Nature's Tranquil Oasis",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -16048,38 +13884,6 @@
         57.5769037,
         -4.5851165
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Moderate Adventure Awaits",
-      "Perfect for Photo Ops",
-      "Nature's Hidden Gem"
-    ]
-  },
-  {
-    "id": "osm-trail-3226816",
-    "slug": "viewpoint-trail",
-    "name": "Viewpoint Trail",
-    "summary": "Viewpoint Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "highlands",
-    "difficulty": "moderate",
-    "distance_km": 2,
-    "distance_miles": 1.2,
-    "duration_hours": 0.5,
-    "elevation_gain_m": 60,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Breathtaking Highlands Views",
-      "Moderate Hiking Adventure",
-      "Perfect for Nature Lovers",
-      "Stunning Photo Opportunities"
     ]
   },
   {
@@ -16201,38 +14005,6 @@
         57.0291658,
         -4.1178157
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Challenge Awaits",
-      "Explore Nature's Beauty",
-      "Perfect for Day Hikes"
-    ]
-  },
-  {
-    "id": "osm-trail-10086547",
-    "slug": "west-terrace-circular",
-    "name": "West Terrace Circular",
-    "summary": "West Terrace Circular is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "south-shore",
-    "difficulty": "moderate",
-    "distance_km": 5,
-    "distance_miles": 3.1,
-    "duration_hours": 1.3,
-    "elevation_gain_m": 150,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": null,
-    "geometry": [],
-    "highlights": [
-      "Stunning Coastal Vistas",
-      "Moderate Hiking Adventure",
-      "Nature's Tranquility Awaits",
-      "Explore the South Shore"
     ]
   },
   {
@@ -16306,12 +14078,6 @@
         57.4620982,
         -4.2759232
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Vistas",
-      "Moderate Challenge Awaits",
-      "Wildlife Sightings Guaranteed",
-      "Perfect for Photography Enthusiasts"
     ]
   },
   {
@@ -16397,38 +14163,6 @@
         57.5780193,
         -4.5907884
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Views",
-      "Moderate Hiking Adventure",
-      "Explore South-Shore Beauty",
-      "Check Local Conditions"
-    ]
-  },
-  {
-    "id": "osm-trail-3000559",
-    "slug": "wildcat-trail",
-    "name": "Wildcat Trail",
-    "summary": "Wildcat Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "area_id": "north-shore",
-    "difficulty": "moderate",
-    "distance_km": 10,
-    "distance_miles": 6.2,
-    "duration_hours": 2.5,
-    "elevation_gain_m": 300,
-    "latitude": 57.3,
-    "longitude": -4.5,
-    "photos": [
-      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&h=600&fit=crop"
-    ],
-    "gpx_url": null,
-    "external_url": "https://sites.google.com/site/thewildcattrailnewtonmore/",
-    "geometry": [],
-    "highlights": [
-      "Stunning Scenic Views",
-      "Moderate Hiking Adventure",
-      "Nature's Hidden Gem",
-      "Explore the North Shore"
     ]
   },
   {
@@ -16806,12 +14540,6 @@
         57.0018475,
         -4.3155963
       ]
-    ],
-    "highlights": [
-      "Breathtaking Loch Views",
-      "Moderate Hiking Adventure",
-      "Nature's Hidden Gem",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -17301,12 +15029,6 @@
         56.9917355,
         -4.3121102
       ]
-    ],
-    "highlights": [
-      "Breathtaking Scenic Vistas",
-      "Moderate Challenge Awaits",
-      "Explore Diverse Terrain",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -17556,12 +15278,6 @@
         57.0070212,
         -4.3029336
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -17919,12 +15635,6 @@
         57.0015328,
         -4.3128301
       ]
-    ],
-    "highlights": [
-      "Scenic Highland Views",
-      "Moderate Adventure Awaits",
-      "Wildlife Spotting Opportunities",
-      "Check Conditions Before You Go"
     ]
   },
   {
@@ -18394,12 +16104,6 @@
         56.9901563,
         -4.3219131
       ]
-    ],
-    "highlights": [
-      "Scenic North Shore Views",
-      "Moderate Hiking Adventure",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking Trail Experience"
     ]
   },
   {
@@ -18753,12 +16457,6 @@
         57.0125238,
         -4.2936896
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Hiking Adventure",
-      "Breathtaking Nature Trails",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -19616,12 +17314,6 @@
         57.0038013,
         -4.3095804
       ]
-    ],
-    "highlights": [
-      "Scenic Loch Views",
-      "Moderate Hiking Challenge",
-      "Nature's Serenity Awaits",
-      "Breathtaking Red Trail"
     ]
   },
   {
@@ -20291,12 +17983,6 @@
         56.9901563,
         -4.3219131
       ]
-    ],
-    "highlights": [
-      "Stunning Scenic Overlooks",
-      "Moderate Challenge Awaits",
-      "Wildlife Spotting Opportunities",
-      "Breathtaking North-Shore Vistas"
     ]
   },
   {
@@ -20382,12 +18068,6 @@
         56.9938946,
         -4.318657
       ]
-    ],
-    "highlights": [
-      "Moderate Hiking Adventure",
-      "Breathtaking Loch Views",
-      "Wildlife Watching Opportunities",
-      "Well-Marked Trail"
     ]
   },
   {
@@ -20533,12 +18213,6 @@
         57.0005745,
         -4.3145632
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Views",
-      "Moderate Adventure Awaits",
-      "Nature's Hidden Gem",
-      "Wildlife Spotting Opportunities"
     ]
   },
   {
@@ -20592,12 +18266,6 @@
         57.1264351,
         -3.934502
       ]
-    ],
-    "highlights": [
-      "Stunning North-Shore Vistas",
-      "Moderate Hiking Adventure",
-      "Explore Scenic Woodlands",
-      "Check Local Conditions"
     ]
   },
   {
@@ -20631,12 +18299,6 @@
         57.4746485,
         -4.1384938
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Moderate Trail Adventure",
-      "Nature's Scenic Splendor",
-      "Check Conditions Before Hiking"
     ]
   },
   {
@@ -20874,12 +18536,6 @@
         57.5792768,
         -4.5927009
       ]
-    ],
-    "highlights": [
-      "Breathtaking Highland Vistas",
-      "Moderate Challenge Awaits",
-      "Explore Scenic Landscapes",
-      "Check Conditions Before You Go"
     ]
   }
 ]
