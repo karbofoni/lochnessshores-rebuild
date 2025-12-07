@@ -8,7 +8,12 @@
     "area_id": "loch-ness",
     "description": "Abercorn Street North is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Abercorn Street North is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Trekking Adventure",
+      "Breathtaking Nature Trails",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.5965505,
     "start_point_lng": -5.9509701,
@@ -27,7 +32,12 @@
     "area_id": "north-shore",
     "description": "Alnwick is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Alnwick is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking North Shore Views",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Explore Scenic Nature Trails"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3844285,
     "start_point_lng": -1.6827317,
@@ -46,7 +56,12 @@
     "area_id": "loch-ness",
     "description": "Aonach Eagach is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Aonach Eagach is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Loch Ness Views",
+      "Easy Scenic Adventure",
+      "Wildlife Spotting Opportunities",
+      "Stunning Ridge Walk"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.6805382,
     "start_point_lng": -5.0130313,
@@ -65,7 +80,12 @@
     "area_id": "north-shore",
     "description": "Back Dykes is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Back Dykes is a scenic trail offering beautiful views. Check local conditions before heading out. ",
-    "highlights": [],
+    "highlights": [
+      "Stunning Scenic Views",
+      "Moderate Hiking Adventure",
+      "Explore North Shore Beauty",
+      "Check Conditions Before You Go"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.4510932,
     "start_point_lng": -2.8835166,
@@ -84,7 +104,12 @@
     "area_id": "north-shore",
     "description": "Badenoch Way is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Badenoch Way is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Scenic Overlooks",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Breathtaking North-Shore Views"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 57.1031897,
     "start_point_lng": -3.9357703,
@@ -103,7 +128,12 @@
     "area_id": "north-shore",
     "description": "Baths Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Baths Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Trekking Adventure",
+      "Explore Nature's Beauty",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7766462,
     "start_point_lng": -1.569077,
@@ -122,7 +152,12 @@
     "area_id": "highlands",
     "description": "Bell Place Footbridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Bell Place Footbridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Highland Views",
+      "Moderate Challenge Awaits",
+      "Footbridge Adventure",
+      "Nature's Serenity"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9623678,
     "start_point_lng": -3.2065428,
@@ -141,7 +176,12 @@
     "area_id": "highlands",
     "description": "Ben Nevis Mountain Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Ben Nevis Mountain Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Views",
+      "Gentle Terrain for Everyone",
+      "Nature's Beauty Awaits",
+      "Perfect for Family Hikes"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.7967896,
     "start_point_lng": -5.0035976,
@@ -160,7 +200,12 @@
     "area_id": "north-shore",
     "description": "Bilton Banks & Shilbottle is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Bilton Banks & Shilbottle is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning North Shore Views",
+      "Gentle Terrain for All",
+      "Wildlife Spotting Opportunities",
+      "Perfect for Family Outings"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3860129,
     "start_point_lng": -1.6616883,
@@ -179,7 +224,12 @@
     "area_id": "south-shore",
     "description": "Birdsong Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Birdsong Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Scenic Views",
+      "Moderate Hiking Adventure",
+      "Birdwatcher's Paradise",
+      "Lush Greenery Awaits"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9216198,
     "start_point_lng": -3.2295972,
@@ -198,7 +248,12 @@
     "area_id": "north-shore",
     "description": "Blackhill Penvane loop route is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Blackhill Penvane loop route is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Scenic Views",
+      "Moderate Hiking Challenge",
+      "Nature's Tranquil Beauty",
+      "Explore North Shore Trails"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3258588,
     "start_point_lng": -3.7376151,
@@ -217,7 +272,12 @@
     "area_id": "loch-ness",
     "description": "Bogs Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Bogs Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Hiking Adventure",
+      "Explore Nature's Beauty",
+      "Check Conditions Before You Go"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9185755,
     "start_point_lng": -3.2543017,
@@ -236,7 +296,12 @@
     "area_id": "south-shore",
     "description": "Brandon to Bishop Auckland Railway Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Brandon to Bishop Auckland Railway Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Railway Views",
+      "Moderate Hiking Adventure",
+      "Historic Pathway Exploration",
+      "Nature's Tranquil Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7103452,
     "start_point_lng": -1.693678,
@@ -255,7 +320,12 @@
     "area_id": "south-shore",
     "description": "Cambridgeshire Drive is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Cambridgeshire Drive is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Shoreline Views",
+      "Moderate Hiking Challenge",
+      "Wildlife Spotting Opportunities",
+      "Breathtaking Sunset Paths"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7801039,
     "start_point_lng": -1.5307331,
@@ -274,7 +344,12 @@
     "area_id": "loch-ness",
     "description": "Carr House Drive is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Carr House Drive is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Hiking Adventure",
+      "Breathtaking Nature Trails",
+      "Wildlife Watching Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7975446,
     "start_point_lng": -1.5804962,
@@ -293,7 +368,12 @@
     "area_id": "highlands",
     "description": "Cawledge East Park & Greenrig is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Cawledge East Park & Greenrig is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Views",
+      "Gentle Terrain for All",
+      "Wildlife Spotting Opportunities",
+      "Tranquil Nature Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3840953,
     "start_point_lng": -1.6705026,
@@ -312,7 +392,12 @@
     "area_id": "south-shore",
     "description": "Cockmylane is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Cockmylane is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Coastal Vistas",
+      "Moderate Hiking Challenge",
+      "Nature Abounds",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9113507,
     "start_point_lng": -3.2177106,
@@ -331,7 +416,12 @@
     "area_id": "south-shore",
     "description": "Cragside is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Cragside is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Moderate Adventure Awaits",
+      "Explore South Shore Beauty",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3150304,
     "start_point_lng": -1.8742464,
@@ -350,7 +440,12 @@
     "area_id": "north-shore",
     "description": "Old A93.  Now a path signed as part of the Craighall Circular Path.",
     "summary": "Old A93.  Now a path signed as part of the Craighall Circular Path.",
-    "highlights": [],
+    "highlights": [
+      "Stunning North-Shore Vistas",
+      "Moderate Adventure Awaits",
+      "Historic Pathway Exploration",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.6205322,
     "start_point_lng": -3.3488433,
@@ -369,7 +464,12 @@
     "area_id": "highlands",
     "description": "Crawford Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Crawford Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Highland Views",
+      "Moderate Adventure Awaits",
+      "Bridge Over Tranquil Waters",
+      "Nature's Beauty Unleashed"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9606818,
     "start_point_lng": -3.1685748,
@@ -388,7 +488,12 @@
     "area_id": "south-shore",
     "description": "Deanhaugh Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Deanhaugh Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning South-Shore Views",
+      "Moderate Challenge Awaits",
+      "Nature's Beauty Unfolds",
+      "Check Local Conditions First"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9594437,
     "start_point_lng": -3.2095749,
@@ -407,7 +512,12 @@
     "area_id": "loch-ness",
     "description": "Deerness Valley Railway Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Deerness Valley Railway Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Valley Views",
+      "Moderate Hiking Challenge",
+      "Historic Railway Remnants",
+      "Nature's Serenity Awaits"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7718814,
     "start_point_lng": -1.6389298,
@@ -426,7 +536,12 @@
     "area_id": "loch-ness",
     "description": "Den's Cleugh is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Den's Cleugh is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Loch Views",
+      "Moderate Adventure Awaits",
+      "Nature's Hidden Gem",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8644413,
     "start_point_lng": -3.2903723,
@@ -445,7 +560,12 @@
     "area_id": "south-shore",
     "description": "Derwent Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Derwent Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning River Views",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Serene Nature Escapes"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.9339533,
     "start_point_lng": -1.7180213,
@@ -464,7 +584,12 @@
     "area_id": "loch-ness",
     "description": "East House is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "East House is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Trail Adventure",
+      "Breathtaking Nature",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3357933,
     "start_point_lng": -1.6649005,
@@ -483,7 +608,12 @@
     "area_id": "loch-ness",
     "description": "Farmer Allan's Track is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Farmer Allan's Track is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Adventure Awaits",
+      "Breathtaking Nature Trails",
+      "Explore Farmer Allan's Legacy"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 57.1060731,
     "start_point_lng": -2.0911545,
@@ -502,7 +632,12 @@
     "area_id": "highlands",
     "description": "Forth and Clyde Canal Towpath is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Forth and Clyde Canal Towpath is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Canal Views",
+      "Moderate Hiking Adventure",
+      "Nature and Wildlife Spotting",
+      "Historical Towpath Experience"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.000697,
     "start_point_lng": -3.8281059,
@@ -521,7 +656,12 @@
     "area_id": "north-shore",
     "description": "Garnheath West Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Garnheath West Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Moderate Hiking Adventure",
+      "Explore North Shore Beauty",
+      "Nature's Tranquil Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8671669,
     "start_point_lng": -4.0658413,
@@ -540,7 +680,12 @@
     "area_id": "loch-ness",
     "description": "Glantlees is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Glantlees is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Loch Ness Views",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3443837,
     "start_point_lng": -1.7743006,
@@ -559,7 +704,12 @@
     "area_id": "north-shore",
     "description": "Golf Courses Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Golf Courses Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Golf Course Views",
+      "Moderate Hiking Adventure",
+      "Nature's Tranquil Escape",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9682301,
     "start_point_lng": -3.2981854,
@@ -572,13 +722,18 @@
   {
     "id": "osm-trail-27050172",
     "slug": "great-glen-way-slighe-a-ghlinne-mh-ir",
-    "name": "Great Glen Way - Slighe a' Ghlinne Mh\u00f2ir",
+    "name": "Great Glen Way - Slighe a' Ghlinne Mhòir",
     "distance_km": 5,
     "difficulty": "Moderate",
     "area_id": "highlands",
-    "description": "Great Glen Way - Slighe a' Ghlinne Mh\u00f2ir is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "summary": "Great Glen Way - Slighe a' Ghlinne Mh\u00f2ir is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "description": "Great Glen Way - Slighe a' Ghlinne Mhòir is a scenic trail offering beautiful views. Check local conditions before heading out.",
+    "summary": "Great Glen Way - Slighe a' Ghlinne Mhòir is a scenic trail offering beautiful views. Check local conditions before heading out.",
+    "highlights": [
+      "Breathtaking Highland Scenery",
+      "Moderate Adventure Awaits",
+      "Explore Stunning Lochside Views",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.9333027,
     "start_point_lng": -4.9812187,
@@ -597,7 +752,12 @@
     "area_id": "highlands",
     "description": "very steep",
     "summary": "very steep",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Summit Views",
+      "Challenging Steep Sections",
+      "Wildflower Blooms in Spring",
+      "Moderate Adventure Awaits"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8744462,
     "start_point_lng": -3.2689067,
@@ -616,7 +776,12 @@
     "area_id": "highlands",
     "description": "Hart to Haswell Walkway is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Hart to Haswell Walkway is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Views",
+      "Moderate Trekking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Serene Nature Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.733606,
     "start_point_lng": -1.3640399,
@@ -635,7 +800,12 @@
     "area_id": "highlands",
     "description": "Hawthorn-Ryhope Way is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Hawthorn-Ryhope Way is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Vistas",
+      "Moderate Challenge Awaits",
+      "Wildlife Spotting Opportunities",
+      "Picturesque Nature Path"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.8450101,
     "start_point_lng": -1.3842448,
@@ -654,7 +824,12 @@
     "area_id": "loch-ness",
     "description": "Heriot Mount is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Heriot Mount is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Loch Ness Vistas",
+      "Moderate Hiking Adventure",
+      "Breathtaking Scenic Overlooks",
+      "Nature's Tranquil Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9450951,
     "start_point_lng": -3.1789735,
@@ -673,7 +848,12 @@
     "area_id": "highlands",
     "description": "Hilltop Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Hilltop Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Views",
+      "Moderate Adventure Awaits",
+      "Nature's Tranquil Escape",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9212003,
     "start_point_lng": -3.2298725,
@@ -692,7 +872,12 @@
     "area_id": "south-shore",
     "description": "Horse Chestnut Avenue is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Horse Chestnut Avenue is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Trail Adventure",
+      "Explore Nature's Beauty",
+      "Check Conditions First"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9243074,
     "start_point_lng": -3.148136,
@@ -711,7 +896,12 @@
     "area_id": "south-shore",
     "description": "Inver Shore Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Inver Shore Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Coastal Views",
+      "Moderate Hiking Adventure",
+      "Nature's Serenity Awaits",
+      "Check Local Trail Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 57.8219017,
     "start_point_lng": -3.912254,
@@ -730,7 +920,12 @@
     "area_id": "north-shore",
     "description": "Inver Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Inver Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Coastal Views",
+      "Gentle Walk for All",
+      "Wildlife Spotting Opportunities",
+      "Stunning Sunsets Ahead"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.0141626,
     "start_point_lng": -6.1024716,
@@ -749,7 +944,12 @@
     "area_id": "loch-ness",
     "description": "King George VI Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "King George VI Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Bridge Views",
+      "Moderate Hiking Adventure",
+      "Loch Ness Serenity",
+      "Breathtaking Nature Trails"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 57.1278977,
     "start_point_lng": -2.1080993,
@@ -768,7 +968,12 @@
     "area_id": "highlands",
     "description": "Kinneil Woods is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Kinneil Woods is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Highland Views",
+      "Moderate Adventure Awaits",
+      "Nature's Tranquil Escape",
+      "Explore Kinneil's Beauty"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.0037846,
     "start_point_lng": -3.6421855,
@@ -787,7 +992,12 @@
     "area_id": "highlands",
     "description": "Knightfield Rig is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Knightfield Rig is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Highland Vistas",
+      "Gentle Terrain for All",
+      "Perfect for Family Outings",
+      "Breathtaking Nature Awaits"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.865909,
     "start_point_lng": -3.2581279,
@@ -806,7 +1016,12 @@
     "area_id": "highlands",
     "description": "Lanchester Valley Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Lanchester Valley Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Highland Vistas",
+      "Moderate Adventure Awaits",
+      "Nature's Serenity",
+      "Explore Scenic Valleys"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7868134,
     "start_point_lng": -1.6249654,
@@ -825,7 +1040,12 @@
     "area_id": "loch-ness",
     "description": "Lang Linn Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Lang Linn Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Loch Views",
+      "Moderate Hiking Adventure",
+      "Explore Nature's Beauty",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9187419,
     "start_point_lng": -3.1968857,
@@ -844,7 +1064,12 @@
     "area_id": "highlands",
     "description": "Loan Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Loan Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Views",
+      "Moderate Adventure Awaits",
+      "Explore Nature's Beauty",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9104129,
     "start_point_lng": -3.5236906,
@@ -863,7 +1088,12 @@
     "area_id": "highlands",
     "description": "Loch Leven Heritage Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Loch Leven Heritage Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Highland Views",
+      "Moderate Hiking Adventure",
+      "Rich Heritage Trail",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.2001173,
     "start_point_lng": -3.4164854,
@@ -882,7 +1112,12 @@
     "area_id": "highlands",
     "description": "Maiden's Cleugh is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Maiden's Cleugh is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Vistas",
+      "Gentle Terrain for All",
+      "Wildlife Spotting Opportunities",
+      "Peaceful Nature Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8642155,
     "start_point_lng": -3.2564994,
@@ -901,7 +1136,12 @@
     "area_id": "highlands",
     "description": "Monk's Rig is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Monk's Rig is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Vistas",
+      "Moderate Adventure Awaits",
+      "Nature's Tranquil Escape",
+      "Explore Scenic Trails"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8203806,
     "start_point_lng": -3.3184449,
@@ -920,7 +1160,12 @@
     "area_id": "south-shore",
     "description": "Montrose Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Montrose Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Shoreline Views",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Breathtaking Sunset Vistas"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.5976956,
     "start_point_lng": -5.8984691,
@@ -939,7 +1184,12 @@
     "area_id": "north-shore",
     "description": "Newton on the Moor is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Newton on the Moor is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Moorland Vistas",
+      "Moderate Hiking Challenge",
+      "Wildlife Spotting Opportunities",
+      "Check Conditions Before You Go"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3377309,
     "start_point_lng": -1.7162078,
@@ -958,7 +1208,12 @@
     "area_id": "highlands",
     "description": "Newton Point Coastal Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Newton Point Coastal Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Coastal Views",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Serene Highland Landscape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.7166186,
     "start_point_lng": -5.2860279,
@@ -977,7 +1232,12 @@
     "area_id": "north-shore",
     "description": "Old Military Road is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Old Military Road is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Hiking Adventure",
+      "Explore Historic Trail",
+      "Breathtaking North Shore Vistas"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.6564673,
     "start_point_lng": -4.8644636,
@@ -996,7 +1256,12 @@
     "area_id": "south-shore",
     "description": "Pansy Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Pansy Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Moderate Adventure Awaits",
+      "Perfect for Nature Lovers",
+      "Explore South Shore Beauty"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9397528,
     "start_point_lng": -3.2459952,
@@ -1015,7 +1280,12 @@
     "area_id": "highlands",
     "description": "Paps Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Paps Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Vistas",
+      "Moderate Adventure Awaits",
+      "Explore Scenic Landscapes",
+      "Perfect for Nature Lovers"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8791468,
     "start_point_lng": -5.9280994,
@@ -1034,7 +1304,12 @@
     "area_id": "highlands",
     "description": "Path to Corryvreckan is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Path to Corryvreckan is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Highland Views",
+      "Moderate Adventure Awaits",
+      "Breathtaking Scenic Overlook",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.1360144,
     "start_point_lng": -5.7017269,
@@ -1053,7 +1328,12 @@
     "area_id": "loch-ness",
     "description": "Pennyferry Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Pennyferry Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Loch Ness Views",
+      "Moderate Trail Adventure",
+      "Historic Bridge Experience",
+      "Nature's Tranquil Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7800117,
     "start_point_lng": -1.5765136,
@@ -1072,7 +1352,12 @@
     "area_id": "south-shore",
     "description": "Pinewood Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Pinewood Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Forest Scenery",
+      "Gentle Terrain for All",
+      "Wildlife Spotting Opportunities",
+      "Serene Pinewood Ambiance"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.8664791,
     "start_point_lng": -5.4315498,
@@ -1091,7 +1376,12 @@
     "area_id": "north-shore",
     "description": "Piper's Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Piper's Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Lake Views",
+      "Gentle Terrain",
+      "Wildflower Blooms",
+      "Family-Friendly Trail"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9443894,
     "start_point_lng": -3.1634443,
@@ -1110,7 +1400,12 @@
     "area_id": "loch-ness",
     "description": "Poet's Glen is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Poet's Glen is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Hiking Adventure",
+      "Nature-Inspired Serenity",
+      "Breathtaking Photo Spots"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8932907,
     "start_point_lng": -3.3005102,
@@ -1129,7 +1424,12 @@
     "area_id": "loch-ness",
     "description": "Portpatrick Railway is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Portpatrick Railway is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Trail Adventure",
+      "Explore Loch Ness",
+      "Historic Railway Path"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.9579774,
     "start_point_lng": -4.2448848,
@@ -1148,7 +1448,12 @@
     "area_id": "south-shore",
     "description": "Red Road is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Red Road is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Moderate Hiking Adventure",
+      "Explore South-Shore Beauty",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8436532,
     "start_point_lng": -3.3329549,
@@ -1167,7 +1472,12 @@
     "area_id": "highlands",
     "description": "River Almond Walkway is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "River Almond Walkway is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking River Views",
+      "Easy Highlands Stroll",
+      "Perfect for Families",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9739881,
     "start_point_lng": -3.3072122,
@@ -1186,7 +1496,12 @@
     "area_id": "north-shore",
     "description": "Rocheid Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Rocheid Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Coastal Views",
+      "Gentle Terrain",
+      "Wildlife Spotting",
+      "Peaceful Nature Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9624048,
     "start_point_lng": -3.2075576,
@@ -1205,7 +1520,12 @@
     "area_id": "highlands",
     "description": "Roupin' Stairs is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Roupin' Stairs is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Views",
+      "Moderate Hiking Adventure",
+      "Scenic Overlook Points",
+      "Nature's Tranquil Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9458931,
     "start_point_lng": -2.969152,
@@ -1224,7 +1544,12 @@
     "area_id": "highlands",
     "description": "Salters Lane is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Salters Lane is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Vistas",
+      "Moderate Terrain Adventure",
+      "Wildlife Spotting Opportunities",
+      "Serene Nature Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.0279079,
     "start_point_lng": -1.5885608,
@@ -1243,7 +1568,12 @@
     "area_id": "south-shore",
     "description": "Scenic Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Scenic Trail is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Shoreline Views",
+      "Gentle Terrain for Everyone",
+      "Wildlife Watching Opportunities",
+      "Perfect for Family Outings"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.0169882,
     "start_point_lng": -6.0985691,
@@ -1262,7 +1592,12 @@
     "area_id": "north-shore",
     "description": "Scorrybreac is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Scorrybreac is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Coastal Views",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Breathtaking Scenic Overlooks"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 57.4192776,
     "start_point_lng": -6.1776482,
@@ -1281,7 +1616,12 @@
     "area_id": "south-shore",
     "description": "Seaton Common Bridleway is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Seaton Common Bridleway is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Coastal Views",
+      "Moderate Hiking Adventure",
+      "Nature's Serenity Awaits",
+      "Explore Seaton's Beauty"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.6498268,
     "start_point_lng": -1.1813477,
@@ -1300,7 +1640,12 @@
     "area_id": "north-shore",
     "description": "Sewage Works Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Sewage Works Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Hiking Challenge",
+      "Nature's Hidden Gem",
+      "Explore North-Shore Beauty"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.968979,
     "start_point_lng": -3.1408136,
@@ -1319,7 +1664,12 @@
     "area_id": "loch-ness",
     "description": "Shelter Belt path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Shelter Belt path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views of Loch Ness",
+      "Moderate Trail Adventure",
+      "Nature's Tranquility Awaits",
+      "Explore the Shelter Belt"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8630684,
     "start_point_lng": -3.2482757,
@@ -1338,7 +1688,12 @@
     "area_id": "loch-ness",
     "description": "Shiprow is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Shiprow is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Challenge Awaits",
+      "Breathtaking Nature Spots",
+      "Check Conditions Before You Go"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 57.1473582,
     "start_point_lng": -2.0948735,
@@ -1357,7 +1712,12 @@
     "area_id": "north-shore",
     "description": "Silver Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Silver Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking North Shore Views",
+      "Moderate Hike, Great Rewards",
+      "Nature's Beauty Awaits",
+      "Perfect for Adventurous Souls"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.7847313,
     "start_point_lng": -5.8096724,
@@ -1376,7 +1736,12 @@
     "area_id": "north-shore",
     "description": "South Side is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "South Side is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic North Shore Views",
+      "Moderate Adventure Awaits",
+      "Nature's Beauty Unleashed",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3508718,
     "start_point_lng": -1.6681724,
@@ -1395,7 +1760,12 @@
     "area_id": "loch-ness",
     "description": "Spy Law & Greenrigg is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Spy Law & Greenrigg is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Loch Ness Vistas",
+      "Moderate Hiking Adventure",
+      "Breathtaking Nature Trails",
+      "Check Conditions Before You Go"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.3911514,
     "start_point_lng": -1.654765,
@@ -1414,7 +1784,12 @@
     "area_id": "loch-ness",
     "description": "Stell burn climb is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Stell burn climb is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Loch Views",
+      "Moderate Hiking Challenge",
+      "Scenic Nature Trail",
+      "Check Conditions First"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.6086851,
     "start_point_lng": -3.0507571,
@@ -1433,7 +1808,12 @@
     "area_id": "north-shore",
     "description": "Tanfield Footbridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Tanfield Footbridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Moderate Challenge Awaits",
+      "Explore North Shore Beauty",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9625348,
     "start_point_lng": -3.2037986,
@@ -1452,7 +1832,12 @@
     "area_id": "south-shore",
     "description": "The Dasses is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "The Dasses is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Coastal Vistas",
+      "Moderate Challenge Awaits",
+      "Explore Nature's Beauty",
+      "Check Conditions First"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9482606,
     "start_point_lng": -3.1634196,
@@ -1471,7 +1856,12 @@
     "area_id": "south-shore",
     "description": "The Dry Dam is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "The Dry Dam is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Easy Trail for Everyone",
+      "Wildlife Spotting Opportunities",
+      "Perfect for Family Outings"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9478795,
     "start_point_lng": -3.1619234,
@@ -1490,7 +1880,12 @@
     "area_id": "loch-ness",
     "description": "The Greenock Cut is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "The Greenock Cut is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Loch Views",
+      "Moderate Hiking Challenge",
+      "Breathtaking Nature Trails",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9208704,
     "start_point_lng": -4.8211849,
@@ -1509,7 +1904,12 @@
     "area_id": "south-shore",
     "description": "The Old Bank is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "The Old Bank is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Shoreline Views",
+      "Gentle Terrain",
+      "Family-Friendly Trail",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.4306119,
     "start_point_lng": -1.6196175,
@@ -1528,7 +1928,12 @@
     "area_id": "loch-ness",
     "description": "The Pillars is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "The Pillars is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Scenic Views",
+      "Moderate Hiking Adventure",
+      "Explore Loch Ness Beauty",
+      "Check Conditions Before Hiking"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9100136,
     "start_point_lng": -3.1386934,
@@ -1547,7 +1952,12 @@
     "area_id": "highlands",
     "description": "The Promenade is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "The Promenade is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Highland Vistas",
+      "Moderate Adventure Awaits",
+      "Wildlife Spotting Opportunities",
+      "Explore Scenic Overlooks"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.1821805,
     "start_point_lng": -1.5133007,
@@ -1566,7 +1976,12 @@
     "area_id": "highlands",
     "description": "Tinwald Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Tinwald Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Highland Vistas",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Breathtaking Scenic Overlooks"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8472385,
     "start_point_lng": -4.3613067,
@@ -1585,7 +2000,12 @@
     "area_id": "south-shore",
     "description": "Traquair Alley is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Traquair Alley is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Views Await",
+      "Moderate Adventure",
+      "Nature's Hidden Gem",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9409565,
     "start_point_lng": -3.2715832,
@@ -1604,7 +2024,12 @@
     "area_id": "loch-ness",
     "description": "Union Canal Towpath is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Union Canal Towpath is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Canal Views",
+      "Moderate Hiking Trail",
+      "Nature's Beauty Awaits",
+      "Explore Loch Ness Trails"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9202756,
     "start_point_lng": -3.2570643,
@@ -1623,7 +2048,12 @@
     "area_id": "highlands",
     "description": "Victoria Park Nature Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Victoria Park Nature Walk is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Stunning Highland Vistas",
+      "Moderate Hiking Adventure",
+      "Nature's Tranquil Escape",
+      "Wildlife Spotting Opportunities"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.8771623,
     "start_point_lng": -4.3425129,
@@ -1642,7 +2072,12 @@
     "area_id": "loch-ness",
     "description": "Warwickshire Drive is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Warwickshire Drive is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Breathtaking Loch Views",
+      "Moderate Hiking Challenge",
+      "Scenic Trail Experience",
+      "Nature's Serenity Awaits"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.7802419,
     "start_point_lng": -1.5280251,
@@ -1661,7 +2096,12 @@
     "area_id": "highlands",
     "description": "Water of Leith Walkway is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Water of Leith Walkway is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic River Views",
+      "Moderate Hiking Experience",
+      "Wildlife Spotting Opportunities",
+      "Peaceful Highland Escape"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.9081896,
     "start_point_lng": -3.2594964,
@@ -1674,13 +2114,18 @@
   {
     "id": "osm-trail-4242411",
     "slug": "west-highland-way-slighe-taobh-an-iar-na-g-idhealt",
-    "name": "West Highland Way - Slighe Taobh an Iar na G\u00e0idhealtachd",
+    "name": "West Highland Way - Slighe Taobh an Iar na Gàidhealtachd",
     "distance_km": 5,
     "difficulty": "Moderate",
     "area_id": "north-shore",
-    "description": "West Highland Way - Slighe Taobh an Iar na G\u00e0idhealtachd is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "summary": "West Highland Way - Slighe Taobh an Iar na G\u00e0idhealtachd is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "description": "West Highland Way - Slighe Taobh an Iar na Gàidhealtachd is a scenic trail offering beautiful views. Check local conditions before heading out.",
+    "summary": "West Highland Way - Slighe Taobh an Iar na Gàidhealtachd is a scenic trail offering beautiful views. Check local conditions before heading out.",
+    "highlights": [
+      "Breathtaking Highland Scenery",
+      "Moderate Hiking Adventure",
+      "Wildlife Spotting Opportunities",
+      "Explore Tranquil Landscapes"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 55.957294,
     "start_point_lng": -4.3307344,
@@ -1699,7 +2144,12 @@
     "area_id": "loch-ness",
     "description": "Whorlton Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Whorlton Bridge is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Bridge Over Loch",
+      "Moderate Hiking Adventure",
+      "Breathtaking Nature Views",
+      "Check Local Conditions"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 54.5261386,
     "start_point_lng": -1.8368068,
@@ -1718,7 +2168,12 @@
     "area_id": "south-shore",
     "description": "Youth Hostel Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
     "summary": "Youth Hostel Path is a scenic trail offering beautiful views. Check local conditions before heading out.",
-    "highlights": [],
+    "highlights": [
+      "Scenic Coastal Views",
+      "Easy Stroll for Everyone",
+      "Perfect for Families",
+      "Nature's Hidden Gems"
+    ],
     "notes": "Data sourced from OpenStreetMap",
     "start_point_lat": 56.8009976,
     "start_point_lng": -5.0627957,
