@@ -2986,7 +2986,7 @@
     ],
     "external_booking_url": "https://www.campinginaviemore.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&h=600&fit=crop"
+      "/images/generated/campsite_dalraddy_holiday_park.png"
     ],
     "address": "",
     "phone": "+44 1479 810330",
@@ -3054,7 +3054,7 @@
     ],
     "external_booking_url": "https://www.derwentviewglamping.com/",
     "photos": [
-      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&h=600&fit=crop"
+      "/images/generated/campsite_derwent_view.png"
     ],
     "address": "",
     "phone": null,
@@ -3088,7 +3088,7 @@
     ],
     "external_booking_url": "https://www.wigwamholidays.com/dornie/",
     "photos": [
-      "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=600&fit=crop"
+      "/images/generated/campsite_dornie_wigwams.png"
     ],
     "address": "",
     "phone": null,
@@ -3122,7 +3122,7 @@
     ],
     "external_booking_url": "https://www.douglaswood.org.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?w=800&h=600&fit=crop"
+      "/images/generated/campsite_douglaswood_scout_centre.png"
     ],
     "address": "By Kirkbuddo",
     "phone": null,
@@ -3156,7 +3156,7 @@
     ],
     "external_booking_url": "https://www.drumlochart.co.uk/",
     "photos": [
-      "https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=800&h=600&fit=crop"
+      "/images/generated/campsite_drumlochart_caravan_park.png"
     ],
     "address": "",
     "phone": "+44 1776 870232",
@@ -3193,7 +3193,7 @@
     ],
     "external_booking_url": "https://drymencamping.co.uk",
     "photos": [
-      "https://images.unsplash.com/photo-1527786356703-4b100091cd2c?w=800&h=600&fit=crop"
+      "/images/generated/campsite_drymen_camping.png"
     ],
     "address": "Gartness Road",
     "phone": "+44 7494 144064",

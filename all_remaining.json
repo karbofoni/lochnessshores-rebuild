@@ -1,451 +1,10 @@
 {
   "campsites": [
     {
-      "slug": "barrow-campsite",
-      "name": "Barrow Campsite",
-      "lat": 57.5520888,
-      "lng": -3.9151187,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "bayview-campsite",
-      "name": "Bayview campsite",
-      "lat": 58.5292094,
-      "lng": -4.4319846,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "beadnell-bay",
-      "name": "Beadnell Bay",
-      "lat": 55.5605487,
-      "lng": -1.6369338,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "beinglas-farm",
-      "name": "Beinglas Farm",
-      "lat": 56.3304322,
-      "lng": -4.7174665,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "bellingham-camping-caravaning-club-site",
-      "name": "Bellingham Camping & Caravaning Club Site",
-      "lat": 55.1370717,
-      "lng": -2.2602009,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "bevanstead-campsite",
-      "name": "Bevanstead campsite",
-      "lat": 54.5644245,
-      "lng": -1.8074523,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "black-rock-holiday-park",
-      "name": "Black Rock Holiday Park",
-      "lat": 57.666174,
-      "lng": -4.3368955,
-      "area_id": "north-shore"
-    },
-    {
-      "slug": "blackwater-campsite",
-      "name": "Blackwater Campsite",
-      "lat": 56.7140505,
-      "lng": -4.9596886,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "blair-castle-caravan-park",
-      "name": "Blair Castle Caravan Park",
-      "lat": 56.7698758,
-      "lng": -3.8460157,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "blair-drummond-caravan-park",
-      "name": "Blair Drummond Caravan Park",
-      "lat": 56.1675883,
-      "lng": -4.0531899,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "bonaly-scout-centre",
-      "name": "Bonaly Scout Centre",
-      "lat": 55.8951866,
-      "lng": -3.2587145,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "borthwick",
-      "name": "Borthwick",
-      "lat": 55.8266885,
-      "lng": -3.0048316,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "borve-camping-and-caravan-site",
-      "name": "Borve Camping and Caravan Site",
-      "lat": 56.9788615,
-      "lng": -7.5152653,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "bothag-bhuirgh-camping-and-pods",
-      "name": "Bothag Bhuirgh Camping and Pods",
-      "lat": 58.4182822,
-      "lng": -6.4397615,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "brighouse-bay-hol-park-aa",
-      "name": "Brighouse Bay Hol. Park AA",
-      "lat": 54.7837996,
-      "lng": -4.1349092,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "broomfield-holiday-park",
-      "name": "Broomfield Holiday Park",
-      "lat": 57.8952265,
-      "lng": -5.1652313,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "broomhills-farm-river-eco-pods",
-      "name": "Broomhills Farm River Eco Pods",
-      "lat": 55.0076429,
-      "lng": -2.8892703,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "budle-bay-campsite",
-      "name": "Budle Bay Campsite",
-      "lat": 55.5998901,
-      "lng": -1.7698021,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "bught-caravan-campsite",
-      "name": "Bught Caravan & Campsite",
-      "lat": 57.4650303,
-      "lng": -4.2388019,
-      "area_id": "north-shore"
-    },
-    {
-      "slug": "bunchrew-caravan-park",
-      "name": "Bunchrew Caravan Park",
-      "lat": 57.4823065,
-      "lng": -4.306197,
-      "area_id": "north-shore"
-    },
-    {
-      "slug": "bunroy-caravan-camping-park",
-      "name": "Bunroy Caravan & Camping Park",
-      "lat": 56.885177,
-      "lng": -4.8351151,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "burns-farm-caravan-site",
-      "name": "Burns Farm Caravan Site",
-      "lat": 54.6089883,
-      "lng": -3.0742841,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "by-the-way",
-      "name": "By the Way",
-      "lat": 56.4335531,
-      "lng": -4.7124693,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "cairnryan-heights-holiday-park",
-      "name": "Cairnryan Heights Holiday Park",
-      "lat": 54.9637378,
-      "lng": -5.0108644,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "caldbeck-camping",
-      "name": "Caldbeck Camping",
-      "lat": 54.749849,
-      "lng": -3.0468472,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "camping-at-banks",
-      "name": "Camping at Banks",
-      "lat": 54.9761051,
-      "lng": -2.6713088,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "camping-at-cardewlees",
-      "name": "Camping at cardewlees",
-      "lat": 54.851156,
-      "lng": -3.007416,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "camping-skye",
-      "name": "Camping Skye",
-      "lat": 57.2453238,
-      "lng": -5.9188481,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "campsite-1174253345",
-      "name": "Campsite 1174253345",
-      "lat": 57.6662523,
-      "lng": -6.2541034,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "campsite-1311897158",
-      "name": "Campsite 1311897158",
-      "lat": 57.1364915,
-      "lng": -7.3063832,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "campsite-7322708538",
-      "name": "Campsite 7322708538",
-      "lat": 58.4923021,
-      "lng": -4.4272387,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "campsite-849599752",
-      "name": "Campsite 849599752",
-      "lat": 54.7732801,
-      "lng": -1.5576881,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "campsite-9773480116",
-      "name": "Campsite 9773480116",
-      "lat": 56.5322179,
-      "lng": -4.8136204,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "campsite-9773482585",
-      "name": "Campsite 9773482585",
-      "lat": 56.5324249,
-      "lng": -4.813213,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "camus-more-camping",
-      "name": "Camus More Camping",
-      "lat": 57.6506363,
-      "lng": -6.4038088,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "camusdarach-campsite",
-      "name": "Camusdarach Campsite",
-      "lat": 56.9549763,
-      "lng": -5.8466238,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "canna-campsite",
-      "name": "Canna Campsite",
-      "lat": 57.058236,
-      "lng": -6.5123802,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "cannich-woodland-camping-and-caravan-park",
-      "name": "Cannich Woodland Camping and Caravan Park",
-      "lat": 57.3439437,
-      "lng": -4.7590119,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "caolasnacon-caravan-camping-park",
-      "name": "Caolasnacon Caravan & Camping Park",
-      "lat": 56.7039841,
-      "lng": -5.0417644,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "cashel-camping-caravan-park-forest-holidays",
-      "name": "Cashel Camping & Caravan Park Forest Holidays",
-      "lat": 56.1125629,
-      "lng": -4.5820056,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "castle-bay-holiday-residential-park",
-      "name": "Castle Bay Holiday & Residential Park",
-      "lat": 54.8369048,
-      "lng": -5.1043855,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "castle-cary-holiday-park",
-      "name": "Castle Cary Holiday Park",
-      "lat": 54.891254,
-      "lng": -4.3791756,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "castlerigg-hall-caravan-camping-park",
-      "name": "Castlerigg Hall Caravan & Camping Park",
-      "lat": 54.59325,
-      "lng": -3.1144255,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "chapel-house-farm-campsite",
-      "name": "Chapel House Farm Campsite",
-      "lat": 54.5156459,
-      "lng": -3.1493748,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "chapel-house-farm-walkers-campsite",
-      "name": "Chapel house farm walkers campsite",
-      "lat": 54.988044,
-      "lng": -2.5541201,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "clachtoll-beach-campsite",
-      "name": "Clachtoll Beach Campsite",
-      "lat": 58.191824,
-      "lng": -5.3350546,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "clashwhannon-holiday-park",
-      "name": "Clashwhannon Holiday Park",
-      "lat": 54.6961839,
-      "lng": -4.8998394,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "coast-castles-camp-site",
-      "name": "Coast & Castles Camp Site",
-      "lat": 55.4264189,
-      "lng": -1.6061003,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "coilessan-camping-permit-area-march-september",
-      "name": "Coilessan camping permit area March-September",
-      "lat": 56.1753545,
-      "lng": -4.7934653,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "coldstream-holiday-park",
-      "name": "Coldstream Holiday Park",
-      "lat": 55.6464639,
-      "lng": -2.265265,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "colliery-farm-campsite",
-      "name": "Colliery Farm Campsite",
-      "lat": 54.786327,
-      "lng": -1.4323828,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "comrie-croft",
-      "name": "Comrie Croft",
-      "lat": 56.3891503,
-      "lng": -3.937436,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "craig-house-campsite",
-      "name": "Craig House Campsite",
-      "lat": 55.228462,
-      "lng": -6.4356564,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "creebridge-caravan-park",
-      "name": "Creebridge Caravan Park",
-      "lat": 54.959469,
-      "lng": -4.476593,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "creetown-caravan-park",
-      "name": "Creetown Caravan Park",
-      "lat": 54.8996239,
-      "lng": -4.3813895,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "crimdon-house-farm",
-      "name": "Crimdon House Farm",
-      "lat": 54.7205192,
-      "lng": -1.2515881,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "croft-183",
-      "name": "Croft 183",
-      "lat": 56.985387,
-      "lng": -7.4119941,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "cross-dormont-camp-site",
-      "name": "Cross Dormont Camp Site",
-      "lat": 54.5958757,
-      "lng": -2.8357689,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "cruachan-farm-caravan-and-camping-park",
-      "name": "Cruachan Farm Caravan and Camping Park",
-      "lat": 56.4939824,
-      "lng": -4.2567891,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "culag-beach-camping-permit-area-march-september",
-      "name": "Culag beach Camping permit area March-September",
-      "lat": 56.123935,
-      "lng": -4.6516578,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "cullen-bay-caravan-park",
-      "name": "Cullen Bay Caravan Park",
-      "lat": 57.694215,
-      "lng": -2.8115067,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "dalkeith-country-park-camping",
-      "name": "Dalkeith Country Park Camping",
-      "lat": 55.9039247,
-      "lng": -3.0575531,
-      "area_id": "highlands"
-    },
-    {
       "slug": "dalraddy-holiday-park",
       "name": "Dalraddy Holiday Park",
       "lat": 57.1470237,
       "lng": -3.8941752,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "demesne-farm-campsite-granary-cottage",
-      "name": "Demesne Farm Campsite & Granary Cottage",
-      "lat": 55.1432559,
-      "lng": -2.2526948,
       "area_id": "highlands"
     },
     {
@@ -1353,14 +912,14 @@
     },
     {
       "slug": "port-b-n-holiday-park",
-      "name": "Port B\u00c3\u00a0n Holiday Park",
+      "name": "Port B\u00e0n Holiday Park",
       "lat": 55.8302658,
       "lng": -5.6615357,
       "area_id": "highlands"
     },
     {
       "slug": "port-m-r-campsite",
-      "name": "Port M\u00c3\u00b2r Campsite",
+      "name": "Port M\u00f2r Campsite",
       "lat": 55.7334673,
       "lng": -6.3855044,
       "area_id": "highlands"
@@ -1801,7 +1360,7 @@
     },
     {
       "slug": "tr-igh-na-beirigh",
-      "name": "Tr\u00c3\u00a0igh na Beirigh",
+      "name": "Tr\u00e0igh na Beirigh",
       "lat": 58.2172909,
       "lng": -6.9403628,
       "area_id": "highlands"
@@ -1928,69 +1487,6 @@
   ],
   "trails": [
     {
-      "slug": "carr-house-drive",
-      "name": "Carr House Drive",
-      "lat": 54.7975446,
-      "lng": -1.5804962,
-      "area_id": "loch-ness"
-    },
-    {
-      "slug": "cawledge-east-park-greenrig",
-      "name": "Cawledge East Park & Greenrig",
-      "lat": 55.3840953,
-      "lng": -1.6705026,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "cockmylane",
-      "name": "Cockmylane",
-      "lat": 55.9113507,
-      "lng": -3.2177106,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "cragside",
-      "name": "Cragside",
-      "lat": 55.3150304,
-      "lng": -1.8742464,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "craighall-circular-path",
-      "name": "Craighall Circular Path",
-      "lat": 56.6205322,
-      "lng": -3.3488433,
-      "area_id": "north-shore"
-    },
-    {
-      "slug": "crawford-bridge",
-      "name": "Crawford Bridge",
-      "lat": 55.9606818,
-      "lng": -3.1685748,
-      "area_id": "highlands"
-    },
-    {
-      "slug": "deanhaugh-path",
-      "name": "Deanhaugh Path",
-      "lat": 55.9594437,
-      "lng": -3.2095749,
-      "area_id": "south-shore"
-    },
-    {
-      "slug": "deerness-valley-railway-path",
-      "name": "Deerness Valley Railway Path",
-      "lat": 54.7718814,
-      "lng": -1.6389298,
-      "area_id": "loch-ness"
-    },
-    {
-      "slug": "den-s-cleugh",
-      "name": "Den's Cleugh",
-      "lat": 55.8644413,
-      "lng": -3.2903723,
-      "area_id": "loch-ness"
-    },
-    {
       "slug": "derwent-walk",
       "name": "Derwent Walk",
       "lat": 54.9339533,
@@ -2041,7 +1537,7 @@
     },
     {
       "slug": "great-glen-way-slighe-a-ghlinne-mh-ir",
-      "name": "Great Glen Way - Slighe a' Ghlinne Mh\u00c3\u00b2ir",
+      "name": "Great Glen Way - Slighe a' Ghlinne Mh\u00f2ir",
       "lat": 56.9333027,
       "lng": -4.9812187,
       "area_id": "highlands"
@@ -2447,7 +1943,7 @@
     },
     {
       "slug": "west-highland-way-slighe-taobh-an-iar-na-g-idhealt",
-      "name": "West Highland Way - Slighe Taobh an Iar na G\u00c3\u00a0idhealtachd",
+      "name": "West Highland Way - Slighe Taobh an Iar na G\u00e0idhealtachd",
       "lat": 55.957294,
       "lng": -4.3307344,
       "area_id": "north-shore"

@@ -23,46 +23,58 @@ def generate_image(name, lat, lng, area_path, slug):
     prompt = f"A scenic view of {name} at latitude {lat}, longitude {lng}, nature, photorealistic, beautiful view."
     # Customize prompt based on type (campsite vs trail) if needed, but generic is fine for now.
 
-    try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key={API_KEY}"
-        headers = {'Content-Type': 'application/json'}
-        data = {
-            "instances": [
-                {"prompt": prompt}
-            ],
-            "parameters": {
-                "sampleCount": 1,
-                "aspectRatio": "4:3"
+    # Retry loop
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # Using Fast model to avoid hitting the standard model quota
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict?key={API_KEY}"
+            headers = {'Content-Type': 'application/json'}
+            data = {
+                "instances": [
+                    {"prompt": prompt}
+                ],
+                "parameters": {
+                    "sampleCount": 1,
+                    "aspectRatio": "4:3"
+                }
             }
-        }
-        
-        response = requests.post(url, headers=headers, json=data)
-        
-        if response.status_code == 200:
-            result = response.json()
-            if 'predictions' in result and len(result['predictions']) > 0:
-                b64_data = result['predictions'][0].get('bytesBase64Encoded')
-                if not b64_data and isinstance(result['predictions'][0], str):
-                    b64_data = result['predictions'][0]
-                elif isinstance(result['predictions'][0], dict):
-                     b64_data = result['predictions'][0].get('bytesBase64Encoded')
-                
-                if b64_data:
-                    img_data = base64.b64decode(b64_data)
-                    with open(filepath, 'wb') as f:
-                        f.write(img_data)
-                    print(f"Saved to {filepath}")
+            
+            response = requests.post(url, headers=headers, json=data)
+            
+            if response.status_code == 200:
+                result = response.json()
+                if 'predictions' in result and len(result['predictions']) > 0:
+                    b64_data = result['predictions'][0].get('bytesBase64Encoded')
+                    if not b64_data and isinstance(result['predictions'][0], str):
+                        b64_data = result['predictions'][0]
+                    elif isinstance(result['predictions'][0], dict):
+                        b64_data = result['predictions'][0].get('bytesBase64Encoded')
+                    
+                    if b64_data:
+                        img_data = base64.b64decode(b64_data)
+                        with open(filepath, 'wb') as f:
+                            f.write(img_data)
+                        print(f"Saved to {filepath}")
+                        break # Success, exit retry loop
+                    else:
+                        print(f"Unexpected response format: {result}")
+                        break # Don't retry on format error
                 else:
-                    print(f"Unexpected response format: {result}")
+                    print(f"No predictions in response: {result}")
+                    break
+            elif response.status_code == 429:
+                print(f"Rate limit hit (429). Waiting before retry {attempt+1}/{max_retries}...")
+                time.sleep(10 * (attempt + 1))
             else:
-                 print(f"No predictions in response: {result}")
-        else:
-            print(f"Error {response.status_code}: {response.text}")
-
-    except Exception as e:
-        print(f"Error generating {slug}: {e}")
-    
-    time.sleep(4)
+                print(f"Error {response.status_code}: {response.text}")
+                break # Don't retry on other errors
+                
+        except Exception as e:
+            print(f"Error generating {slug}: {e}")
+            break
+        
+    time.sleep(2) # Reduced sleep for fast model
 
 def main():
     with open('all_remaining.json', 'r') as f:
