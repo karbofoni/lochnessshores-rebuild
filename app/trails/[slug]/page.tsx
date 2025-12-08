@@ -5,6 +5,7 @@ import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
 import { CampsiteCard } from "@/components/CampsiteCard";
 import { MapPin, Activity, Mountain, ArrowLeft } from "lucide-react";
 import TrailMapWrapper from "@/components/TrailMapWrapper";
+import { TrailFitnessChecker } from "@/components/TrailFitnessChecker";
 import { calculateHaversineDistance } from "@/lib/utils";
 
 export async function generateStaticParams() {
@@ -97,6 +98,9 @@ export default async function TrailDetailPage({ params }: { params: Promise<{ sl
                             ))}
                         </div>
                     </div>
+
+                    {/* Trail Fitness Checker */}
+                    <TrailFitnessChecker trailSlug={trail.slug} />
 
                     {trail.notes && trail.notes !== 'Data sourced from OpenStreetMap' && (
                         <div className="bg-amber-50 p-4 rounded border-l-4 border-amber-400 mb-6">

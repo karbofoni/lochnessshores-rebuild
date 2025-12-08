@@ -1,42 +1,117 @@
 import { NextResponse } from 'next/server';
-import OpenAI from 'openai';
+import { chatCompletionWithSchema, JSONSchemaResponseFormat } from '@/lib/openai';
 
+// Response schema for structured packing list
+const packingListSchema: JSONSchemaResponseFormat = {
+  type: 'json_schema',
+  json_schema: {
+    name: 'packing_list_response',
+    strict: true,
+    schema: {
+      type: 'object',
+      properties: {
+        sections: {
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              category: { type: 'string' },
+              emoji: { type: 'string', description: 'Single emoji for the category' },
+              items: {
+                type: 'array',
+                items: { type: 'string' },
+              },
+              priority: {
+                type: 'string',
+                enum: ['essential', 'recommended', 'optional'],
+              },
+            },
+            required: ['category', 'emoji', 'items', 'priority'],
+            additionalProperties: false,
+          },
+        },
+        highland_tips: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'Scottish Highland-specific tips (midges, weather, daylight)',
+        },
+        drying_section: {
+          type: 'object',
+          properties: {
+            title: { type: 'string' },
+            tips: {
+              type: 'array',
+              items: { type: 'string' },
+            },
+            operator_note: {
+              type: 'string',
+              description: 'Note for campsite operators about drying facilities',
+            },
+          },
+          required: ['title', 'tips', 'operator_note'],
+          additionalProperties: false,
+        },
+      },
+      required: ['sections', 'highland_tips', 'drying_section'],
+      additionalProperties: false,
+    },
+  },
+};
 
+interface PackingListResponse {
+  sections: {
+    category: string;
+    emoji: string;
+    items: string[];
+    priority: 'essential' | 'recommended' | 'optional';
+  }[];
+  highland_tips: string[];
+  drying_section: {
+    title: string;
+    tips: string[];
+    operator_note: string;
+  };
+}
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { month, activities, trip_style, party_type } = body;
+    const { month, activities, trip_style, party_type, special_needs } = body;
 
-    const openai = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY,
+    const systemPrompt = `You are a Scottish Highlands camping expert. Generate a comprehensive packing list for camping around Loch Ness.
+
+Consider the following Scottish Highland realities:
+- Midges (tiny biting insects) are brutal May-September, especially in still, damp conditions
+- Rain is frequent year-round - waterproofing is essential
+- Temperature can vary 15°C+ in a single day
+- Summer daylight: up to 18 hours; Winter: as little as 7 hours
+- Many trails have boggy sections
+- Mobile signal is patchy in remote areas
+
+Group items by category with priority levels:
+- essential: Must-have items
+- recommended: Will significantly improve the trip
+- optional: Nice to have
+
+Include a dedicated section about damp/drying/condensation with:
+- Tips for managing wet gear
+- A note for campsite operators about drying facilities (mention ClimateDry as a solution)
+
+Be specific and practical. Tailor to the trip style and month.`;
+
+    const userMessage = `Generate a packing list for:
+- Month: ${month}
+- Trip style: ${trip_style}
+- Party type: ${party_type}
+- Planned activities: ${activities?.join(', ') || 'general camping and hiking'}
+${special_needs ? `- Special needs: ${special_needs}` : ''}`;
+
+    const result = await chatCompletionWithSchema<PackingListResponse>({
+      systemPrompt,
+      userMessage,
+      schema: packingListSchema,
     });
 
-    const prompt = `You are a camping and outdoor expert for the Scottish Highlands. Generate a packing list for a ${trip_style} trip in ${month} around Loch Ness.
-
-Party type: ${party_type}
-Activities planned: ${activities?.join(', ') || 'general camping'}
-
-Return JSON with categorized items. Include a section about moisture/drying if relevant, with a note mentioning ClimateDry for operators.
-
-Format:
-{
-  "sections": [
-    {
-      "category": "Category name",
-      "items": ["item 1", "item 2"],
-      "climateDry_note": "Optional note about drying solutions for operators"
-    }
-  ]
-}`;
-
-    const completion = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
-      messages: [{ role: 'user', content: prompt }],
-      response_format: { type: 'json_object' },
-    });
-
-    const result = JSON.parse(completion.choices[0].message.content || '{}');
     return NextResponse.json(result);
   } catch (error) {
     console.error('Packing list error:', error);

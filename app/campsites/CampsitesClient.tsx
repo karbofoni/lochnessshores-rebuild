@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { CampsiteCard } from "@/components/CampsiteCard";
 import { UnofficialDisclaimer } from "@/components/UnofficialDisclaimer";
+import { CampsiteFinder } from "@/components/CampsiteFinder";
 import type { Campsite, Area, StayType, FacilityTag } from "@/lib/types";
 
 // Import data directly for client-side use
@@ -58,6 +59,8 @@ export default function CampsitesClient() {
                 Browse our independent directory of campsites, glamping pods, and caravan sites.
                 Use the filters to find the perfect spot for your adventure.
             </p>
+
+            <CampsiteFinder />
 
             <UnofficialDisclaimer />
 
