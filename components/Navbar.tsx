@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Menu, Map, Tent, Trees, Info } from "lucide-react";
+import { Tent, Sparkles } from "lucide-react";
 
 export function Navbar() {
     return (
@@ -15,11 +15,14 @@ export function Navbar() {
                     <Link href="/trails" className="transition-colors hover:text-brand-green">Trails</Link>
                     <Link href="/extras" className="transition-colors hover:text-brand-green">Extras</Link>
                     <Link href="/guides" className="transition-colors hover:text-brand-green">Guides</Link>
+                    <Link href="/plan" className="flex items-center gap-1 transition-colors hover:text-brand-green">
+                        <Sparkles className="h-4 w-4" />
+                        Plan Trip
+                    </Link>
                 </nav>
                 <div className="flex items-center space-x-2 md:hidden">
-                    {/* Mobile menu (simplified for MVP) */}
                     <Link href="/campsites" className="p-2"><Tent className="h-5 w-5" /></Link>
-                    <Link href="/trails" className="p-2"><Trees className="h-5 w-5" /></Link>
+                    <Link href="/plan" className="p-2"><Sparkles className="h-5 w-5" /></Link>
                 </div>
             </div>
         </header>
