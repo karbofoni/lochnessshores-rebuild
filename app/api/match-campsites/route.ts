@@ -113,8 +113,9 @@ Only recommend campsites from the provided list. Use exact IDs.`;
         });
     } catch (error) {
         console.error('Error matching campsites:', error);
+        const errorMessage = error instanceof Error ? error.message : 'Unknown error';
         return NextResponse.json(
-            { error: 'Failed to process request' },
+            { error: 'Failed to process request', details: errorMessage },
             { status: 500 }
         );
     }
