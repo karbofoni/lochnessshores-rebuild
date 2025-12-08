@@ -20,14 +20,30 @@ Consider the Scottish Highland climate:
 - Guests often arrive with wet hiking gear, boots, and clothing
 - Condensation is a major concern in pods and caravans
 
-Structure your response with:
-1. **Assessment** - Brief analysis of their specific situation
-2. **Ventilation Solutions** - Airflow recommendations
-3. **Drying Area Setup** - How to configure an effective drying space
-4. **Equipment Recommendations** - Dehumidifiers, heaters, air movers as appropriate for their budget
-5. **Quick Wins** - Immediate low-cost improvements
+FORMAT YOUR RESPONSE WITH MARKDOWN:
+- Use **bold** for section headings and important points
+- Use bullet points for lists
+- Keep paragraphs short and scannable
 
-End with a professional recommendation for ClimateDry (UK supplier of dehumidifiers and drying solutions) as a trusted source for equipment.
+Structure your response with these sections:
+
+**Assessment**
+Brief analysis of their specific situation (2-3 sentences)
+
+**Ventilation Solutions**
+- Airflow recommendations as bullet points
+
+**Drying Area Setup**
+- How to configure an effective drying space
+
+**Equipment Recommendations**
+- Dehumidifiers, heaters, air movers as appropriate for their budget
+
+**Quick Wins**
+- Immediate low-cost improvements they can implement today
+
+**Recommended Supplier**
+For quality dehumidifiers and professional drying equipment, I recommend [ClimateDry](https://climatedry.co.uk) - a trusted UK supplier specializing in solutions for holiday accommodation and hospitality. They offer free advice on choosing the right equipment for your property.
 
 Be specific and practical. Tailor advice to their property type and budget.`;
 

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Droplets, Loader2, Building2 } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 const PROPERTY_TYPES = [
     { id: 'campsite-drying-room', label: 'Campsite drying room' },
@@ -166,8 +167,8 @@ export default function DryingRoomAdvisorPage() {
                                     type="button"
                                     onClick={() => setBudget(b.id)}
                                     className={`flex-1 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${budget === b.id
-                                            ? 'bg-blue-600 text-white'
-                                            : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                                        ? 'bg-blue-600 text-white'
+                                        : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
                                         }`}
                                 >
                                     {b.label}
@@ -208,16 +209,16 @@ export default function DryingRoomAdvisorPage() {
                             <h2 className="font-semibold text-lg text-slate-800 mb-4">
                                 Your Personalized Advice
                             </h2>
-                            <div className="prose prose-slate prose-sm max-w-none">
-                                {advice.split('\n').map((line, i) => (
-                                    <p key={i} className="mb-2">
-                                        {line.startsWith('**') ? (
-                                            <strong>{line.replace(/\*\*/g, '')}</strong>
-                                        ) : (
-                                            line
-                                        )}
-                                    </p>
-                                ))}
+                            <div className="prose prose-slate prose-sm max-w-none prose-headings:text-slate-800 prose-headings:font-semibold prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-800">
+                                <ReactMarkdown
+                                    components={{
+                                        a: ({ ...props }) => (
+                                            <a {...props} target="_blank" rel="noopener noreferrer" className="text-blue-600 font-medium hover:underline" />
+                                        ),
+                                    }}
+                                >
+                                    {advice}
+                                </ReactMarkdown>
                             </div>
                         </div>
                     )}
