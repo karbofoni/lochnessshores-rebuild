@@ -5,7 +5,13 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
-const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
+// Optimize font loading - Next.js self-hosts and preloads automatically
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+  display: "swap", // Prevents invisible text during font load
+  preload: true,
+});
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -70,6 +76,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
+        {/* Preconnect to critical origins */}
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
       </head>
       <body className={cn(outfit.variable, "font-sans antialiased min-h-screen flex flex-col")}>
         <Navbar />
